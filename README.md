@@ -46,6 +46,22 @@ You should have the following folder architecture :
 
 You can now start tools from your `bin` folder
 
+## Change language
+
+You can change language in `Editor/ConstData.xml`. Available languages are russian and english.
+
+For english (default): 
+
+```
+<Language>en</Language>
+```
+
+For russian:
+
+```
+<Language>ru</Language>
+```
+
 # Tools
 
 ## Core Design
