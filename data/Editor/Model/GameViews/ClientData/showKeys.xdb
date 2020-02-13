@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>90498048</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureAnimationAction">
+			<animations>
+				<Item>flurryOfBlows</Item>
+			</animations>
+			<channel>CHANNEL_ABILITY</channel>
+			<advanced>
+				<animationKeysAction>
+					<Item>
+						<action type="CreatureColorAction">
+							<visActionID>Color</visActionID>
+							<colorValue>2026643022</colorValue>
+						</action>
+					</Item>
+					<Item>
+						<action type="VisActionStopAction">
+							<stoppedActionID>Color</stoppedActionID>
+						</action>
+					</Item>
+					<Item>
+						<action type="CreatureColorAction">
+							<visActionID>Color1</visActionID>
+							<priority>0</priority>
+							<colorFactor x="0" y="0" z="0" w="0" />
+							<colorValue>2014121437</colorValue>
+							<timeOn>0</timeOn>
+							<timeOff>0</timeOff>
+						</action>
+						<runIfOverrided>false</runIfOverrided>
+					</Item>
+					<Item>
+						<action type="VisActionStopAction">
+							<visActionID />
+							<stoppedActionID>Color1</stoppedActionID>
+						</action>
+						<runIfOverrided>false</runIfOverrided>
+					</Item>
+				</animationKeysAction>
+			</advanced>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

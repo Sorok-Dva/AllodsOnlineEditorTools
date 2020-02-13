@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>52</normalLeft>
+  <normalTop>52</normalTop>
+  <normalWidth>380</normalWidth>
+  <normalHeight>613</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams>
+    <TextBoxParam>
+      <name>SetObjectDistanceTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>PointEditBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>SpeedEditBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>PathEditBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>AnimateRouteObjectCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>SetObjectRotationCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams>
+    <ListViewParam>
+      <name>RoutesListView</name>
+      <columns>
+        <int>63</int>
+        <int>43</int>
+        <int>55</int>
+        <int>71</int>
+        <int>60</int>
+      </columns>
+    </ListViewParam>
+  </listViewParams>
+</FormParams>

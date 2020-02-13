@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>2400.000000</x>
+		<y>5230.000000</y>
+		<z>22.000000</z>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+	</place>
+	<cameraPlacement>
+		<x>2401.641727</x>
+		<y>5231.475262</y>
+		<z>21.267038</z>
+		<yaw>-2.34501</yaw>
+		<pitch>0.267197</pitch>
+		<roll>4.53461e-009</roll>
+		<distance>10</distance>
+		<use>true</use>
+	</cameraPlacement>
+	<mobs>
+		<Item>
+			<visualMob href="/Characters/Kania_female/VisualMobs/ZL2/Civilian.(VisualMob).xdb#xpointer(/VisualMob)" />
+		</Item>
+	</mobs>
+</GameViewScene>

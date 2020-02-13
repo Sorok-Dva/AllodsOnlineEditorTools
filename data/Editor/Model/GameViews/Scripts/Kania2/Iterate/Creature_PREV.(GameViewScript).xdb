@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionIteratorCommand">
+			<iteratorID>Creature</iteratorID>
+			<command>GOTO_PREV</command>
+		</Item>
+	</actions>
+</GameViewScript>

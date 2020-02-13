@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Texture>
+	<mipSW>-1</mipSW>
+	<mipsNumber>4</mipsNumber>
+	<generateMipChain>true</generateMipChain>
+	<type>DXT1</type>
+	<width>32</width>
+	<height>32</height>
+	<realWidth>32</realWidth>
+	<realHeight>32</realHeight>
+	<alphaTex>false</alphaTex>
+	<binaryFileSize>47</binaryFileSize>
+	<binaryFile href="PlaneTexture.(Texture).bin" />
+	<sourceFile href="//Editor/Model/Plane/PlaneTexture.tga" />
+	<sourceFileCRC>234852693</sourceFileCRC>
+	<wrap>true</wrap>
+	<LocalizationInfo />
+</Texture>

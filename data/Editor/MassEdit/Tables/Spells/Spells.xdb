@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="Spells.txt"/>
+	<description href="Spells.Description.txt"/>
+	<resourceType>gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+	<filterString/>
+</MassEditTableObject>

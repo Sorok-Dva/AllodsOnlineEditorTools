@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewObjManDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<mainField>
+  <fields>
+    <FieldDesc>
+      <showName>5th vec3 element</showName>
+      <realName>Vec3s.[5]</realName>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>ext vec3 element</showName>
+      <realName>Vec3Val</realName>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>Quat W</showName>
+      <realName>QuatVal.w</realName>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>Synthetic Struct</showName>
+      <fields>
+        <FieldDesc>
+          <showName>FloatVal X (from vec3)</showName>
+          <realName>Vec3Val.x</realName>
+        </FieldDesc>
+        <FieldDesc>
+          <showName>FloatVal W (from quat)</showName>
+          <realName>QuatVal.w</realName>
+        </FieldDesc>
+      </fields>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>Float from referenced Vec3Val_x</showName>
+      <realName>SelfReference->Vec3Val.x</realName>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>Referenced Vec3Val</showName>
+      <realName>SelfReference->Vec3Val</realName>
+    </FieldDesc>
+    <FieldDesc>
+      <showName>Synthetic Struct with References</showName>
+      <fields>
+        <FieldDesc>
+          <showName>FloatVal X (from vec3)</showName>
+          <realName>SelfReference->Vec3Val.x</realName>
+        </FieldDesc>
+        <FieldDesc>
+          <showName>FloatVal W (from quat)</showName>
+          <realName>SelfReference->QuatVal.w</realName>
+        </FieldDesc>
+      </fields>
+    </FieldDesc>
+  </fields>
+
+	</mainField>
+</ViewObjManDesc>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>127</normalLeft>
+  <normalTop>196</normalTop>
+  <normalWidth>1013</normalWidth>
+  <normalHeight>632</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams>
+    <ToolStripButtonParam>
+      <name>_always_on_top</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+  </toolStripButtonParams>
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

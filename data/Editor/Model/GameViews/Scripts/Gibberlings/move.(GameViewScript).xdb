@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMoveCreature">
+			<playbackParameters>
+				<report>
+					<clear>true</clear>
+					<infoStrings>
+						<Item>
+							<message>Gibberlings run back and forth.</message>
+						</Item>
+					</infoStrings>
+					<rtfFile href="/Editor/Model/GameViews/Texts/Test.rtf" />
+				</report>
+			</playbackParameters>
+			<mobID>1</mobID>
+			<pathID>A</pathID>
+			<speed>6.6</speed>
+		</Item>
+		<Item type="GameViewActionStopTime">
+			<playbackParameters>
+				<delayBefore>100</delayBefore>
+				<skip>true</skip>
+			</playbackParameters>
+		</Item>
+	</actions>
+</GameViewScript>

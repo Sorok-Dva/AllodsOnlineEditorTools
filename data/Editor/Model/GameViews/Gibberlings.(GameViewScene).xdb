@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>2400.000000</x>
+		<y>5230.000000</y>
+		<z>22.000000</z>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+	</place>
+	<cameraPlacement>
+		<x>2410.583146</x>
+		<y>5230.992312</y>
+		<z>21.351824</z>
+		<yaw>2.04751</yaw>
+		<pitch>0.0971987</pitch>
+		<roll>1.60418e-009</roll>
+		<distance>16.84</distance>
+		<use>true</use>
+	</cameraPlacement>
+	<mobs>
+		<Item>
+			<visualMob href="Mobs/Gibberling.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="5" y="5" />
+		</Item>
+	</mobs>
+	<devices />
+	<paths>
+		<Item>
+			<scriptID>A</scriptID>
+			<points>
+				<Item x="5" y="5" />
+				<Item x="5" y="20" />
+				<Item x="5" y="5" />
+			</points>
+			<yaw>0</yaw>
+		</Item>
+	</paths>
+</GameViewScene>

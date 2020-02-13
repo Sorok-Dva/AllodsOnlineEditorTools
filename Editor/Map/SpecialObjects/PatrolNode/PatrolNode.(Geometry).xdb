@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Geometry>
+	<exportTemplate href="" />
+	<orientationMode>COMMON</orientationMode>
+	<sortMode>OFFSETS</sortMode>
+	<optimizeMesh>true</optimizeMesh>
+	<ignoreZ>false</ignoreZ>
+	<enableDistanceFade>true</enableDistanceFade>
+	<scaleDistanceStart>-1</scaleDistanceStart>
+	<scaleDistanceEnd>-1</scaleDistanceEnd>
+	<fogFactor>1</fogFactor>
+	<lodFactor>1</lodFactor>
+	<lodDistances>
+		<Item>98.9541</Item>
+		<Item>214.222</Item>
+	</lodDistances>
+	<rootMaterial />
+	<flareInfos />
+	<parts />
+	<vertexDeclarations>
+		<Item>
+			<position>
+				<type>FLOAT3</type>
+				<offset>0</offset>
+			</position>
+			<normal>
+				<type>COLOR4</type>
+				<offset>20</offset>
+			</normal>
+			<color>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</color>
+			<texcoord0>
+				<type>FLOAT2</type>
+				<offset>12</offset>
+			</texcoord0>
+			<texcoord1>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</texcoord1>
+			<weights>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</weights>
+			<indices>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</indices>
+			<stride>24</stride>
+		</Item>
+	</vertexDeclarations>
+	<modelElements>
+		<Item>
+			<lods>
+				<Item>
+					<vertexBufferBegin>0</vertexBufferBegin>
+					<vertexBufferEnd>119</vertexBufferEnd>
+					<indexBufferBegin>0</indexBufferBegin>
+					<indexBufferEnd>222</indexBufferEnd>
+				</Item>
+				<Item>
+					<vertexBufferBegin>1</vertexBufferBegin>
+					<vertexBufferEnd>118</vertexBufferEnd>
+					<indexBufferBegin>222</indexBufferBegin>
+					<indexBufferEnd>348</indexBufferEnd>
+				</Item>
+				<Item>
+					<vertexBufferBegin>3</vertexBufferBegin>
+					<vertexBufferEnd>114</vertexBufferEnd>
+					<indexBufferBegin>348</indexBufferBegin>
+					<indexBufferEnd>405</indexBufferEnd>
+				</Item>
+			</lods>
+			<name>pCylinder1</name>
+			<materialName>lambert2SG</materialName>
+			<vertexDeclarationID>0</vertexDeclarationID>
+			<vertexBufferOffset>0</vertexBufferOffset>
+			<material>
+				<visible>true</visible>
+				<params />
+				<uTranslateSpeed>0</uTranslateSpeed>
+				<vTranslateSpeed>0</vTranslateSpeed>
+				<useFog>true</useFog>
+				<transparent>false</transparent>
+				<scrollRGB>true</scrollRGB>
+				<scrollAlpha>true</scrollAlpha>
+				<BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+				<diffuseTexture href="PatrolNode.(Texture).xdb#xpointer(/Texture)" />
+				<transparencyTexture href="" />
+			</material>
+			<skinIndex>-1</skinIndex>
+			<virtualOffset>0</virtualOffset>
+		</Item>
+	</modelElements>
+	<joints />
+	<vertexBuffer>
+		<localID>0</localID>
+		<size>2856</size>
+	</vertexBuffer>
+	<indexBuffer>
+		<localID>1</localID>
+		<size>810</size>
+	</indexBuffer>
+	<binaryFileSize>1377</binaryFileSize>
+	<binaryFile href="PatrolNode.(Geometry).bin" />
+	<sourceFile href="//Editor/Map/SpecialObjects/PatrolNode/PatrolNode.mb" />
+	<sourceFileCRC>899926887</sourceFileCRC>
+	<version>2</version>
+	<skeleton>
+		<localID>2</localID>
+		<size>32</size>
+	</skeleton>
+	<startFrame>0</startFrame>
+	<endFrame>100000</endFrame>
+	<visualSkeletonSize>0</visualSkeletonSize>
+	<globalID>-1</globalID>
+	<realSkeletonSize>0</realSkeletonSize>
+	<SkeletalAnimation href="" />
+	<castShadows>false</castShadows>
+	<vb32>false</vb32>
+	<largeModel>false</largeModel>
+	<portalModel>false</portalModel>
+	<lodModel>true</lodModel>
+	<exportDefaultAnimation>true</exportDefaultAnimation>
+	<decalModel>false</decalModel>
+	<occluderInfos />
+	<geometryFragments />
+	<useDecals>false</useDecals>
+	<useColors>false</useColors>
+	<portalFragments />
+	<sceneNodes />
+	<areaFragments />
+	<aabb>
+		<center x="0.00384799" y="0.015811" z="1.06357" />
+		<extents x="0.766175" y="0.766175" z="1.07038" />
+	</aabb>
+	<geometryBox>
+		<center x="0.00384799" y="0.015811" z="1.06357" />
+		<extents x="0.766175" y="0.766175" z="1.07038" />
+	</geometryBox>
+	<mayaSourceModifiedDateAndTime>
+		<year>2007</year>
+		<month>10</month>
+		<day>11</day>
+		<hour>16</hour>
+		<minutes>10</minutes>
+		<seconds>57</seconds>
+	</mayaSourceModifiedDateAndTime>
+	<LastExportID>SYSTEM</LastExportID>
+</Geometry>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>234</normalLeft>
+  <normalTop>234</normalTop>
+  <normalWidth>738</normalWidth>
+  <normalHeight>788</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>ContinentComboBox</name>
+      <text />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>LayerComboBox</name>
+      <text />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>TerrainTextureTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

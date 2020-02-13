@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>23962</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="VisActionList">
+			<play>Simultaneously</play>
+			<elements>
+				<Item type="CreatureEffectsAction">
+					<visActionID>A</visActionID>
+					<visualEffects>
+						<Item>
+							<locator>Slot_TopFX</locator>
+							<effectFx href="/Spells/FX/Spells/Loot.(VisObjectTemplate).xdb#xpointer(/VisObjectTemplate)"/>
+						</Item>
+					</visualEffects>
+				</Item>
+				<Item type="CreatureAnimationAction">
+					<animations>
+						<Item>attack1H</Item>
+					</animations>
+					<advanced>
+						<animationKeysAction>
+							<Item>
+								<action type="VisActionStopAction">
+									<stoppedActionID>A</stoppedActionID>
+								</action>
+							</Item>
+						</animationKeysAction>
+					</advanced>
+				</Item>
+			</elements>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

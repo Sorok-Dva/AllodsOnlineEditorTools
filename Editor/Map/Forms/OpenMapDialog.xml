@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>404</normalLeft>
+  <normalTop>113</normalTop>
+  <normalWidth>465</normalWidth>
+  <normalHeight>659</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+  </intParams>
+  <doubleParams>
+    <double>3072</double>
+    <double>6400</double>
+    <double>0</double>
+  </doubleParams>
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>cmbBoxFilters</name>
+      <text>Все</text>
+      <items />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>cmbBoxName</name>
+      <text>Maps/Kania_AL1/MapResource.xdb</text>
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>textBoxY</name>
+      <text>23</text>
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>textBoxX</name>
+      <text>10</text>
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>createTerrainCheckbox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>createBottomCheckbox</name>
+      <value>false</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams />
+  <radioButtonParams>
+    <RadioButtonParam>
+      <name>PatchRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+    <RadioButtonParam>
+      <name>size4RadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+  </radioButtonParams>
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

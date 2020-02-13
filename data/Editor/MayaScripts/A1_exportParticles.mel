@@ -1,0 +1,21 @@
+global proc int A1_exportParticles( string $srcScene, string $dstName )
+{
+    loadPlugin "A1ParticleExporter.mll";
+
+    if( catchQuiet( `file -o -f $srcScene` ) ){};
+  
+    print "\n";
+    print "-max:\n"; print `playbackOptions -query -max`; print "\n";
+    print "-min:\n"; print `playbackOptions -query -min`; print "\n";
+    print "-aet:\n"; print `playbackOptions -query -aet`; print "\n";
+    print "-ast:\n"; print `playbackOptions -query -ast`; print "\n";
+
+    playbackOptions -max  `playbackOptions -query -aet`;
+    playbackOptions -min  `playbackOptions -query -ast`;
+ 
+
+    a1Export -all -particles $dstName;
+    
+   
+    return 0;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMeleeAttack">
+			<offenderCreature>1</offenderCreature>
+			<targetCreature>2</targetCreature>
+			<isDamageDealt>true</isDamageDealt>
+			<isCritical>false</isCritical>
+			<damageBlocked>0</damageBlocked>
+			<source>MAINATTACK</source>
+			<isDodged>false</isDodged>
+			<damageParried>0</damageParried>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MassEditConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <columnParamList>
+    <ColumnParam>
+      <name>DBID</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Race</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>HpMod</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>ManaMod</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>DpsMod</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>ExpMod</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Speed</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>MobClass</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>ManaType</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>WeaponSpeed</name>
+      <width>100</width>
+    </ColumnParam>
+  </columnParamList>
+</MassEditConfig>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentList>
+    <TagItemPair>
+      <Tag>recent_model_0</Tag>
+      <Item>Characters/Gibberling_male/Frozen1.(VisualMob).xdb</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_model_1</Tag>
+      <Item>Characters/Gibberling_male/AC2_wounded_gib_3.(VisualMob).xdb</Item>
+    </TagItemPair>
+  </RecentList>
+</Configuration>

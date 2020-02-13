@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionConsoleCommand">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>true</skip>
+			</playbackParameters>
+			<command>enable_logger slon::debug</command>
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>1</casterCreature>
+			<spell href="/Mechanics/Spells/Psionic/Meditation/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf)" />
+			<prepareDuration>2000</prepareDuration>
+		</Item>
+		<Item type="GameViewActionConsoleCommand">
+			<playbackParameters>
+				<delayBefore>2000</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>true</skip>
+			</playbackParameters>
+			<command>disable_logger slon::debug</command>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMoveCreature">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<mobID>18</mobID>
+			<pathID>CreatureFront</pathID>
+			<speed>6.5</speed>
+			<fixedYaw>false</fixedYaw>
+		</Item>
+		<Item type="GameViewActionMeleeAttack">
+			<playbackParameters>
+				<delayBefore>1000</delayBefore>
+			</playbackParameters>
+			<offenderCreature>18</offenderCreature>
+			<targetCreature>1</targetCreature>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

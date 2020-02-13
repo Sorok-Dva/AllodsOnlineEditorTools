@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<Prototype href="/Editor/Model/GameViews/ScriptPrototypes/clientData10.xdb#xpointer(/GameViewScript)" />
+		<Variables>
+			<ClientData>/Editor/Model/GameViews/ClientData/levelUp.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)</ClientData>
+		</Variables>
+	</Header>
+</GameViewScript>

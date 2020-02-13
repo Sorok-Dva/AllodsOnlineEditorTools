@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>799</normalLeft>
+  <normalTop>481</normalTop>
+  <normalWidth>322</normalWidth>
+  <normalHeight>78</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>FindComboBox</name>
+      <text>World/Dungeons/InstLeague1/InstLeague1_Floor6_Intact.(StaticObject).xdb</text>
+      <items>
+        <string>World/Dungeons/InstLeague1/InstLeague1_Floor6_Intact.(StaticObject).xdb</string>
+        <string>InstLeague1_Floor1_Trash_03</string>
+        <string>InstLeague1_AI_2X2</string>
+      </items>
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

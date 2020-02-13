@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentList>
+    <TagItemPair>
+      <Tag>recent_map_3</Tag>
+      <Item>Maps/Inst_LeagueStart/MapResource.xdb:10:18:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_4</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:10:18:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_5</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:8:15:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_2</Tag>
+      <Item>Maps/NewMap/MapResource.xdb:10:10:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_6</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:9:17:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_0</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:10:23:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_7</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:11:19:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_1</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:9:10:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_8</Tag>
+      <Item>Maps/Inst_EmpireStart/MapResource.xdb:4:4:4</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_map_9</Tag>
+      <Item>Maps/Kania_AL1/MapResource.xdb:10:20:4</Item>
+    </TagItemPair>
+  </RecentList>
+</Configuration>

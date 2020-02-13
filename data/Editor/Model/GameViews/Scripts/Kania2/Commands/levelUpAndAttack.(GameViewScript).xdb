@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionClientData">
+			<creature>2</creature>
+			<data href="/Editor/Model/GameViews/ClientData/levelUp.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+		</Item>
+		<Item type="GameViewActionMeleeAttack">
+			<playbackParameters>
+				<delayBefore>1100</delayBefore>
+			</playbackParameters>
+			<offenderCreature>1</offenderCreature>
+			<targetCreature>2</targetCreature>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

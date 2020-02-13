@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentList>
+    <TagItemPair>
+      <Tag>recent_object_1</Tag>
+      <Item>World/Dungeons/InstHadagan1/Hadagan_Instance_01.(StaticObject).xdb</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_object_0</Tag>
+      <Item>E:\EditorTools\data\World\Dungeons\GurluhsorTower\Models\Gurluhsor_Tower.(StaticObject).xdb</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>recent_object_2</Tag>
+      <Item>World/Dungeons/InstLeague1/Level_A.(StaticObject).xdb</Item>
+    </TagItemPair>
+  </RecentList>
+</Configuration>

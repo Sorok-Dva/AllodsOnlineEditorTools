@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCreatureIterateViews">
+			<iteratorID>Creature</iteratorID>
+			<pauseBeforeMsec>2000</pauseBeforeMsec>
+			<pauseAfterMsec>5000</pauseAfterMsec>
+			<creature>2</creature>
+			<iterationsList href="/Editor/Model/GameViews/Iterators/Creatures.(CreatureIterationList).xdb#xpointer(/CreatureIterationList)" />
+			<gameViewScript href="/Editor/Model/GameViews/Scripts/Kania2/attack1to2.xdb#xpointer(/GameViewScript)" />
+		</Item>
+	</actions>
+</GameViewScript>

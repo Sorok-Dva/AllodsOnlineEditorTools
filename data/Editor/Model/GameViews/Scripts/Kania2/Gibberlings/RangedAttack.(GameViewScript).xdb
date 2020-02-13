@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<skip>false</skip>
+			</playbackParameters>
+			<casterCreature>15</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/EnchantedArrow.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>2000</prepareDuration>
+			<throwSpeed>20</throwSpeed>
+			<effectActions>
+				<Item type="GameViewActionRangedAttack">
+					<playbackParameters>
+						<delayBefore>0</delayBefore>
+						<repeatAfter>0</repeatAfter>
+						<repeatCount>1</repeatCount>
+						<skip>false</skip>
+					</playbackParameters>
+					<offenderCreature>4</offenderCreature>
+					<targetCreature>1</targetCreature>
+					<producer href="/Mechanics/Spells/AutoAttack/RangedDamage.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+					<isDamageDealt>true</isDamageDealt>
+					<isCritical>false</isCritical>
+					<damageBlocked>0</damageBlocked>
+					<isLethal>false</isLethal>
+					<isOverkill>false</isOverkill>
+					<source>RANGEDATTACK</source>
+					<damageAbsorbed>0</damageAbsorbed>
+					<element>PHYSICAL</element>
+				</Item>
+			</effectActions>
+			<enchantParams>
+				<enchantedArrow href="" />
+			</enchantParams>
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>16</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/EnchantedArrow.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>2000</prepareDuration>
+			<throwSpeed>20</throwSpeed>
+			<effectActions>
+				<Item type="GameViewActionRangedAttack">
+					<playbackParameters>
+						<delayBefore>0</delayBefore>
+						<repeatAfter>0</repeatAfter>
+						<repeatCount>1</repeatCount>
+						<skip>false</skip>
+						<report>
+							<skip>false</skip>
+							<clear>false</clear>
+							<rtfFile href="" />
+						</report>
+					</playbackParameters>
+					<offenderCreature>4</offenderCreature>
+					<targetCreature>1</targetCreature>
+					<producer href="/Mechanics/Spells/AutoAttack/RangedDamage.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+					<isDamageDealt>true</isDamageDealt>
+					<isCritical>false</isCritical>
+					<damageBlocked>0</damageBlocked>
+					<isLethal>false</isLethal>
+					<isOverkill>false</isOverkill>
+					<source>RANGEDATTACK</source>
+					<damageAbsorbed>0</damageAbsorbed>
+					<element>PHYSICAL</element>
+					<isDodged>false</isDodged>
+					<isCrushingBlow>false</isCrushingBlow>
+					<isGlancingBlow>false</isGlancingBlow>
+					<damageParried>0</damageParried>
+				</Item>
+			</effectActions>
+			<enchantParams>
+				<enchantedArrow href="" />
+			</enchantParams>
+			<interruptParams>
+				<use>false</use>
+				<startTime>0</startTime>
+				<stopAll>false</stopAll>
+				<freezeTime>0</freezeTime>
+				<startTimeDelta>0</startTimeDelta>
+				<durationTimeDelta>0</durationTimeDelta>
+			</interruptParams>
+			<precastParams>
+				<use>false</use>
+				<precastTimeDelta>0</precastTimeDelta>
+				<spellFailed>false</spellFailed>
+			</precastParams>
+		</Item>
+	</actions>
+</GameViewScript>

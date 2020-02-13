@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionClientData">
+			<data href="" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<targetCreature>1</targetCreature>
+			<spell href="/Mechanics/Spells/Mage/FireArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<secondaryTargetCreatures>
+				<Item>0</Item>
+			</secondaryTargetCreatures>
+			<prepareDuration>1000</prepareDuration>
+			<throwSpeed>10</throwSpeed>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>98413571</resourceId>
+		<Prototype href="ShowKeysPeriods.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+		<Variables>
+			<Animation>specialAttack</Animation>
+		</Variables>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureAnimationAction">
+			<channelOverrideMode>OVERRIDE_DEFAULT</channelOverrideMode>
+			<advanced>
+				<animationKeysAction />
+			</advanced>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

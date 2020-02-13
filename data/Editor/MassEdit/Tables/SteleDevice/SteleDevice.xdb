@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="SteleDevice.txt"/>
+	<description href="SteleDevice.Description.txt"/>
+	<resourceType>gameMechanics.world.device.SteleResource</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+	<filterString/>
+</MassEditTableObject>

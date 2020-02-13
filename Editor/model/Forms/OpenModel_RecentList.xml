@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentList>
+    <TagItemPair>
+      <Tag>toggle_recent_list_0</Tag>
+      <Item>Creatures/Aidenus/Aidenus.(VisObjectTemplate).xdb</Item>
+    </TagItemPair>
+    <TagItemPair>
+      <Tag>toggle_recent_list_1</Tag>
+      <Item>E:/data/World/Dungeons/InstHadagan1/Buildings/Models/Hadagan_Ships_Instance_01.(VisObjectTemplate).xdb</Item>
+    </TagItemPair>
+  </RecentList>
+</Configuration>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MassEditConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <columnParamList>
+    <ColumnParam>
+      <name>DBID</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Slot</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>ItemClass</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Quality</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Level</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Source</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>Budget Usage</name>
+      <width>100</width>
+    </ColumnParam>
+    <ColumnParam>
+      <name>SellPrice</name>
+      <width>100</width>
+    </ColumnParam>
+  </columnParamList>
+</MassEditConfig>

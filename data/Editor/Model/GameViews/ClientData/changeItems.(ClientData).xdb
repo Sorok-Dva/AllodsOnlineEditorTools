@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>98413570</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="VisActionList">
+			<play>Simultaneously</play>
+			<playWhile type="VisActionDelay">
+				<time>5000</time>
+			</playWhile>
+			<elements>
+				<Item type="CreatureChangeVisItemsAction">
+					<items>
+						<Item>
+							<newItem href="/Items/VisualItems/Helm/Helm_Plate_E_10HadaganPriest.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+						</Item>
+						<Item>
+							<slot>OFFHAND</slot>
+						</Item>
+					</items>
+				</Item>
+			</elements>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

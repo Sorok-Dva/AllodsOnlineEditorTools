@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFieldInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FieldInfo>
+    <valueFrom>Mechanics/ItemQualities/Junk.xdb</valueFrom>
+    <valueTo>@1Mechanics/ItemQualities/Junk.xdb</valueTo>
+    <sortIndex>1</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>Mechanics/ItemQualities/Common.xdb</valueFrom>
+    <valueTo>@2Mechanics/ItemQualities/Common.xdb</valueTo>
+    <sortIndex>2</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>Mechanics/ItemQualities/Uncommon.xdb</valueFrom>
+    <valueTo>@3Mechanics/ItemQualities/Uncommon.xdb</valueTo>
+    <sortIndex>3</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>Mechanics/ItemQualities/Rare.xdb</valueFrom>
+    <valueTo>@4Mechanics/ItemQualities/Rare.xdb</valueTo>
+    <sortIndex>4</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>Mechanics/ItemQualities/Epic.xdb</valueFrom>
+    <valueTo>@5Mechanics/ItemQualities/Epic.xdb</valueTo>
+    <sortIndex>5</sortIndex>
+  </FieldInfo>
+</ArrayOfFieldInfo>

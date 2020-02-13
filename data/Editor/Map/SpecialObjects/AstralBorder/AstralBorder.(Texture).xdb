@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Texture>
+    <alphaTex>false</alphaTex>
+    <binaryFile href="/Editor/Map/SpecialObjects/AstralBorder/AstralBorder.(Texture).bin" />
+    <disableLODControl>false</disableLODControl>
+    <generateMipChain>true</generateMipChain>
+    <height>32</height>
+    <mipsNumber>4</mipsNumber>
+    <mipSW>-1</mipSW>
+    <realHeight>32</realHeight>
+    <realWidth>32</realWidth>
+    <sourceFile href="/Editor/Map/SpecialObjects/AstralBorder/AstralBorder.tga" />
+    <sourceFileCRC>859231678</sourceFileCRC>
+    <type>DXT1</type>
+    <width>32</width>
+    <wrap>true</wrap>
+</Texture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CreatureVisActionResource>
+	<Header>
+		<Prototype href="Show2Keys.Prototype.(CreatureVisActionResource).xdb#xpointer(/CreatureVisActionResource)" />
+		<Variables>
+			<Animation>attack1H01</Animation>
+			<PauseInActionKeyMsec>100</PauseInActionKeyMsec>
+		</Variables>
+	</Header>
+</CreatureVisActionResource>

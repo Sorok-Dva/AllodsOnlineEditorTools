@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCreatureEmote">
+			<creature>4</creature>
+			<animation>holdCrossbow</animation>
+		</Item>
+	</actions>
+</GameViewScript>

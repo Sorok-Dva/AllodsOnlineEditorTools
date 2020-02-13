@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.elements.abilities.EnchantedArrow>
+	<Header>
+		<resourceId>90500097</resourceId>
+	</Header>
+	<visualScript href="/Spells/VisScripts/RangedAttack/EnchantedArrow_Ice.(SpellVisScripts).xdb#xpointer(/gameMechanics.world.SpellVisScripts)" />
+</gameMechanics.elements.abilities.EnchantedArrow>

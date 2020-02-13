@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Texture>
+    <alphaTex>false</alphaTex>
+    <binaryFile href="/Editor/Map/SpecialObjects/Ruler/Ruler.(Texture).bin" />
+    <disableLODControl>false</disableLODControl>
+    <generateMipChain>true</generateMipChain>
+    <height>256</height>
+    <mipsNumber>7</mipsNumber>
+    <mipSW>-1</mipSW>
+    <realHeight>256</realHeight>
+    <realWidth>256</realWidth>
+    <sourceFile href="/Editor/Map/SpecialObjects/Ruler/Ruler.tga" />
+    <sourceFileCRC>-325130459</sourceFileCRC>
+    <type>DXT1</type>
+    <width>256</width>
+    <wrap>true</wrap>
+</Texture>

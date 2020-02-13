@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>15</casterCreature>
+			<spell href="/Mechanics/Spells/Mage/Meditation/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf)" />
+			<prepareDuration>2000</prepareDuration>
+		</Item>
+	</actions>
+</GameViewScript>

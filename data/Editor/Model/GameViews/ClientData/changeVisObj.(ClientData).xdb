@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>99595265</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="VisActionList">
+			<play>Simultaneously</play>
+			<playWhile type="VisActionDelay">
+				<time>5000</time>
+			</playWhile>
+			<elements>
+				<Item type="VisActionChangeVisObject">
+					<newVisMob href="/Characters/Kania_female/VisualMobs/ArchipelagoLeague1/Aristo_Dressed.(VisualMob).xdb#xpointer(/VisualMob)" />
+				</Item>
+			</elements>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>1</casterCreature>
+			<targetCreature>2</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/Whirlwind1.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<secondaryTargetCreatures>
+				<Item>3</Item>
+				<Item>4</Item>
+				<Item>5</Item>
+				<Item>6</Item>
+				<Item>7</Item>
+			</secondaryTargetCreatures>
+			<effectActions>
+				<Item type="GameViewActionMeleeAttack">
+					<isDamageDealt>true</isDamageDealt>
+					<source>OTHER</source>
+				</Item>
+			</effectActions>
+		</Item>
+	</actions>
+</GameViewScript>

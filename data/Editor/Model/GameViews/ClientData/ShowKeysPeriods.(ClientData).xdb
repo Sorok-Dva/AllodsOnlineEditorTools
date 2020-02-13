@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>98413568</resourceId>
+		<isPrototype>true</isPrototype>
+		<Variables>
+			<Animation>dodge</Animation>
+		</Variables>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureAnimationAction">
+			<animations>
+				<Item var="Animation" />
+			</animations>
+			<channel>CHANNEL_ABILITY</channel>
+			<advanced>
+				<animationKeysAction />
+				<animationKeysActionPeriod>
+					<Item>
+						<action type="CreatureColorAction">
+							<visActionID>Color1</visActionID>
+							<priority>0</priority>
+							<colorFactor x="0" y="0" z="0" w="0" />
+							<colorValue>2013298943</colorValue>
+							<timeOn>0</timeOn>
+							<timeOff>0</timeOff>
+						</action>
+					</Item>
+					<Item>
+						<action type="VisActionStopAction">
+							<visActionID />
+							<stoppedActionID>Color1</stoppedActionID>
+						</action>
+					</Item>
+					<Item>
+						<action type="CreatureColorAction">
+							<visActionID>Color2</visActionID>
+							<priority>0</priority>
+							<colorFactor x="0" y="0" z="0" w="0" />
+							<colorValue>2013298943</colorValue>
+							<timeOn>0</timeOn>
+							<timeOff>0</timeOff>
+						</action>
+						<runIfOverrided>false</runIfOverrided>
+					</Item>
+					<Item>
+						<action type="VisActionStopAction">
+							<visActionID />
+							<stoppedActionID>Color2</stoppedActionID>
+						</action>
+						<runIfOverrided>false</runIfOverrided>
+					</Item>
+				</animationKeysActionPeriod>
+			</advanced>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

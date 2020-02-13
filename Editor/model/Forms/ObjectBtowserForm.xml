@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>19</normalLeft>
+  <normalTop>509</normalTop>
+  <normalWidth>468</normalWidth>
+  <normalHeight>453</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+  </intParams>
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>FilterComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

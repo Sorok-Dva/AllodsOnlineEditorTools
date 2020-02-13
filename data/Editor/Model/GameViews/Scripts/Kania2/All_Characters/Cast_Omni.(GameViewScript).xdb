@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<Prototype href="/Editor/Model/GameViews/ScriptPrototypes/castBody10.xdb#xpointer(/GameViewScript)" />
+		<Variables>
+			<Spell>/Editor/Model/GameViews/Spells/spellOmni.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)</Spell>
+		</Variables>
+	</Header>
+</GameViewScript>

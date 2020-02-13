@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SpellVisScripts>
+	<Header>
+		<Prototype href="/Spells/VisScripts/Prototypes/WarriorAttack.(SpellVisScripts).xdb#xpointer(/SpellVisScripts)" />
+		<Variables>
+			<UseAnimation>USE_ANIMATIONS</UseAnimation>
+			<Animation>flurryOfBlows</Animation>
+		</Variables>
+	</Header>
+</SpellVisScripts>

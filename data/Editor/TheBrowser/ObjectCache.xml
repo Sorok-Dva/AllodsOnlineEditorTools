@@ -1,0 +1,2560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Relic_1/Relic_1.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Relic_Chest/Relic_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Relic_6/Relic_6.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Relic_6/Relic_6.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Труп орка</userName>
+    <location>ArchipelagoEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire2/CuttedHead/CuttedHead.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire2/DeadOrcBody/DeadOrcBody.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Relic_3/Relic_3.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Relic_3/Relic_3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук контрабандистов</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Artefact_shadow_quest_006/Artefact_shadow_quest_006.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Artefact_shadow_quest_006/Artefact_shadow_quest_006.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ChestKontrabandista_Quest_006/ChestKontrabandista_Quest_006.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Табличка джунов</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Tablet/Tablet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Tablet/Tablet.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>InstLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/HealElixir/HealElixir.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/InstLeague1/ElixirChest1/ElixirChest1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сон-трава</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_07_Grass/C2_07_Grass.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_07_Grass/C2_07_Grass.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сухие ветки</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Wood/Wood.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/WoodLeague/WoodLeague.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Wood/Wood.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук гарнизона</userName>
+    <location>Inst_Liga1End</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Junk/LeagueBanner_01.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/Chest_flag/Chest_flag.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хадаганский тюк</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Wood_quest_010/Wood_quest_010.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Wood_Crate_Quest_010/Wood_Crate_Quest_010.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Chest</userName>
+    <location>AstralIsle03</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/AstralIsle03/Crate/Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Nut/H_Nut.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Большая астральная батарея</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_battery2.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хранилище Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/NecroRune5/NecroRune5.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/NecroRune5/NecroRune5.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хранилище Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/NecroRune2/NecroRune2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/NecroRune2/NecroRune2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Странное яйцо дрейка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/AstralShip_Q_Egg/Quest_Egg.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст шиповника</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Object1_3.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object1_3.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Тайник оружейной мафии</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Box_artefakts_quest_0_28/Box_artefakts_quest_0_28.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Tainik_Crate/Tainik_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Месторождение лазурита</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/OreLazurit.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_lazurit.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>ArchipelagoEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/MagicShoker/MagicShoker.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/Chest2/Chest2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийская книга</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Elf_Book/Elf_Book.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Book_Chest/Book_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с рарными лутами!</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Mechanics/Ships/Treasury/LootChestRareDelivered.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с ЭПИЧЕСКИМИ лутами!!1</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Mechanics/Ships/Treasury/LootChestEpicDelivered.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Комод с бельём</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/ZE1_Sex_Shirt/ZE1_Sex_Shirt.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/ZE1_Sex_HadaganDress1/ZE1_Sex_HadaganDress1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с чаем</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_10_Goods/C2_10_Goods.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_10_Goods/C2_10_Goods.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Мёртвый драконид</userName>
+    <location>ArchipelagoContested3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/DraconidWeapon/DraconidWeapon.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/DraconidBody/DraconidBody.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_11_Holybomb_Uncharged/C2_11_Holybomb_Uncharged.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_11_Chest/C2_11_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Дверь от бани</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/ZL1_Sex_Door_1/ZL1_Sex_Door_1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Берёза</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/ZL1_Sex_Venik/ZL1_Sex_Venik.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/ZL1_Sex_Tree_3/ZL1_Sex_Tree_3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Берёза</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/ZL1_Sex_Venik/ZL1_Sex_Venik.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/ZL1_Sex_Tree_2/ZL1_Sex_Tree_2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Foto_device/Foto_device.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Foto_Crate/Foto_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сейф</userName>
+    <location>ZoneHadagan1</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Safe/Safe.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Еловая шишка</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/Nuts/Nuts.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Nuts/Nuts.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук мятежников</userName>
+    <location>Inst_Liga1End</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Messages/Letter_04.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/Chest_doc/Chest_doc.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Кристалл соли</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/Salt/Salt.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Salt/Salt.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Nut/Nut.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Nut_2/H_Nut_2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древний сундук Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/Gold/Gold.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/GoldChest/GoldChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук Бабы-Карги</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/YagaAmulet/YagaAmulet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/YagaChest/YagaChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древний затопленный сундук</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Treasure/Treasure.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Камень</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Artefacl_Anamalia_All_Crate/Artefacl_Anamalia_All_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Детектор демонов</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Crystal_DemonHunters_Q_075/Crystal_DemonHunters_Q_075.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Demon_detector_Quest_075/Demon_detector_Quest_075.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Крапива</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>2.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Krapiva/Krapiva.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Krapiva/Krapiva.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный кристалл</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Junk/AstralCrystal_01.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/AstralCrystals/cont_AstralCrystals.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Голова древней кистепёрой рыбы</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_04_Head/E3_04_Head.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_04_Head_Res/E3_04_Head_Res.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Логово льва</userName>
+    <location>ZoneEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire2/SmallWolf/SmallWolf.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire2/DenLion/DenLion.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Умирающий солдат Лиги</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>0.4</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/LeagueSword/LeagueSword.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.4</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/LeagueSpear/LeagueSpear.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Wounded/Wounded.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/C1_11_Wonded_Warrior_02/C1_11_Wonded_Warrior_02.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Умирающий солдат Лиги</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>0.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/LeagueSpear/LeagueSpear.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Wounded/Wounded.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/C1_11_Wonded_Warrior_01/C1_11_Wonded_Warrior_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Окаменевший коралл</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_01_Crystal/E3_01_Crystal.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_01_Crystal_Res_01/E3_01_Crystal_Res_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с оружием</userName>
+    <location>ArchipelagoContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested1/Box_Weapon/Box_Weapon.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested1/Box_Weapon/Box_Weapon.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Обломки корабля</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Junk/ShipJunk_01.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/Shipwreck/cont_Shipwreck.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Большая еловая шишка</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.4</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Seeds2.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.6</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Seeds3.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/TrashSeeds/TrashSeeds.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_cone2.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Пчелиный улей</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/MagicItems/Honeycomb_01.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/BeeHive/cont_BeeHive.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Детектор демонов</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Demon_detector_Quest_075N/Demon_detector_Quest_075N.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/InstLeague1/RepairChest/RepairChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук Синих</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire2/Banner/Banner.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire2/BannerChest/BannerChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Стойка с оружием</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/WeaponStand_1/WeaponStand_1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Пряный корешок</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_08_Root/C2_08_Root.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_08_Root/C2_08_Root.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Мох-сырец</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Mosh_termite_quest/Mosh_termite_quest.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Moch_termite_crate/Moch_termite_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Документы</userName>
+    <location>pcastle</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/PlagueCastle/HistoryDoc/HistoryDoc.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/PlagueCastle/PC_Documents/PC_Documents.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>0.7</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/MotherKiss/C3MotherKissSpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.24</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Sting/C3StingSpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/RedBanner/C3RedBannerArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Firecracker/C3FirecrackerArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ArtefactCrate10/ArtefactCrate10.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_01_Drug/C2_01_Drug.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_01_Drug/C2_01_Drug.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с золотом</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_02_Gold/C2_02_Gold.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_07_Gold/C2_07_Gold.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Пиратский сундук</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/HaloIsle/HaloIsle_bag/HaloIsle_bag.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/HaloIsle/HaloIsle_amulet/HaloIsle_amulet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/HaloIsle/HaloIsle_Chest/HaloIsle_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Мешок золота</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_02_Gold/C2_02_Gold.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_02_Gold/C2_02_Gold.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Амадей, дух корабля</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_Ship_Spirit/AC2_Ship_Spirit.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Энергетический заряд</userName>
+    <location>ZoneArchipelago2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested2/AC2_Jun_Battery/AC2_Jun_Battery.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_Jun_Battery/AC2_Jun_Battery.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Месторождение артефактов</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>0.7</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/BandAid/C3StoneBandAidlArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.24</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/TrapperHat/C3StoneTrapperHatlArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/RedBanner/C3RedBannerArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Firecracker/C3FirecrackerArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ArtefactCrate_Ghosts/ArtefactCrate_Ghosts.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Контрабандная литература</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Tailor_book/Tailor_book.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Bandit_books_1/H_Bandit_books_1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик со спиртным</userName>
+    <location>ArchipelagoContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested1/Box_Alcohol/Box_Alcohol.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested1/Box_Alcohol/Box_Alcohol.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Чан циклопа</userName>
+    <location>ArchipelagoEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire2/Cyclop_Hogwash/Cyclop_Hogwash.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire2/Hogwash_Box/Hogwash_Box.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сокровищница тролля</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff01.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff02.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff03.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1.25</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff04.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff05.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.75</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff06.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.75</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff07.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrollDramaBook.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1.25</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff09.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff10.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff11.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.75</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff12.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.75</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff13.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/TrashTrollStuff14.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Troll_Chest/Troll_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Могила</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle02/AI02_Treasure/AI02_Treasure.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle02/AI02_Lie/AI02_Lie.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/AstralIsle02/AI_02_Grave/AI_02_Grave.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>0.7</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/BlackMark/C3BlackMarkSpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.24</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Circlet/C3CircletSpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/RedBanner/C3RedBannerArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Firecracker/C3FirecrackerArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ArtefactCrate_Giants/ArtefactCrate_Giants.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с ядрами</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Bullet/Bullet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/AmmoCrate/AmmoCrate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт авиаков</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested2/AC2_Av_Artefact/AC2_Av_Artefact.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_Av_Artefact/AC2_Av_Artefact.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Постамент</userName>
+    <location>Inst_Empire1End</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Artefact_main/Artefact_main.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Artefact_Stone/Artefact_Stone.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Серная пыль</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_10_Volcanic_Dust_item/E3_10_Volcanic_Dust_item.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_10_Volcanic_Dust/E3_10_Volcanic_Dust.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древняя гробница</userName>
+    <location>ZoneLeague2</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Grave/GraveChestNoLoot.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>0.7</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Shackles/C3ShacklesSpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.24</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/StoneDummy/C3StoneDummySpecialArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/RedBanner/C3RedBannerArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.02</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Firecracker/C3FirecrackerArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ArtefactCrate_Quicksand/ArtefactCrate_Quicksand.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Джунский алтарь</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/JunnArtefact3.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_JunnArtefact3.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_05_Documents/C2_05_Documents.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_05_Documents/C2_05_Documents.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Relic_5/Relic_5.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Relic_5/Relic_5.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Relic_2/Relic_2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/Relic_2/Relic_2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Выступ горной породы</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.5</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/OreSample.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.5</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/OreSample2.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/TrashOre/TrashOre.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_ore.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Совиное гнездо</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Egg.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_egg.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хищная плесень</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Plesen/Plesen.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Hadagan_Plesen/Hadagan_Plesen.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/InstLeague1/ElixirChest2/ElixirChest2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральная батарея</userName>
+    <location>ArchipelagoEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire2/AE2_Beer/AE2_Beer.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire2/AE2_Beer_Barrel/AE2_Beer_Barrel.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Artefact2_Anomalia1_Crate_Quest_015/Artefact2_Anomalia1_Crate_Quest_015.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт Тьмы</userName>
+    <location>Inst_Liga1End</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/ArtifactDevice/ArtifactDevice_Splinters.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Кристалл брома</userName>
+    <location>ZoneEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire2/BromideCrystal/BromideCrystal.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire2/BromideCrystal/BromideCrystal.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик мафии</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Crate_artefacts/Crate_artefacts.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Artefact_Crate_demonNoob/Artefact_Crate_demonNoob.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Могила Плевка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/VS/Portal/Portal.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Груда костей</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.15</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/YakBones/YakBone01.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.15</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/YakBones/YakBone02.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.15</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/YakBones/YakBone03.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.15</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/YakBones/YakBone04.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/YakBone5/YakBone5.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/YakBones/YakBones.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хранилище Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/NecroRune4/NecroRune4.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/NecroRune4/NecroRune4.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Волчий кустарник</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_09_Berries/C2_09_Berries.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_09_Berries/C2_09_Berries.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Старый корабельный сундук</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Object3_4.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object3_4.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст черноплодной рябины</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Object4_2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object4_2.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст подорожника</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Grass2_3.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object2_3.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Оружейный сейф</userName>
+    <location>InstEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstEmpire1/Key/Key.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/InstEmpire1/Chest/Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Бухта корабельных канатов</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Kanat_pirates/Kanat_pirates.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Kanat_pirates_crate/Kanat_pirates_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт из Жарки</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Art_Fire/Art_Fire.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Fire_Art/Fire_Art.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>ArchipelagoEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/MagicRing/MagicRing.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/Chest3/Chest3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Крокодилье яцо</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Egg_crokodila/Egg_crokodila.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Egg_crate/Egg_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Комод с бельём</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/ZE1_Sex_Pants/ZE1_Sex_Pants.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/ZE1_Sex_HadaganDress2/ZE1_Sex_HadaganDress2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст Венериса</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_12_Grass/C2_12_Grass.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_12_Grass/C2_12_Grass.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Мёртвая рыба</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Meat/FishMeat.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/DeadFish/cont_DeadFish.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Бочка воды</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/WaterProbe_quest_004/WaterProbe_quest_004.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Barrel_Quest_004/Barrel_Quest_004.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Остатки торговца</userName>
+    <location>AstralIsle03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle03/Ring_merchant1/Ring_merchant1.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/AstralIsle03/Sk_bones1/Sk_bones1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Пальма</userName>
+    <location>ArchipelagoContested3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/Wood/Wood.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/Tree/Tree.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст марабиса</userName>
+    <location>ArchipelagoContested3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/Hemp/Hemp.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/Hemp/Hemp.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с солониной</userName>
+    <location>ArchipelagoContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested1/Box_Cornedbeef/Box_Cornedbeef.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested1/Box_Cornedbeef/Box_Cornedbeef.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Джунский алтарь</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_JunnArtefact.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Дорожная сумка историка</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_01_Backpack/E3_01_Backpack.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_01_Backpack_Res/E3_01_Backpack_Res.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с лутами</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Mechanics/Ships/Treasury/LootChestUncommonDelivered.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хранилище Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/NecroRune1/NecroRune1.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/NecroRune/NecroRune.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Берёза</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/ZL1_Sex_Venik/ZL1_Sex_Venik.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/ZL1_Sex_Tree/ZL1_Sex_Tree.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Дерево</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/AspStake/AspStake.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/AspStake/AspStake.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Огонь</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/VS/Fire/Fire.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Камень</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Artefact_Anomalia1_Crate_Quest_013/Artefact_Anomalia1_Crate_Quest_013.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Винный ящик</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/E1_Bottle/E1_Bottle.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/E1_Bottle_Crate_1/E1_Bottle_Crate_1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Скелет старателя</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Kukla_Zem_crate/Kukla_Zem_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Пчелиный улей</userName>
+    <location>ZoneEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire2/Honey/Honey.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire2/BeeHive/BeeHive.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Голубая ель</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/E1_SHishka/E1_SHishka.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/E1_Fir_01/E1_Fir_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Строительный блок</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Building_block/Building_block.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Hadagan_BLOCK/Hadagan_BLOCK.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Окаменевший корабль</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_03_Ship_Sample/E3_03_Ship_Sample.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_03_Sheep_01/E3_03_Sheep_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный кристалл</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Astral_Crystall/Astral_Crystall.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Стела джунов</userName>
+    <location>ZoneArchipelago2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested2/AC2_Jun_Artefact/AC2_Jun_Artefact.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_Jun_Stelle/AC2_Jun_Stelle.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Иван-чай</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/ZL3_Sex_ForestGrass/ZL3_Sex_ForestGrass.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/ZL3_Sex_ForestGrass/ZL3_Sex_ForestGrass.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Упавший улей</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/VS/Object01/Object01.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с меткой "НИИ МАНАНЗЭМ"</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/TestWeapon/TestWeapon.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/WeaponCrate/WeaponCrate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Q_LG5_plan/Q_LG5_plan.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/Q_LG5_Cultist_chest/Q_LG5_Cultist_chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Орочий ящик</userName>
+    <location>ArchipelagoEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire2/Orcish_totem/Orcish_totem.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire2/Totem_Box/Totem_Box.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сейф с искроуловителями</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/StuffSafe/StuffSafe.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куча костей</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>0.1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/BoneDragon/BoneDragon.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.9</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/BoneTrach/BoneTrach.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Bones02/Bones02.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Труп старателя</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Bag_dolzgnik_traider/Bag_dolzgnik_traider.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Trup_dolzgnik_traider/Trup_dolzgnik_traider.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Заледеневший бык</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/FrozenMeat.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_frozenMeat.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Слабый артефакт Тьмы</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Artefact_forDemonHunters_Crate/Artefact_forDemonHunters_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Яйцо ящера</userName>
+    <location>ArchipelagoContested3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/Egg/Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/Egg/Egg.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Лилия</userName>
+    <location>AstralIsle09</location>
+    <contains>
+      <Contains>
+        <chance>0</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle09/AI09_Book_Password/AI09_Book_Password.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/AstralIsle09/AI_09_Lilly/AI_09_Lilly.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с одеждой</userName>
+    <location>ArchipelagoContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested1/Box_Clothes/Box_Clothes.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested1/Box_Clothes/Box_Clothes.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук ополченца</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Artefact_quest_002/Artefact_quest_002.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Chest_Quest_002/Chest_Quest_002.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Контрабандная литература</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/History_book/History_book.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Bandit_books_3/H_Bandit_books_3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с Артефактами Тьмы</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested1/ArtefactChest/ArtefactChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Саркофаг Тэпа</userName>
+    <location>ArchipelagoEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/BlackStone/BlackStone.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/SarkofagTep/SarkofagTep.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Обломки корабля Лиги</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested2/AE2_L_Ship_Wreckage/AE2_L_Ship_Wreckage.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_L_Ship/AC2_L_Ship.(SteleResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Скелет</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/ScoutLater/ScoutLater.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/BonesNew/BonesNew.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Обломки имперского корабля</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested2/AE2_E_Ship_Wreckage/AE2_E_Ship_Wreckage.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested2/AC2_E_Ship/AC2_E_Ship.(SteleResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Мешок с зерном</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/FlourBag/FlourBag.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Чёрный обелиск Зэм</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_11_Black_Stone_Item/E3_11_Black_Stone_Item.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_11_Black_Stone/E3_11_Black_Stone.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куль с товарами</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Crate/Crate.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Chest/Chest.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с товарами</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/Crate/Crate.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Crate/Crate.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древняя джунская магическая табличка</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Tablet/Tablet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Tablet/Tablet.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Березовый пень</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Object4_2_2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object4_2_2.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Останки старателя</userName>
+    <location>2ndCircle_03</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Undead_Bones_detektor_crate/Undead_Bones_detektor_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Лесная астра</userName>
+    <location>ZoneLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague1/Flowers/rareAster.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/Flowers/cont_rareAster.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Bandit_books/H_Bandit_books.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ель</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.9</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Worms.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.6</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Worms2.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Worms3/Worms3.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_pine-tree.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ценный груз</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle10/AI10_Meteorit/AI10_Meteorit.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/AstralIsle10/AI10_Box/AI10_Box.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с инструментами</userName>
+    <location>ArchipelagoContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested1/Box_Instrument/Box_Instrument.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested1/Box_Instrument/Box_Instrument.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/InstLeague1/ElixirChest3/ElixirChest3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Судовой сундук</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_03_Chest/E3_03_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Увитое лианами дерево</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Rope/Rope.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Rope/Rope.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с вооружением</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/InstLeague1/EquipmentChest/EquipmentChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный янтарь</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_12_Amber_Item/E3_12_Amber_Item.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_12_Amber/E3_12_Amber.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Стойка с оружием</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/InstLeague1/BagOfWeapons/BagOfWeapons.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/InstLeague1/ArmorStand/ArmorStand.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Корабельный сундук</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_09_Orb/E3_09_Orb.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_09_Orb_Chest/E3_09_Orb_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный кристалл</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>0.8</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/Meteor/Meteor.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/AstralCrystall/AstralCrystall.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Кладка яиц скорпиона</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>2</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_02_Scorpid_Egg/C2_02_Scorpid_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_02_Scorpid_Egg/C2_02_Scorpid_Egg.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Хранилище Зэм</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/NecroRune3/NecroRune3.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/NecroRune3/NecroRune3.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Рыбацкая сеть</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_09_Fish/C2_09_Fish.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_09_Net/C2_09_Net.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Яйцо дрейка</userName>
+    <location>ArchipelagoContested3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoContested3/AstralShipQ_Egg/AstralShipQ_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoContested3/AstralShip_Q_Egg/AstralShip_Q_Egg.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Листовка Лиги</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Listovka/Listovka.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Listovka/Listovka.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Артефакт Тьмы</userName>
+    <location>Inst_Liga1End</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/ArtifactDevice/ArtifactDevice.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/ArtifactDevice/ArtifactDevice.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Судовой журнал</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/Object4_1.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/Object4_1.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный янтарь</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/AstarlAmber/AstarlAmber.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/AstralAmber.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Тайник белых орков</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.9</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague2/Fur/Fur.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Shron/Shron.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древняя гробница</userName>
+    <location>ZoneLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.0757269</chance>
+        <ItemDbid>Items/Mechanics/BrokenArmor.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.454361</chance>
+        <ItemDbid>Items/Mechanics/ZombieDenture.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.0504846</chance>
+        <ItemDbid>Items/Mechanics/RagPieces10.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.0227181</chance>
+        <ItemDbid>Items/Mechanics/ZombieDiadem.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Grave/GraveChest.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сахарный корень</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Grass/Grass.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Grass/Grass.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Застывшая слеза единорога</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Tear/Tear.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/Tears/Tears.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Древний джунский камень</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/June_stone/June_stone.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/June_stone/June_stone.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Каменная плита</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Ore_Kobolds/Ore_Kobolds.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Stone_Kobold/Stone_Kobold.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Чаша Зэм</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Demon_detector_Quest_075/Demon_detector_Broken.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Скелет</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Skelet_Crate/Skelet_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Раненый ополченец Лиги</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>0.5</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/LeagueSword/LeagueSword.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Wounded/Wounded.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/C1_11_Wonded_Warrior/C1_11_Wonded_Warrior.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук горожанина</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/E1_Chest_small_1/E1_Chest_small_1.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/E1_Chest_NPS_1/E1_Chest_NPS_1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральная батарея</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Battery.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_battery.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик</userName>
+    <location>ArchipelagoEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/MagicBalzam/MagicBalzam.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/Chest1/Chest1.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Стелла Тэпа</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Relic_undead/Relic_undead.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Relic_Box/Relic_Box.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Эльфийский сундук</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/ArchiveCourt/ArchiveCourt.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/ArchiveCourt/ArchiveCourt.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Клетка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested1/ZC1_Cage_03/ZC1_Cage_03.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Клетка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested1/ZC1_Cage_02/ZC1_Cage_02.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Клетка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneContested1/ZC1_Cage_01/ZC1_Cage_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Змеиное яйцо</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_04_Egg/E3_04_Egg.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_04_Eggs/E3_04_Eggs.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Обглоданные кости</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Skeleton_Bone/Skeleton_Bone.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Hadagan_Bones/Hadagan_Bones.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Клетка с гоблином</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_10_Cage/E3_10_Cage.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук</userName>
+    <location>Unknown Location</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Q_EG5_Knife/Q_EG5_Knife.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Teonomikon/Teonomikon.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/Q_HG5_Cultist_chest/Q_HG5_Cultist_chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Жила</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneLeague2/Ore_Chest/Ore_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Могила Плевка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/VS/AstralGrave/AstralGrave.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Psilocybe cubensis</userName>
+    <location>AstralIsle03</location>
+    <contains>
+      <Contains>
+        <chance>3</chance>
+        <ItemDbid>Items/QuestItems/AstralIsle03/Mushroom/Mushroom.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/AstralIsle03/Mushroom_Crate2/Mushroom_Crate2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Книжная полка</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_14_Bookshell_01/E3_14_Bookshell_01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик с инструментами</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Kreplenie_Termite/Kreplenie_Termite.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Kreplenie_Crate/Kreplenie_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Отчеты ОМУТа</userName>
+    <location>ArchipelagoEmpire1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire1/Book/Book.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire1/Books/Books.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Астральный кристалл</userName>
+    <location>ZoneEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire2/AstalCrystal/AstalCrystal.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire2/AstralStone/AstralStone.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст с корешками</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/VS/Object02_02/Object02_02.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Капитанский сундук</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/BrokenSword/BrokenSword.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Astral_Ship_Crate/Astral_Ship_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Стойка с оружием ламий</userName>
+    <location>ArchipelagoLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague3/Weapon_2/Weapon_2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague3/WeaponStand_2/WeaponStand_2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Сундук с награбленным</userName>
+    <location>ZoneLeague3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneLeague3/Carpet/Carpet.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneLeague3/CarpetChest/CarpetChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куст волчьих ягод</userName>
+    <location>PetRealm</location>
+    <contains>
+      <Contains>
+        <chance>1.5</chance>
+        <ItemDbid>Items/QuestItems/PetRealm/LigaGrass2/LigaGrass2.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/PetRealm/LigaGrass2/LigaGrass2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Корабельный сундук</userName>
+    <location>ArchipelagoLeague1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague1/HS_Part/HS_Part.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague1/NemoChest/NemoChest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ящик Историков</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested3/Istorik_items/Istorik_items.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/Istorik_crate/Istorik_crate.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Ветки</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_08_Wood/C2_08_Wood.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_08_Wood/C2_08_Wood.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куча костей</userName>
+    <location>ZoneContested1</location>
+    <contains>
+      <Contains>
+        <chance>1.3499999</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/BoneTrach/BoneTrach.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.3</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Bone01/Bone01.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.25</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Bone02/Bone02.(ItemResource).xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.2</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested1/Bone03/Bone03.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested1/Bones01/Bones01.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Куча птичьего помёта</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_09_Shit/C2_09_Shit.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_09_Shit/C2_09_Shit.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Орочий топор</userName>
+    <location>ArchipelagoEmpire2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoEmpire2/OrcishFightingAxe/OrcishFightingAxe.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoEmpire2/Axe_Chest/Axe_Chest.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Еловая шишка</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_09_Cone/C2_09_Cone.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_09_Cone/C2_09_Cone.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Бочонок канийского пива</userName>
+    <location>2ndCircle_02</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneContested2/C2_05_Beer/C2_05_Beer.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested2/C2_05_Beer/C2_05_Beer.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Кудрявый лишайник</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Moss.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_moss.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Выступ горной породы</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/RockSample.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_rock.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Окаменевший коралл</userName>
+    <location>ZoneEmpire3</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneEmpire3/E3_05_Crystal/E3_05_Crystal.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneEmpire3/E3_05_Crystal_Res/E3_05_Crystal_Res.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Еловая шишка</userName>
+    <location>ArchipelagoLeague2</location>
+    <contains>
+      <Contains>
+        <chance>0.6</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Seeds.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.4</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/Trash/Seeds2.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ArchipelagoLeague2/TrashSeeds/TrashSeeds.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ArchipelagoLeague2/Chests/cont_cone.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Плодородная земля</userName>
+    <location>ZoneLeague1</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/ZoneLeague1/SeedPlace/SeedPlace.xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Контрабандная литература</userName>
+    <location>ZoneHadagan1</location>
+    <contains>
+      <Contains>
+        <chance>1</chance>
+        <ItemDbid>Items/QuestItems/ZoneHadagan1/Porno_book/Porno_book.(ItemResource).xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneHadagan1/H_Bandit_books_2/H_Bandit_books_2.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Месторождение аретфактов</userName>
+    <location>2ndCircle_03</location>
+    <contains>
+      <Contains>
+        <chance>0.1</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/EvilEye/C3StoneEvilEyelArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.04</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/PureSpirirt/C3StonePureSpiritArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.005</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/ZemDoll/C3StoneZemDollArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.005</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/RedBanner/C3RedBannerArtifact.xdb</ItemDbid>
+      </Contains>
+      <Contains>
+        <chance>0.005</chance>
+        <ItemDbid>Items/Mechanics/C3SpecialArtifacts/Firecracker/C3FirecrackerArtifact.xdb</ItemDbid>
+      </Contains>
+    </contains>
+    <Dbid>Items/InteractiveObjects/ZoneContested3/ArtefactCrate_Powerlessness/ArtefactCrate_Powerlessness.(ChestResource).xdb</Dbid>
+  </Object>
+  <Object>
+    <userName>Mushroom</userName>
+    <location>Unknown Location</location>
+    <contains />
+    <Dbid>Items/InteractiveObjects/AstralIsle03/Mushroom_Crate/Mushroom_Crate.(ChestResource).xdb</Dbid>
+  </Object>
+</ArrayOfObject>

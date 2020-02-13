@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFieldInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FieldInfo>
+    <valueFrom>HUMANOID</valueFrom>
+    <valueTo>Humanoid</valueTo>
+    <sortIndex>1</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>BEAST</valueFrom>
+    <valueTo>Beast</valueTo>
+    <sortIndex>2</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>UNDEAD</valueFrom>
+    <valueTo>Undead</valueTo>
+    <sortIndex>3</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>GIANT</valueFrom>
+    <valueTo>Giant</valueTo>
+    <sortIndex>4</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>DRAGON</valueFrom>
+    <valueTo>Dragon</valueTo>
+    <sortIndex>5</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>ELEMENTAL</valueFrom>
+    <valueTo>Elemental</valueTo>
+    <sortIndex>6</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>DEMON</valueFrom>
+    <valueTo>Demon</valueTo>
+    <sortIndex>7</sortIndex>
+  </FieldInfo>
+  <FieldInfo>
+    <valueFrom>ABERRATION</valueFrom>
+    <valueTo>Aberration</valueTo>
+    <sortIndex>8</sortIndex>
+  </FieldInfo>
+</ArrayOfFieldInfo>

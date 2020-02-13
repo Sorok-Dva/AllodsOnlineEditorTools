@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>39</normalLeft>
+  <normalTop>743</normalTop>
+  <normalWidth>817</normalWidth>
+  <normalHeight>252</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>0</int>
+  </intParams>
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>findComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>infoCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>warningCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>errorCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>fatalCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>assertCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>splitContainer1</name>
+      <splitterDistance>59</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams />
+</FormParams>

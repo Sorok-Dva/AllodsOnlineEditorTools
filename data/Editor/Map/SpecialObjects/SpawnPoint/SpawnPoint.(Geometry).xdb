@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Geometry>
+    <aabb>
+        <center x="0.378531933" y="-0.00517099863" z="0.7417879" />
+        <extents x="0.8663499" y="0.5" z="0.741050839" />
+    </aabb>
+    <areaFragments />
+    <binaryFile href="/Editor/Map/SpecialObjects/SpawnPoint/SpawnPoint.(Geometry).bin" />
+    <castShadows>false</castShadows>
+    <decalModel>false</decalModel>
+    <enableDistanceFade>true</enableDistanceFade>
+    <endFrame>100000</endFrame>
+    <exportDefaultAnimation>true</exportDefaultAnimation>
+    <fadeDistanceEnd>-1</fadeDistanceEnd>
+    <fadeDistanceStart>-1</fadeDistanceStart>
+    <flareInfos />
+    <fogFactor>1</fogFactor>
+    <geometryBox>
+        <center x="0.378531933" y="-0.00517099863" z="0.7417879" />
+        <extents x="0.8663499" y="0.5" z="0.741050839" />
+    </geometryBox>
+    <geometryFragments />
+    <globalID>-1</globalID>
+    <ignoreZ>false</ignoreZ>
+    <indexBuffer>
+        <localID>1</localID>
+        <size>426</size>
+    </indexBuffer>
+    <joints />
+    <largeModel>false</largeModel>
+    <lodDistances>
+        <Item>199.24498</Item>
+        <Item>548.476868</Item>
+    </lodDistances>
+    <lodFactor>1</lodFactor>
+    <lodModel>true</lodModel>
+    <modelElements>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>0</indexBufferBegin>
+                    <indexBufferEnd>36</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>24</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>108</indexBufferBegin>
+                    <indexBufferEnd>144</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>24</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>144</indexBufferBegin>
+                    <indexBufferEnd>174</indexBufferEnd>
+                    <vertexBufferBegin>1</vertexBufferBegin>
+                    <vertexBufferEnd>24</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Editor/Map/SpecialObjects/SpawnPoint/SpawnPoint.(Texture).xdb#xpointer(/Texture)" />
+                <params />
+                <scrollAlpha>true</scrollAlpha>
+                <ScrollRGB>true</ScrollRGB>
+                <transparencyTexture href="" />
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <uTranslateSpeed>0</uTranslateSpeed>
+                <visible>true</visible>
+                <vTranslateSpeed>0</vTranslateSpeed>
+            </material>
+            <materialName>lambert2SG</materialName>
+            <name>pCube1</name>
+            <skinIndex>-1</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <virtualOffset>0</virtualOffset>
+        </Item>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>36</indexBufferBegin>
+                    <indexBufferEnd>108</indexBufferEnd>
+                    <vertexBufferBegin>24</vertexBufferBegin>
+                    <vertexBufferEnd>66</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>174</indexBufferBegin>
+                    <indexBufferEnd>201</indexBufferEnd>
+                    <vertexBufferBegin>26</vertexBufferBegin>
+                    <vertexBufferEnd>60</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>201</indexBufferBegin>
+                    <indexBufferEnd>213</indexBufferEnd>
+                    <vertexBufferBegin>34</vertexBufferBegin>
+                    <vertexBufferEnd>59</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Editor/Map/SpecialObjects/PatrolNode/PatrolNode.(Texture).xdb#xpointer(/Texture)" />
+                <params />
+                <scrollAlpha>true</scrollAlpha>
+                <ScrollRGB>true</ScrollRGB>
+                <transparencyTexture href="" />
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <uTranslateSpeed>0</uTranslateSpeed>
+                <visible>true</visible>
+                <vTranslateSpeed>0</vTranslateSpeed>
+            </material>
+            <materialName>pasted__pasted__lambert2SG1</materialName>
+            <name>pasted__pasted__polySurface3</name>
+            <skinIndex>-1</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <virtualOffset>0</virtualOffset>
+        </Item>
+    </modelElements>
+    <occluderInfos />
+    <optimizeMesh>true</optimizeMesh>
+    <orientationMode>COMMON</orientationMode>
+    <parts />
+    <portalFragments />
+    <portalModel>false</portalModel>
+    <realSkeletonSize>0</realSkeletonSize>
+    <rootMaterial />
+    <scaleDistanceEnd>-1</scaleDistanceEnd>
+    <scaleDistanceStart>-1</scaleDistanceStart>
+    <sceneNodes />
+    <SkeletalAnimation href="" />
+    <skeleton>
+        <localID>2</localID>
+        <size>32</size>
+    </skeleton>
+    <sortMode>OFFSETS</sortMode>
+    <sourceFileCRC>1497577173</sourceFileCRC>
+    <startFrame>0</startFrame>
+    <useColors>false</useColors>
+    <useDecals>false</useDecals>
+    <useProceduralEffect>true</useProceduralEffect>
+    <vb32>false</vb32>
+    <version>2</version>
+    <vertexBuffer>
+        <localID>0</localID>
+        <size>1584</size>
+    </vertexBuffer>
+    <vertexDeclarations>
+        <Item>
+            <color>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </color>
+            <indices>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </indices>
+            <normal>
+                <offset>20</offset>
+                <type>COLOR4</type>
+            </normal>
+            <position>
+                <offset>0</offset>
+                <type>FLOAT3</type>
+            </position>
+            <stride>24</stride>
+            <texcoord0>
+                <offset>12</offset>
+                <type>FLOAT2</type>
+            </texcoord0>
+            <texcoord1>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </texcoord1>
+            <weights>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </weights>
+        </Item>
+    </vertexDeclarations>
+    <visualSkeletonSize>0</visualSkeletonSize>
+</Geometry>

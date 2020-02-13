@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GameViewScript>
+	
+	<actions>
+		<Item type="GameViewActionCreatureVisState">
+			<creature>2</creature>
+			<newVisualState>1</newVisualState>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionSetTarget">
+			<creature>5</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>6</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>7</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>8</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>9</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>10</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>11</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>12</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>13</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>14</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>15</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>16</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+	</actions>
+</GameViewScript>

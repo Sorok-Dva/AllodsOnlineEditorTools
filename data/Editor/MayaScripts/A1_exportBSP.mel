@@ -1,0 +1,7 @@
+global proc int A1_exportBSP( string $srcScene, string $dstName )
+{
+	loadPlugin "A1Collada.mll";
+	if( catchQuiet( `file -o -f $srcScene` ) ){};
+	file -op "exportTriangles=true" -typ "COLLADA exporter" -pr -ea -f $dstName;
+	return 0;
+}

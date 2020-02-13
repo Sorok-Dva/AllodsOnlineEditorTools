@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>5</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Mechanics/Spells/Mage/ShockingGrasp/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+		</Item>
+		<Item type="GameViewActionCreatureJump">
+			<playbackParameters>
+				<skip>false</skip>
+			</playbackParameters>
+			<creature>5</creature>
+		</Item>
+	</actions>
+</GameViewScript>

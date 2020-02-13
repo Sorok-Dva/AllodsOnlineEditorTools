@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClipboardLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>Clipboard</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+  <StrengthSmoothParams>
+    <Strength>0.5</Strength>
+    <Smooth>0.5</Smooth>
+  </StrengthSmoothParams>
+  <UpdateObjectHeightsParams>
+    <Update>true</Update>
+    <HeightRange>1</HeightRange>
+  </UpdateObjectHeightsParams>
+  <TwoSided>false</TwoSided>
+  <CopyTiles>true</CopyTiles>
+  <CopyHeights>true</CopyHeights>
+  <CopyObjects>true</CopyObjects>
+  <CopyHeightType>Adaptive</CopyHeightType>
+  <PreciseTool>false</PreciseTool>
+  <FlipHorisontal>false</FlipHorisontal>
+  <FlipVertical>false</FlipVertical>
+  <FileName />
+  <Group />
+</ClipboardLandscapeToolParams>

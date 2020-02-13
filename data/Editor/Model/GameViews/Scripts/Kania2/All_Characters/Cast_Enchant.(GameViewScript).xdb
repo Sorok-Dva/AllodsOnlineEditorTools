@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<Prototype href="/Editor/Model/GameViews/ScriptPrototypes/castBody10.xdb#xpointer(/GameViewScript)" />
+		<Variables>
+			<Spell>/Mechanics/Spells/Stalker/EnchantBurrowingArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf)</Spell>
+			<ThrowSpeed>0</ThrowSpeed>
+			<PrepareTime>0</PrepareTime>
+		</Variables>
+	</Header>
+</GameViewScript>

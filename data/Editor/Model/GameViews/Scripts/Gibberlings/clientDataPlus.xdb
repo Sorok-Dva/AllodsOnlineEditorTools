@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionClientDataPlus">
+			<creature>1</creature>
+			<data href="/Editor/Model/GameViews/ClientData/meditation.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+			<pointOffsets>
+				<Item z="5" />
+				<Item x="100" y="100" z="5" />
+			</pointOffsets>
+		</Item>
+	</actions>
+</GameViewScript>

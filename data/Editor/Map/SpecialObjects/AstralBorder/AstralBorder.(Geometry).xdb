@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Geometry>
+    <aabb>
+        <center x="-0.006599428" y="0.00139998971" z="0" />
+        <extents x="36.8820953" y="36.8820953" z="56.26319" />
+    </aabb>
+    <areaFragments />
+    <binaryFile href="/Editor/Map/SpecialObjects/AstralBorder/AstralBorder.(Geometry).bin" />
+    <castShadows>true</castShadows>
+    <decalModel>false</decalModel>
+    <enableDistanceFade>true</enableDistanceFade>
+    <endFrame>100000</endFrame>
+    <exportDefaultAnimation>true</exportDefaultAnimation>
+    <fadeDistanceEnd>-1</fadeDistanceEnd>
+    <fadeDistanceStart>-1</fadeDistanceStart>
+    <flareInfos />
+    <fogFactor>1</fogFactor>
+    <geometryBox>
+        <center x="-0.006599428" y="0.00139998971" z="0" />
+        <extents x="36.8820953" y="36.8820953" z="56.26319" />
+    </geometryBox>
+    <geometryFragments />
+    <globalID>-1</globalID>
+    <ignoreZ>false</ignoreZ>
+    <indexBuffer>
+        <localID>1</localID>
+        <size>294</size>
+    </indexBuffer>
+    <joints />
+    <largeModel>false</largeModel>
+    <lodDistances>
+        <Item>2070.02979</Item>
+        <Item>7782.20947</Item>
+    </lodDistances>
+    <lodFactor>1</lodFactor>
+    <lodModel>true</lodModel>
+    <modelElements>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>0</indexBufferBegin>
+                    <indexBufferEnd>96</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>50</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>96</indexBufferBegin>
+                    <indexBufferEnd>132</indexBufferEnd>
+                    <vertexBufferBegin>2</vertexBufferBegin>
+                    <vertexBufferEnd>50</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>132</indexBufferBegin>
+                    <indexBufferEnd>147</indexBufferEnd>
+                    <vertexBufferBegin>2</vertexBufferBegin>
+                    <vertexBufferEnd>50</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Editor/Map/SpecialObjects/AstralBorder/AstralBorder.(Texture).xdb#xpointer(/Texture)" />
+                <params />
+                <scrollAlpha>true</scrollAlpha>
+                <ScrollRGB>true</ScrollRGB>
+                <transparencyTexture href="" />
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <uTranslateSpeed>0</uTranslateSpeed>
+                <visible>true</visible>
+                <vTranslateSpeed>0</vTranslateSpeed>
+            </material>
+            <materialName>lambert2SG</materialName>
+            <name>pCylinder1</name>
+            <skinIndex>-1</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <virtualOffset>0</virtualOffset>
+        </Item>
+    </modelElements>
+    <occluderInfos />
+    <optimizeMesh>true</optimizeMesh>
+    <orientationMode>COMMON</orientationMode>
+    <parts />
+    <portalFragments />
+    <portalModel>false</portalModel>
+    <realSkeletonSize>0</realSkeletonSize>
+    <rootMaterial />
+    <scaleDistanceEnd>-1</scaleDistanceEnd>
+    <scaleDistanceStart>-1</scaleDistanceStart>
+    <sceneNodes />
+    <SkeletalAnimation href="" />
+    <skeleton>
+        <localID>2</localID>
+        <size>32</size>
+    </skeleton>
+    <sortMode>OFFSETS</sortMode>
+    <sourceFileCRC>210914476</sourceFileCRC>
+    <startFrame>0</startFrame>
+    <useColors>false</useColors>
+    <useDecals>false</useDecals>
+    <useProceduralEffect>true</useProceduralEffect>
+    <vb32>false</vb32>
+    <version>2</version>
+    <vertexBuffer>
+        <localID>0</localID>
+        <size>1200</size>
+    </vertexBuffer>
+    <vertexDeclarations>
+        <Item>
+            <color>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </color>
+            <indices>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </indices>
+            <normal>
+                <offset>20</offset>
+                <type>COLOR4</type>
+            </normal>
+            <position>
+                <offset>0</offset>
+                <type>FLOAT3</type>
+            </position>
+            <stride>24</stride>
+            <texcoord0>
+                <offset>12</offset>
+                <type>FLOAT2</type>
+            </texcoord0>
+            <texcoord1>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </texcoord1>
+            <weights>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </weights>
+        </Item>
+    </vertexDeclarations>
+    <visualSkeletonSize>0</visualSkeletonSize>
+</Geometry>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TileLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>Tile</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+  <AngleRestrictionsParams>
+    <UseAngleRestrictions>false</UseAngleRestrictions>
+    <BeginAngle>0</BeginAngle>
+    <EndAngle>1.5707963267948966</EndAngle>
+  </AngleRestrictionsParams>
+  <StrengthSmoothParams>
+    <Strength>0.5</Strength>
+    <Smooth>0.5</Smooth>
+  </StrengthSmoothParams>
+  <SpotTool>false</SpotTool>
+  <AutomaticTool>true</AutomaticTool>
+  <ReplaceTool>false</ReplaceTool>
+  <TileForPaint>0</TileForPaint>
+  <TileForReplace>0</TileForReplace>
+</TileLandscapeToolParams>

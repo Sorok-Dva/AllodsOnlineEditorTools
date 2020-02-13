@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBitFieldValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BitFieldValue>
+    <index>0</index>
+    <name>Field 0</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>1</index>
+    <name>Field 1</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>2</index>
+    <name>Field 2</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>3</index>
+    <name>Field 3</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>4</index>
+    <name>Field 4</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>5</index>
+    <name>Field 5</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>6</index>
+    <name>Field 6</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>7</index>
+    <name>Field 7</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>8</index>
+    <name>Field 8</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>9</index>
+    <name>Field 9</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>10</index>
+    <name>Field 10</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>11</index>
+    <name>Field 11</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>12</index>
+    <name>Field 12</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>13</index>
+    <name>Field 13</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>14</index>
+    <name>Field 14</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>15</index>
+    <name>Field 15</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>16</index>
+    <name>Field 16</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>17</index>
+    <name>Field 17</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>18</index>
+    <name>Field 18</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>19</index>
+    <name>Field 19</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>20</index>
+    <name>Field 20</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>21</index>
+    <name>Field21</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>22</index>
+    <name>Field22</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>23</index>
+    <name>Field23</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>24</index>
+    <name>Field24</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>25</index>
+    <name>Field25</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>26</index>
+    <name>Field26</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>27</index>
+    <name>Field27</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>28</index>
+    <name>Field28</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>29</index>
+    <name>Field29</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>30</index>
+    <name>Field30</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>31</index>
+    <name>Field31</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>32</index>
+    <name>Field32</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>33</index>
+    <name>Field33</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>34</index>
+    <name>Field34</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>35</index>
+    <name>Field35</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>36</index>
+    <name>Field36</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>37</index>
+    <name>Field37</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>38</index>
+    <name>Field38</name>
+  </BitFieldValue>
+  <BitFieldValue>
+    <index>39</index>
+    <name>Field39</name>
+  </BitFieldValue>
+</ArrayOfBitFieldValue>

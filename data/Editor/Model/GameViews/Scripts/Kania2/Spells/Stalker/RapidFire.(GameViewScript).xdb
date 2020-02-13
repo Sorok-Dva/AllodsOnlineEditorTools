@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>4</casterCreature>
+			<targetCreature>2</targetCreature>
+			<spell href="/Mechanics/Spells/Stalker/RapidFire/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>5000</prepareDuration>
+		</Item>
+		<Item type="GameViewActionMagicAttack">
+			<playbackParameters>
+				<repeatAfter>1000</repeatAfter>
+				<repeatCount>6</repeatCount>
+			</playbackParameters>
+			<offenderCreature>1</offenderCreature>
+			<targetCreature>2</targetCreature>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

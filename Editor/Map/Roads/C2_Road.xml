@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RoadParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LengthRatio>0</LengthRatio>
+  <WidthRatio>1</WidthRatio>
+  <Tile>104</Tile>
+  <TileFluctuation>true</TileFluctuation>
+  <TileFluctuationWidth>1.5</TileFluctuationWidth>
+  <TileFluctuationSmooth>0.5</TileFluctuationSmooth>
+  <Height>-0.7</Height>
+  <HeightFadeWidth>10</HeightFadeWidth>
+  <HeightFadeSmooth>0</HeightFadeSmooth>
+  <ClipByHills>false</ClipByHills>
+  <ClipByHoles>false</ClipByHoles>
+  <Group />
+  <Stripes>
+    <RoadStripe>
+      <Anchor>Center</Anchor>
+      <Side>Both</Side>
+      <Shift>0</Shift>
+      <Tile>117</Tile>
+      <TileWidth>7</TileWidth>
+      <TileFluctuation>true</TileFluctuation>
+      <TileFluctuationWidth>1</TileFluctuationWidth>
+      <TileFluctuationSmooth>1</TileFluctuationSmooth>
+      <Height>0</Height>
+      <HeightWidth>4</HeightWidth>
+      <HeightFadeWidth>2</HeightFadeWidth>
+      <HeightFadeSmooth>0.5</HeightFadeSmooth>
+      <Name>RoadStripe</Name>
+    </RoadStripe>
+    <RoadStripe>
+      <Anchor>Center</Anchor>
+      <Side>Both</Side>
+      <Shift>0</Shift>
+      <Tile>100</Tile>
+      <TileWidth>2</TileWidth>
+      <TileFluctuation>false</TileFluctuation>
+      <TileFluctuationWidth>2</TileFluctuationWidth>
+      <TileFluctuationSmooth>0.5</TileFluctuationSmooth>
+      <Height>0</Height>
+      <HeightWidth>4</HeightWidth>
+      <HeightFadeWidth>2</HeightFadeWidth>
+      <HeightFadeSmooth>0.5</HeightFadeSmooth>
+      <Name>RoadStripe</Name>
+    </RoadStripe>
+  </Stripes>
+  <ItemSets />
+</RoadParams>

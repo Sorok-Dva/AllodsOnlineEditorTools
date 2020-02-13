@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainSelectedFilter>All</MainSelectedFilter>
+  <MainSelectedFilterOn>true</MainSelectedFilterOn>
+  <SelectedItem>World/Astral/Astral/Environment/A_Planet_02.(StaticObject).xdb</SelectedItem>
+  <ItemListViewType>List</ItemListViewType>
+  <SelectedFilters />
+</Configuration>

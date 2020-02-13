@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>26</normalLeft>
+  <normalTop>26</normalTop>
+  <normalWidth>309</normalWidth>
+  <normalHeight>102</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>ZoneComboBox</name>
+      <text />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

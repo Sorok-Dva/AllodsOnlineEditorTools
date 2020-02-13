@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>591</normalLeft>
+  <normalTop>276</normalTop>
+  <normalWidth>738</normalWidth>
+  <normalHeight>487</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>0</int>
+    <int>0</int>
+  </intParams>
+  <doubleParams />
+  <stringParams>
+    <string />
+  </stringParams>
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>TypesComboBox</name>
+      <text />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>ZoneComboBox</name>
+      <text />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>DBIDTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>LevelToTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>GameNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>NameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>LevelFromTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <radioButtonParams />
+  <gridColumnParams>
+    <GridColumnParam>
+      <name>Column0</name>
+      <width>300</width>
+    </GridColumnParam>
+    <GridColumnParam>
+      <name>Column1</name>
+      <width>100</width>
+    </GridColumnParam>
+    <GridColumnParam>
+      <name>Column3</name>
+      <width>55</width>
+    </GridColumnParam>
+    <GridColumnParam>
+      <name>Column4</name>
+      <width>100</width>
+    </GridColumnParam>
+  </gridColumnParams>
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

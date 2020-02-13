@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FolderItemFiltersParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filters>
+    <FolderItemFilter>
+      <Inverted>true</Inverted>
+      <Filter />
+      <Name>Все</Name>
+      <Separator>true</Separator>
+    </FolderItemFilter>
+    <FolderItemFilter>
+      <Inverted>true</Inverted>
+      <Filter />
+      <Name>New Filter</Name>
+      <Separator>false</Separator>
+    </FolderItemFilter>
+  </Filters>
+</FolderItemFiltersParams>

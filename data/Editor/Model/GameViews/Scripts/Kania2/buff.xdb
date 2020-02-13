@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GameViewScript>
+	
+	<actions>
+		<Item type="GameViewActionSetBuff">
+			<creature>3</creature>
+			<buff href="/Mechanics/Spells/Mage/IceTomb/Buff01.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)"/>
+			<time>5000</time>
+		</Item>
+	</actions>
+</GameViewScript>

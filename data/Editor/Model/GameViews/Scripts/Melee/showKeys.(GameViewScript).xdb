@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionClientData">
+			<creature>1</creature>
+			<data href="/Editor/Model/GameViews/ClientData/ShowKeys.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<cameraPlacement>
+		<x>2402.740587</x>
+		<y>5226.120800</y>
+		<z>20.525711</z>
+		<yaw>2.05932</yaw>
+		<pitch>-0.0853103</pitch>
+		<roll>-2.13004e-009</roll>
+		<distance>118.48</distance>
+		<setBeforeRunning>false</setBeforeRunning>
+	</cameraPlacement>
+	<actions>
+		<Item type="GameViewActionSetChargedSpell">
+			<offenderCreature>5</offenderCreature>
+			<spell href="/Editor/Model/GameViews/Spells/attackOneDamadge.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+		</Item>
+		<Item type="GameViewActionMoveCreature">
+			<playbackParameters>
+				<skip>false</skip>
+			</playbackParameters>
+			<mobID>5</mobID>
+			<pathID>Mage</pathID>
+		</Item>
+		<Item type="GameViewActionSetChargedSpell">
+			<playbackParameters>
+				<delayBefore>10000</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<offenderCreature>5</offenderCreature>
+			<spell href="" />
+		</Item>
+	</actions>
+</GameViewScript>

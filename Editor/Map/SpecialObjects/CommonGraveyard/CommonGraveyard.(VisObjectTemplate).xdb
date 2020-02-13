@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisObjectTemplate>
+	<exportTemplate href="" />
+	<fadeInMS>0</fadeInMS>
+	<fadeOutMS>0</fadeOutMS>
+	<defaultState>
+		<sound>
+			<project href="" />
+			<name />
+		</sound>
+		<objects />
+		<animation href="" />
+	</defaultState>
+	<states />
+	<visObjComponents />
+	<particle href="" />
+	<geometry href="CommonGraveyard.(Geometry).xdb#xpointer(/Geometry)" />
+	<sound>
+		<project href="" />
+		<name />
+	</sound>
+	<scale>1</scale>
+	<ownAnimations>true</ownAnimations>
+	<sourceFile href="//Editor/Map/SpecialObjects/CommonGraveyard/CommonGraveyard.mb" />
+	<sourceFileCRC>1718174507</sourceFileCRC>
+</VisObjectTemplate>

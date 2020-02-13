@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WidgetPanel>
+	
+	<Name>AutoBorder</Name>
+	<BackLayer href=""/>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</Y>
+	</Placement>
+</WidgetPanel>

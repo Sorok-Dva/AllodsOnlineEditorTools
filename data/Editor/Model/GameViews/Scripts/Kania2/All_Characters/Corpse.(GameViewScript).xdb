@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<Prototype href="/Editor/Model/GameViews/ScriptPrototypes/kick10.xdb#xpointer(/GameViewScript)" />
+	</Header>
+</GameViewScript>

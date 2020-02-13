@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCreatureIterateAnimations">
+			<iteratorID>Animations</iteratorID>
+			<pauseBeforeMsec>0</pauseBeforeMsec>
+			<pauseAfterMsec>0</pauseAfterMsec>
+			<creature>2</creature>
+			<creatureVisualSript href="/Editor/Model/GameViews/CreatureVisScripts/Show2Keys.(CreatureVisActionResource).xdb#xpointer(/CreatureVisActionResource)" />
+			<animationVariableName>Animation</animationVariableName>
+		</Item>
+	</actions>
+</GameViewScript>

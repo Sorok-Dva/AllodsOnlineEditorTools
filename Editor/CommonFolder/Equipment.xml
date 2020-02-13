@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Classes>
+    <string>Armor</string>
+    <string>Belt</string>
+    <string>Boots</string>
+    <string>Bracers</string>
+    <string>Cloak</string>
+    <string>Gloves</string>
+    <string>Helm</string>
+    <string>Mantle</string>
+    <string>Pants</string>
+    <string>Shirt</string>
+  </Classes>
+</Configuration>

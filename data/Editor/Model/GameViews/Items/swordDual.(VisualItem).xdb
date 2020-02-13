@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.item.VisualItem>
+	<Header>
+		<resourceId>102992897</resourceId>
+	</Header>
+	<visualItemClass href="/Items/VisualItemsClasses/2HDualWield.(VisualItemClass).xdb#xpointer(/VisualItemClass)" />
+	<dressSlot>DUALWIELD</dressSlot>
+	<visItemEffects />
+	<dualWield>
+		<mainHandItem href="/Items/VisualItems/Weapon/1HSword/Sword_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<offHandItem href="/Items/VisualItems/Weapon/1HDagger/Dagger_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<mainHandRate>5</mainHandRate>
+		<offHandRate>1</offHandRate>
+	</dualWield>
+</gameMechanics.constructor.schemes.item.VisualItem>

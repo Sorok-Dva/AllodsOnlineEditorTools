@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RoadLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>Road</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+  <Seed>0</Seed>
+  <RoadParams>
+    <LengthRatio>0.1</LengthRatio>
+    <WidthRatio>1</WidthRatio>
+    <Tile>0</Tile>
+    <TileFluctuation>true</TileFluctuation>
+    <TileFluctuationWidth>4</TileFluctuationWidth>
+    <TileFluctuationSmooth>0.5</TileFluctuationSmooth>
+    <Height>0</Height>
+    <HeightFadeWidth>4</HeightFadeWidth>
+    <HeightFadeSmooth>0.5</HeightFadeSmooth>
+    <ClipByHills>false</ClipByHills>
+    <ClipByHoles>false</ClipByHoles>
+    <Group />
+    <Stripes />
+    <ItemSets />
+  </RoadParams>
+</RoadLandscapeToolParams>

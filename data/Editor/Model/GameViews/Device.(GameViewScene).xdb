@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>2340.000000</x>
+		<y>5153.000000</y>
+		<z>20.000000</z>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+	</place>
+	<cameraPlacement>
+		<x>2352.215631</x>
+		<y>5129.312180</y>
+		<z>37.221997</z>
+		<yaw>1.6082</yaw>
+		<pitch>0.543701</pitch>
+		<roll>9.81844e-009</roll>
+		<distance>17.44</distance>
+		<use>true</use>
+	</cameraPlacement>
+	<devices>
+		<Item>
+			<device href="/Items/InteractiveObjects/Instance_PlagueCastle/Door/PC_Door_02.xdb#xpointer(/gameMechanics.world.device.DoorResource)" />
+		</Item>
+		<Item>
+			<scriptID>catapult</scriptID>
+			<device href="/Items/InteractiveObjects/ZoneLeague1/Catapults/ZL_ActObj_Catapult_03.xdb#xpointer(/gameMechanics.world.device.SteleResource)" />
+			<offset x="10" y="0" z="0" />
+			<yaw>0</yaw>
+			<visualState>0</visualState>
+		</Item>
+	</devices>
+</GameViewScene>

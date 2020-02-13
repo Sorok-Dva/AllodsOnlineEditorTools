@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>117453832</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureChangeVisItemsAction">
+			<visActionID />
+			<removeAllItems>false</removeAllItems>
+			<items>
+				<Item>
+					<slot>DUALWIELD</slot>
+					<newItem href="/Items/VisualItems/Weapon/2HDual/Dual_Fist_D_01KaniaDruidWolf.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+				</Item>
+				<Item>
+					<slot>OFFHAND</slot>
+				</Item>
+				<Item>
+					<slot>MAINHAND</slot>
+				</Item>
+				<Item>
+					<slot>TWOHANDED</slot>
+				</Item>
+			</items>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

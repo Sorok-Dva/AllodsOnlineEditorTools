@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMoveCreature">
+			<mobID>1</mobID>
+			<pathID>A</pathID>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>9</casterCreature>
+			<spell href="/Mechanics/Spells/RaceClassSpells/PaladinHadagan/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.area.SpellArea)" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>10</casterCreature>
+			<spell href="/Mechanics/Spells/RaceClassSpells/PaladinHadagan/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.area.SpellArea)" />
+		</Item>
+	</actions>
+</GameViewScript>

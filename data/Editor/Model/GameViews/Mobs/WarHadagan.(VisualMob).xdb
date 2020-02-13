@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisualMob>
+	<variation>
+		<skin href="/Characters/Hadagan_male/HadaganMaleSkin00.(IndexedTexture).xdb#xpointer(/IndexedTexture)" />
+		<face href="/Characters/Hadagan_male/Variations/HadaganMaleFace00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<hairGeoset href="/Characters/Orc_male/Variations/OrcMaleHair03.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<facial href="/Characters/Hadagan_male/Variations/HadaganMaleFacial02.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<additionalVariation href="" />
+	</variation>
+	<character href="/Characters/Hadagan_male/HadaganMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+	<items>
+		<Item>
+			<item href="/Items/VisualItems/Armor/Leather_A_01StalkerNewbieGreyArmor.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>ARMOR</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HSword/Sword_1H_Hadagan_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>MAINHAND</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Boots/Leather_A_04OrcBlackBoots.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BOOTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Pants/Leather_A_02WarriorNewbieBrownPants.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>PANTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Gloves/Cloth_A_01BrownGlove.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>GLOVES</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Belt/Leather_B_01BrownBelt.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BELT</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HShield/Shield_1H_Simple_A_01Leather.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>OFFHAND</slot>
+		</Item>
+	</items>
+	<scale>1</scale>
+</VisualMob>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GameViewScript>
+	
+	<actions>
+		<Item type="GameViewActionSetTarget">
+			<creature>3</creature>
+			<rotateToTarget>true</rotateToTarget>
+		</Item>
+		<Item type="GameViewActionMeleeAttack">
+			<offenderCreature>3</offenderCreature>
+			<isDodged>false</isDodged>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

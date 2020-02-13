@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CreatureIterationList>
+	<cases>
+		<Item>
+			<name>AirElemental.</name>
+			<visObjectAction>
+				<newVisMob href="/Creatures/AirElemental/AirElemental.(VisualMob).xdb#xpointer(/VisualMob)" />
+			</visObjectAction>
+		</Item>
+		<Item>
+			<name>Bear</name>
+			<visObjectAction>
+				<newVisMob href="/Creatures/Bear/BearWhite.(VisualMob).xdb#xpointer(/VisualMob)" />
+			</visObjectAction>
+		</Item>
+		<Item>
+			<name>Bee</name>
+			<visObjectAction>
+				<newVisMob href="/Creatures/Bee/Bee.(VisualMob).xdb#xpointer(/VisualMob)" />
+			</visObjectAction>
+		</Item>
+		<Item>
+			<name>ElfFemale</name>
+			<visObjectAction>
+				<newVisMob href="/Characters/Elf_female/ElfFemale.(VisualMob).xdb#xpointer(/VisualMob)" />
+			</visObjectAction>
+		</Item>
+		<Item>
+			<name>SilverFish</name>
+			<visObjectAction>
+				<newVisMob href="/Creatures/SilverFish/SilverFish.(VisualMob).xdb#xpointer(/VisualMob)" />
+			</visObjectAction>
+		</Item>
+	</cases>
+</CreatureIterationList>

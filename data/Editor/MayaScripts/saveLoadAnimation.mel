@@ -1,0 +1,922 @@
+//
+//  Description:
+//    Dialog for export/import of animation clips on characters in scene.
+//
+//    Script also makes automatic character mapping, so it becomes possible to 
+//    paste animation data by node name despite of any prefixes or namespaces 
+//    used on character in scene and/or on clip data
+//
+//    !!! Script deletes all clips in scene        !!!
+//    !!! ( kind of a forced "clean-up" )          !!!
+//
+//    !!! Animation range for the time slider is   !!!
+//    !!! set according to the clip                !!!
+//
+
+//
+// saveLoadAnimation --
+//
+//  Диалог для экспорта/импорта аним.клипов на характеры в сцене.
+//
+// $Author:: Ivan.chelubeev          $
+// $Date:: 25.11.04 17:37            $
+// $Revision:: 14                    $
+//
+// Notes:
+//  - заменить textScrollList на outlinerEditor с фильтром по character?
+//  - запоминать actionName
+//  - ввести actions preset lists?
+//  - '/' в конце директории location
+//
+
+//
+//  Globals
+global string $sla_currentMode = "load";
+global string $sla_lastLocation = "";
+global int $sla_acceptForeignClips = false;
+
+// From Ancher: Automapping and character check procedures
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+proc string[] getNonUnique( string $sSet )
+{
+	// This proc tests the presence of dag path delimeter ("|") in set's members
+	// names and push them in result array if found one.
+
+	string $notUnique[] = {};
+
+	string $list[] = `sets -q $sSet`;
+	for ( $sItem in $list )
+	{
+		if ( `gmatch $sItem "*|*"` )
+		{
+			$notUnique[`size $notUnique`] = `match "[^\.]*" $sItem`;
+		}
+	}
+
+	$notUnique = `stringArrayRemoveDuplicates $notUnique `;
+
+	return $notUnique;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+proc string[] getCharMapping( string $sClipFilename )
+{
+	// This proc parses clip file to rip out character mapping data
+	//
+	// Actually, it rips it from "createNode clipLibrary" section of a file, 
+	// where character mapping is set via 
+	// `setAttr ".cd[0].cm" -type "characterMapping" ...` command
+	// 
+	// The result returned as a string array
+
+	// String to strore mapping data
+	string $sMap = "";
+
+	// String to detect start of character mapping data
+	string $sStart = "\"characterMapping\"";
+
+	// Open clip
+	int $nFileId = `fopen $sClipFilename "r"`;
+	if( $nFileId == 0 )
+	{
+		return {};
+	}
+
+	// Start parsing
+	string $sLine = `fgetline $nFileId`;
+	while( `size $sLine` > 0 )
+	{
+		// Try to find start of character mapping and skip to next line if failed
+		$sMap = `match ($sStart + ".*") $sLine`;
+		if( `size $sMap` == 0)
+		{
+			$sLine = `fgetline $nFileId`;
+			continue;
+		}
+
+		// Character mapping found!
+
+		// Rip the detection sting off
+		$sMap = `substitute $sStart $sMap ""`;
+
+		// Get mapping data till ";" or EOF occured
+		while( !`gmatch $sMap "*;*"` && `size $sLine` > 0 )
+		{
+			$sLine = `fgetline $nFileId`;
+			$sMap = $sMap + " " + $sLine;
+		}
+		break;
+	}
+
+	fclose $nFileId;
+
+	// Rip off possible tail after ";"
+	$sMap = `match "[^;]*" $sMap`;
+
+	// Build string array, ripping off various delimeters
+	return `stringToStringArray $sMap " \"\t\n"`;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+proc string supposePrefix ( string $list[] )
+{
+	// This proc returns common prefix of items in a list if such exists.
+	// Empty string returned otherwize.
+	// If list consists only of one item this item returned.
+
+	// Rip anything from list items that start with "." and
+	// makes list items unique (attributes case)
+	string $tmp[] = {};
+	for ( $sItem in $list )
+	{
+		$tmp[`size $tmp`] = `match "^[^.]*" $sItem`;
+	}
+	$list = `stringArrayRemoveDuplicates $tmp`;
+
+	// Algorithm is valid for at least 2 unique entries
+	// Supposing the first entry as prefix otherwize
+	if ( `size $list` < 2 )
+	{
+		return $list[0];
+	}
+
+	int $MAX_INTEGER = 2147483647;
+
+	string $sResult = "";
+
+	// Find minimal name size and fill $prefixes with first letters
+	int $nMinNameSize = $MAX_INTEGER;
+	string $prefixes[] = {};
+	int $nPrefixSize = 1;
+	for ( $sItem in $list )
+	{
+		$prefixes[`size $prefixes`] = `startString $sItem $nPrefixSize`;
+
+		int $nSize = `size $sItem`;
+		if ( $nSize < $nMinNameSize )
+		{
+			$nMinNameSize = $nSize;
+		}
+	}
+
+	// Find the prefix by ripping charcters one by one until mismatch
+	$prefixes = `stringArrayRemoveDuplicates $prefixes`;
+	while ( `size $prefixes` == 1 )
+	{
+		$sResult = $prefixes[0];
+
+		$prefixes = {};
+		$nPrefixSize++;
+		for ( $sItem in $list )
+		{
+			$prefixes[`size $prefixes`] = `startString $sItem $nPrefixSize`;
+		}
+
+		$prefixes = `stringArrayRemoveDuplicates $prefixes`;
+	}
+
+	return $sResult;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+proc matchMapping ( string $sCharacter, string $mapping[] )
+{
+	// This proc finds possible prefixes in $sCharacter members 
+	// and $mapping data and replace mapping prefix with character one
+	// to make mapping compatible with character
+	//
+	// Result is returned via the same $mapping array
+
+	// Get clip attribute list and suppose clip prefix
+	string $clipMembers[] = {};
+	for ( $nI = 1; $nI < (int)$mapping[0]*3+1; $nI += 3)
+	{
+		$clipMembers[`size $clipMembers`] = $mapping[$nI];
+	}
+	string $sClipPrefix = `supposePrefix $clipMembers`;
+
+	// Get character attribute list and suppose character prefix
+	string $charMembers[] = `character -q $sCharacter`;
+	string $sCharPrefix = `supposePrefix $charMembers`;
+
+	// Replacing target prefix
+	for ( $nI = 1; $nI < (int)$mapping[0]*3+1; $nI += 3)
+	{
+		$mapping[$nI] = `substitute ("^"+$sClipPrefix) $mapping[$nI] $sCharPrefix`;
+	}
+	return;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+proc deleteAllClips()
+{
+	// This proc deletes all clips in scene
+
+	string $list[] = `ls -typ animClip`;
+
+	for ( $sClip in $list )
+	{
+		delete $sClip;
+	}
+
+	return;
+}
+
+// END From Ancher
+
+//
+// populateTextList --
+// selectInTextList --
+// selectAllInTextList --
+//
+//  Вспомогательные методы для работы с контролом textScrollList.
+//
+//  populateTextList дополняет контрол поданным списком элементов
+//  (элементы остаются не выбранными).
+//
+//  selectInTextList выбирает элементы, перечисленные в подаваемом списке.
+//  (старый выбор элементов полностью заменяется новым выбором).
+//
+//  selectAllInTextList выбирает все элементы.
+//
+proc populateTextList(string $listControl, string $items[])
+{
+    for($i in $items) {
+        textScrollList -edit -append $i $listControl;
+    }
+}
+
+proc selectInTextList(string $listControl, string $items[])
+{
+    textScrollList -edit -deselectAll $listControl;
+    for($i in $items) {
+        textScrollList -edit -selectItem $i $listControl;
+    }
+}
+
+proc selectAllInTextList(string $listControl)
+{
+    int $count = `textScrollList -q -numberOfItems $listControl`;
+    for ($i = 1; $i <= $count; $i++) {
+        textScrollList -edit -selectIndexedItem $i $listControl;
+    }
+}
+
+//
+//  buildClipFname --
+//  parseCharFromFname --
+//
+//  Функции для конструирования имён файлов аним.клипов и их обратного разбора
+//
+proc string buildClipFname(string $location, string $char, string $animActionName)
+{
+    return $location + $char + "." + $animActionName + ".ma";
+}
+
+proc string parseCharFromFname(string $clipFile)
+{
+    if (`gmatch $clipFile "*.*.ma"`) {
+        return `match "^[^\.]+" $clipFile`;
+    }
+    return "";
+}
+
+proc string parseActionFromFname(string $clipFile)
+{
+    if (`gmatch $clipFile "*.*.ma"`) {
+        string $portion = `match "[^\.]+\.ma$" $clipFile`;
+        return substring($portion, 1, size($portion) - 3);
+    }
+    return "";
+}
+
+
+//
+// removeRefPrefix --
+// removeRefPrefixes --
+//
+//  Убирают префиксы из имён объектов-ссылок.
+//
+proc string removeRefPrefix( string $node )
+{
+    if (`reference -isNodeReferenced $node`) {
+        string $sourceFile = `reference -q -filename $node`;
+        string $prefix = `file -q -namespace $sourceFile`;
+        string $prefixWithDelim = `match ("^" + $prefix + "[_:]") $node`;
+        return substring($node, size($prefixWithDelim) + 1, size($node));
+    }
+    return $node;
+}
+proc string[] removeRefPrefixes( string $nodes[] )
+{
+    string $result[];
+    for ($node in $nodes) {
+        $result[size($result)] = removeRefPrefix($node);
+    }
+    return $result;
+}
+
+//
+// exportClip --
+// saveAnimationAsClip --
+// loadAnimationFromClip --
+//
+//  Загрузка/сохранение клипов в файлах.
+//
+proc exportClip(string $fileName, string $clipName)
+{
+    string $clipLibs[] = `clip -isolate -name $clipName`;
+    if (size($clipLibs)) {
+        string $sel[] = `ls -sl`;
+        select -r $clipLibs;
+        file -type "mayaAscii" -exportSelected -channels true -constructionHistory true $fileName;
+        //print("export clip command: " + $clipName + "->" + $fileName);
+        select -r $sel;
+    } else {
+        error("Unable to export. See script editor for details.");
+    }
+}
+
+proc saveAnimationAsClip(string $location, string $char, string $animActionName)
+{
+    // Check the character for unique members
+    string $notUnique[] = `getNonUnique $char`;
+    if ( `size $notUnique` != 0 )
+    {
+      print "Not unique members:\n";
+      print `sort $notUnique`;
+      error ( $char + " contains non-unique members. See script editor for details." );
+    }
+
+    // Character is OK. Proceed.
+
+    // Warn user if there are clips in scene
+    if ( size( `ls -typ animClip` ) != 0 )
+    {
+      string $sConfirm = `confirmDialog 
+        -title "Warning!" 
+        -message "There are clips in scene. All clips will be deleted!"
+        -button "Ok"
+        -button "Cancel"
+        -defaultButton "Cancel"
+        -cancelButton "Cancel"
+        -dismissString "Cancel"`;
+
+      if ( $sConfirm == "Cancel" )
+      {
+        warning "User canceled deletion of all clips";
+        return;
+      }
+
+    }
+
+    // Warn if file will be overwrited
+    string $sClipFname = buildClipFname($location, removeRefPrefix($char), $animActionName);
+    if ( `file -q -ex $sClipFname` )
+    {
+      string $sConfirm = `confirmDialog 
+        -title "Warning!" 
+        -message ("File " + $sClipFname + " already exists. Overwrite?")
+        -button "Yes"
+        -button "No"
+        -defaultButton "No"
+        -cancelButton "No"
+        -dismissString "No"`;
+
+      if ( $sConfirm == "No" )
+      {
+        warning "User canceled file overwrite";
+        return;
+      }
+    }
+
+    deleteAllClips;
+
+    int $start = `playbackOptions -q -min`;
+    int $end = `playbackOptions -q -max`;
+
+    if (catch(`clip -name $animActionName -scheduleClip 1 -startTime $start -endTime $end $char`) == 0) {
+        exportClip($sClipFname, $animActionName);
+
+        string $sourceClipName = `clip -q -sourceClipName $animActionName`;
+        clip -edit -active $sourceClipName $char;
+        delete $sourceClipName;
+    } else {
+        error ("Can't create (to be saved) clip from animation of " + $char + " character");
+    }
+}
+
+proc loadAnimationFromClip(string $location, string $char, string $clipFile)
+{
+    deleteAllClips;
+
+    // If character already has keys, we must remove current animation from character
+    string $keys[] = `listConnections -t "animCurve" $char`;
+    if (size($keys) != 0) {
+        int $start = `playbackOptions -q -min`;
+        int $end = `playbackOptions -q -max`;
+        clip -name "clip00" -scheduleClip 1 -startTime $start -endTime $end $char;
+        deleteAllClips;
+    }
+
+    string $clipPath = $location + $clipFile;
+    
+    //file -i -f $clipPath;
+    source doImportClipArgList.mel;
+    clipEditorImportClip( $clipPath, "ma" );
+
+    $list = `ls -typ animClip`;
+    if (size($list) == 0) {
+        error ("No animClips in " + $clipPath);
+    }
+
+    string $clip = $list[0];
+
+    // From Ancher: Apply automapping
+    
+    // Get clip's character mapping and match it witn given character
+    string $mapping[] = getCharMapping( $clipPath );
+    matchMapping( $char, $mapping );
+
+    // Replace mapping 
+    $list = `listConnections -t clipLibrary $clip`;
+    eval( "setAttr " + ( $list[0] + ".cd[0].cm" ) + " -type characterMapping " + `stringArrayToString $mapping " "`);
+
+    // END From Ancher
+
+    // this is the way to apply clip used by standard TraxEditor
+    string $mapMethod = "byNodeName";
+    string $cmd = ("clip -copy " + $clip +"; clip -paste -scheduleClip 1 -absolute 1 -startTime 0 -mapMethod " + $mapMethod + " " + $char);
+    if (catch(`eval $cmd`)) {
+        warning ("Applying clip byAttrName method");
+        $mapMethod = "byAttrName";
+        $cmd = ("clip -copy " + $clip +"; clip -paste -scheduleClip 1 -absolute 1 -startTime 0 -mapMethod " + $mapMethod + " " + $char);
+        catch(`eval $cmd`);
+    }
+
+    //print ($clip + "\n");
+    //string $sourceClipName = `clip -q -sourceClipName $clip`;
+    //print ($sourceClipName + "\n");
+
+    string $sourceClips[] = `clip -q -n $char`;
+    for ($i in $sourceClips) {
+        clip -edit -active $i $char;
+        //print ($i + "\n");
+    }
+
+    int $start = `getAttr($clip + ".start")`;
+    int $end = $start + `getAttr($clip + ".duration")`;
+    //print ($start + ":" + $end + "\n");
+    // this is work around changes in clip attribites from maya 5 to maya 6
+    if ($start == $end) {
+        $start = `getAttr($clip + ".sourceStart")`;
+        $end = `getAttr($clip + ".sourceEnd")`;
+        //print ($start + ":" + $end + "\n");
+    }
+    playbackOptions -min $start;
+    playbackOptions -max $end;
+    currentTime $start; 
+
+    deleteAllClips;
+}
+
+//
+// canDoOperation --
+// SLAsaveCharsAnimation --
+// SLAloadCharsAnimation --
+// SLAloadForeignAnimation --
+//
+proc int canDoOperation(int $checkCharSelected, int $checkLocationNonEmpty, int $checkActionNonEmpty, int $complain)
+{
+    if ($checkCharSelected && `textScrollList -q -numberOfSelectedItems charSelector` == 0) {
+        if ($complain) {
+            warning("There is no characters selected. You must select at least one.");
+        }
+        return 0;
+    }
+    if ($checkLocationNonEmpty && `textFieldButtonGrp -q -text location` == "") {
+        if ($complain) {
+            warning("You must specify save location.");
+        }
+        return 0;
+    }
+    if ($checkActionNonEmpty && `textFieldGrp -q -text actionName` == "") {
+        if ($complain) {
+            warning("Animation (anim.action) name is not specified. Can't proceed.");
+        }
+        return 0;
+    }
+    return 1;
+}
+
+global proc SLAsaveCharsAnimation()
+{
+    if (`canDoOperation 1 1 1 1` == false) {
+        return;
+    }
+
+    string $selectedChars[] = `textScrollList -q -selectItem charSelector`;
+    string $action = `textFieldGrp -q -text actionName`;
+    string $location = `textFieldButtonGrp -q -text location`;
+
+    for ($char in $selectedChars) {
+        saveAnimationAsClip($location, $char, $action);
+    }
+
+    SLAfindCharClips;
+}
+
+global proc SLAloadCharsAnimation()
+{
+    if (`canDoOperation 1 1 0 1` == false) {
+        return;
+    }
+
+    string $selectedChars[] = `textScrollList -q -selectItem charSelector`;
+    string $selectedClipFiles[] = `textScrollList -q -selectItem clipSelector`;
+    string $location = `textFieldButtonGrp -q -text location`;
+
+    for ($clipFile in $selectedClipFiles) {
+        for ($char in $selectedChars) {
+            if (`parseCharFromFname($clipFile)` == `removeRefPrefix($char)`) {
+                loadAnimationFromClip($location, $char, $clipFile);
+            }
+        }
+    }
+}
+
+global proc SLAloadForeignAnimation()
+{
+    if (`canDoOperation 1 1 0 1` == false) {
+        return;
+    }
+
+    string $selectedChars[] = `textScrollList -q -selectItem charSelector`;
+    string $selectedClipFiles[] = `textScrollList -q -selectItem clipSelector`;
+    string $location = `textFieldButtonGrp -q -text location`;
+
+    // у charSelector должен быть отключен multySelection,
+    // поэтому size($selectedClipFiles) == 1,
+
+    for ($char in $selectedChars) {
+        loadAnimationFromClip($location, $char, $selectedClipFiles[0]);
+    }
+}
+
+//
+// SLAfindCharClips --
+//
+//  Заполняет контрол "clipSelector" списком клипов, найденных в указанной
+//  директории (location).
+//  В зависимости от $sla_acceptForeignClips работает в двух режимах.
+//
+//  $sla_acceptForeignClips == false (нормальный режим): выбор клипов по выбранным
+//  характерам (charSelector); actionName используется как фильтр по подстроке,
+//  указывающий, какие строки из найденных будут автоматически выбраны при добавлении.
+//
+//  $sla_acceptForeignClips == true: выбор всех клипов
+//
+global proc SLAfindCharClips()
+{
+    global int $sla_acceptForeignClips;
+
+    string $selectedChars[] = removeRefPrefixes(`textScrollList -q -selectItem charSelector`);
+    // after prefixes removal among characters can be introduced duplicates
+    $selectedChars = stringArrayRemoveDuplicates($selectedChars);
+    string $action = `textFieldGrp -q -text actionName`;
+    string $location = `textFieldButtonGrp -q -text location`;
+
+    textScrollList -edit -removeAll clipSelector;
+
+    string $charClips[];
+    string $actionClips[];
+    if (size($location)) {
+        if ($sla_acceptForeignClips) {
+            $charClips = `getFileList -folder $location -filespec "*.ma"`;
+            $action = "";
+        } else {
+            if (size($selectedChars)) {
+                string $clips[];
+                for ($char in $selectedChars) {
+                    $clips = `getFileList -folder $location -filespec ($char + ".*.ma")`;
+                    appendStringArray($charClips, $clips, size($clips));
+                }
+                if (size($action)) {
+                    for ($char in $selectedChars) {
+                        $clips = `getFileList -folder $location -filespec ($char + ".*" + $action + "*.ma")`;
+                        appendStringArray($actionClips, $clips, size($clips));
+                    }
+                }
+            }
+        }
+    }
+
+    if (size($charClips)) {
+        textScrollList -edit -font "plainLabelFont" -enable true clipSelector;
+        populateTextList("clipSelector", $charClips);
+        if ($action == "") {
+            //selectAllInTextList("clipSelector");
+            // Когда action пустой, надёжнее ничего не выбирать, клипов для каждого
+            // характера может быть много, нам вряд ли необходимо грузить
+            // взаимно исключающие клипы на один характер.
+        } else {
+            selectInTextList("clipSelector", $actionClips);
+        }
+    } else {
+        textScrollList -edit -font "fixedWidthFont" -enable false
+                -append ".... Zero clips found ...."
+                clipSelector;
+    }
+}
+
+//
+// SLAsetNameFromClip --
+//
+//  Извлекает имя аним.действия из имени файла клипа, выбранного в clipSelector
+//  и устанавливает его в контроле actionName.
+//
+global proc SLAsetNameFromClip()
+{
+    string $selectedClips[] = `textScrollList -q -selectItem clipSelector`;
+    string $name = `parseActionFromFname($selectedClips[0])`;
+    textFieldGrp -edit -text $name actionName;
+}
+
+//
+// SLAbrowseForDirectory --
+// SLAsetLocationField --
+//
+//  Выбор директории пользователем и установка поля location.
+//
+global proc SLAbrowseForDirectory()
+{
+    global string $gDefaultFileBrowserDir;
+    global string $sla_lastLocation;
+
+    string $local_gDefaultFileBrowserDir = $gDefaultFileBrowserDir;
+    if ($sla_lastLocation != "") {
+        $gDefaultFileBrowserDir = $sla_lastLocation;
+    }
+    fileBrowser("SLAsetLocationField", "Select anim clips location", "", 4);
+    $gDefaultFileBrowserDir = $local_gDefaultFileBrowserDir;
+}
+
+global proc SLAsetLocationField(string $dir, string $fileType)
+{
+    if ($fileType != "directory") {
+        error("Unexpected file type in fileBrowserDialog callback: " + $fileType);
+    }
+
+    $dir += "/";
+    textFieldButtonGrp -edit -text $dir location;
+    SLAfindCharClips;
+
+    $sla_lastLocation = $dir;
+    optionVar -stringValue "slaLastLocation" $sla_lastLocation;
+}
+
+//
+// SLAswitchToLoadMode --
+// SLAswitchToSaveMode --
+//
+//  Переключение между режимами save|load.
+//
+global proc SLAswitchToLoadMode()
+{
+    global string $sla_currentMode;
+
+    $sla_currentMode = "load";
+    optionVar -stringValue "slaMode" $sla_currentMode;
+
+    // Load mode adjustments
+    window -edit -title "Load animation" -iconName "Load animation" slaWindow;
+    button -edit -annotation "Push to switch window to Save mode"
+            -label "Switch mode to Save"
+            -command "SLAswitchToSaveMode"
+            modeSwitch;
+    button -edit -label "Load" -command "SLAloadCharsAnimation" saveloadButton;
+    textFieldGrp -edit -annotation "Animation name substring selection filter"
+            -label "Name filter"
+            -changeCommand "SLAfindCharClips"
+            //-text ""
+            actionName;
+    button -edit -annotation "Select clips by animation name"
+            -label "->"
+            -command "SLAfindCharClips"
+            filterOpButton;
+    //int $clipSelectorEnabled = `textScrollList -q -enable clipSelector`;
+    //if (!$clipSelectorEnabled) {
+    //    textScrollList -edit -enable true clipSelector;
+    //}
+    textScrollList -edit -allowMultiSelection true clipSelector;
+    //if (!$clipSelectorEnabled) {
+    //    textScrollList -edit -font "fixedWidthFont" -enable false clipSelector;
+    //}
+}
+
+global proc SLAswitchToSaveMode()
+{
+    global string $sla_currentMode;
+    $sla_currentMode = "save";
+    optionVar -stringValue "slaMode" $sla_currentMode;
+
+    // Save mode adjustments
+    window -edit -title "Save animation" -iconName "Save animation" slaWindow;
+    button -edit -annotation "Push to switch window to Load mode"
+            -label "Switch mode to Load"
+            -command "SLAswitchToLoadMode"
+            modeSwitch;
+    button -edit -label "Save" -command "SLAsaveCharsAnimation" saveloadButton;
+    textFieldGrp -edit -annotation "Animation name to save clips by"
+            -label "Anim name"
+            -changeCommand ""
+            actionName;
+    button -edit -annotation "Get animation name from selected clip"
+            -label "<-"
+            -command "SLAsetNameFromClip"
+            filterOpButton;
+    //int $clipSelectorEnabled = `textScrollList -q -enable clipSelector`;
+    //if (!$clipSelectorEnabled) {
+    //    textScrollList -edit -enable true clipSelector;
+    //}
+    textScrollList -edit -allowMultiSelection false clipSelector;
+    //if (!$clipSelectorEnabled) {
+    //    textScrollList -edit -font "fixedWidthFont" -enable false clipSelector;
+    //}
+}
+
+//
+// ApplyForeignClipsMode --
+// SLAswitchForeignClips --
+//
+//  Переключение в режим (и обратно) загрузки сторонних клипов:
+//  клипов чужих характеров и/или не соответствующих правилам именования
+//  файлов клипов.
+//
+proc ApplyForeignClipsMode(int $accept)
+{
+    if ($accept) {
+        // включаем режим
+        SLAswitchToLoadMode;
+        button -edit -enable false modeSwitch;
+        button -edit -command "SLAloadForeignAnimation" saveloadButton;
+        textFieldGrp -edit -enable false actionName;
+        button -edit -enable false filterOpButton;
+        textScrollList -edit -allowMultiSelection false clipSelector;
+    } else {
+        // отключаем режим
+        button -edit -enable true modeSwitch;
+        textFieldGrp -edit -enable true actionName;
+        button -edit -enable true filterOpButton;
+    }
+    SLAfindCharClips;
+}
+
+global proc SLAswitchForeignClips()
+{
+    global int $sla_acceptForeignClips;
+
+    $sla_acceptForeignClips = !$sla_acceptForeignClips;
+    optionVar -intValue "slaExceptForeignClips" $sla_acceptForeignClips;
+    ApplyForeignClipsMode($sla_acceptForeignClips);
+}
+
+
+global proc saveLoadAnimation(string $operation, string $arg)
+{catchQuiet(`logScript "saveLoadAnimation"`);
+    global string $sla_lastLocation;
+    global string $sla_currentMode;
+    global int $sla_acceptForeignClips;
+
+    if ($operation == "-load") {
+        if (size($arg)) {
+            string $dir = `dirname $arg` + "/";
+            int $startingPos = `size($dir)` + 1;
+            int $endingPos = `size($arg)`;
+            string $clipFile = `substring $arg $startingPos $endingPos`;
+            loadAnimationFromClip($dir, `parseCharFromFname($clipFile)`, $clipFile);
+            return;
+        } else {
+            error ("Argument for -load operation must specify anim clip path");
+        }
+    } else if($operation != "-ui") {
+        warning ("saveLoadAnimation: unsupported operation " + $operation + ", operating in GUI mode");
+    }
+
+    // read the persistent state of GUI
+    if (!`optionVar -exists "slaMode"`) {
+        optionVar -stringValue "slaMode" $sla_currentMode;
+    }
+    $sla_currentMode = `optionVar -q "slaMode"`;
+
+    if (!`optionVar -exists "slaLastLocation"`) {
+        optionVar -stringValue "slaLastLocation" $sla_lastLocation;
+    }
+    $sla_lastLocation = `optionVar -q "slaLastLocation"`;
+
+    if (!`optionVar -exists "slaAcceptForeignClips"`) {
+        optionVar -intValue "slaAcceptForeignClips" $sla_acceptForeignClips;
+    }
+    $sla_acceptForeignClips = `optionVar -q "slaAcceptForeignClips"`;
+
+
+    if (`window -exists "slaWindow"`) {
+        deleteUI -window "slaWindow";
+    }
+
+    window 
+      -title "Load/Save animation" 
+      -iconName "Load/Save animation" 
+      -sizeable 1 
+      slaWindow;
+
+    string $root = `formLayout -numberOfDivisions 100`;
+
+    textScrollList -annotation "Character selector"
+            -numberOfRows 20 -width 120
+            -allowMultiSelection true -allowAutomaticSelection true
+            -selectCommand "SLAfindCharClips"
+            charSelector;
+    textScrollList -annotation "Clip files selector"
+            -numberOfRows 10
+            -allowMultiSelection true -allowAutomaticSelection true
+            clipSelector;
+    textFieldButtonGrp -annotation "Location where to find or save clips"
+            -label "Clips' location"
+            -text $sla_lastLocation
+            -buttonLabel "Browse" -buttonCommand "SLAbrowseForDirectory"
+            -changeCommand "SLAfindCharClips"
+            -adjustableColumn 2
+            -columnWidth 1 100
+            -columnWidth 3 50
+            -columnAlign 3 "center"
+            -columnAttach3 "both" "both" "both"
+            -columnOffset3 5 5 5
+            location;
+     checkBox -annotation "..."
+            -label "Accept foreign character's clips"
+            -value $sla_acceptForeignClips
+            -changeCommand "SLAswitchForeignClips"
+            foreignClipsSwitch;
+
+    // Mode dependent controls
+    button -width 60 -recomputeSize 0 saveloadButton;
+    textFieldGrp -label "Anim name"
+            -adjustableColumn 2
+            -columnWidth 1 80
+            actionName;
+    button -width 25 -recomputeSize 0 filterOpButton;
+    button modeSwitch;
+
+    formLayout -edit
+            -attachForm charSelector "top" 5
+            -attachForm charSelector "left" 5
+            -attachForm charSelector "bottom" 5
+
+            -attachForm modeSwitch "top" 5
+            -attachControl modeSwitch "left" 5 charSelector
+
+            -attachForm saveloadButton "top" 5
+            -attachForm saveloadButton "right" 5
+
+            -attachForm location "right" 5
+            -attachControl location "left" 5 charSelector
+            -attachControl location "top" 5 saveloadButton
+
+            -attachControl filterOpButton "top" 5 location
+            -attachForm filterOpButton "right" 5
+
+            -attachOppositeControl actionName "left" 5 location
+            -attachControl actionName "top" 5 location
+            -attachControl actionName "right" 5 filterOpButton
+
+            -attachControl foreignClipsSwitch "top" 5 actionName
+            -attachControl foreignClipsSwitch "left" 5 charSelector
+
+            -attachControl clipSelector "left" 5 charSelector
+            //-attachControl  clipSelector "top" 5 actionName
+            -attachControl clipSelector "top" 5 foreignClipsSwitch
+            -attachForm clipSelector "right" 5
+            -attachForm clipSelector "bottom" 5
+            $root;
+
+    if ($sla_currentMode == "load") {
+        SLAswitchToLoadMode;
+    } else {
+        SLAswitchToSaveMode;
+    }
+
+    ApplyForeignClipsMode($sla_acceptForeignClips);
+
+    string $chars[] = `ls -type character`;
+    populateTextList("charSelector", $chars);
+
+    // Select character if single in scene
+    if ( `size $chars` == 1 )
+    {
+      textScrollList -e -si $chars[0] charSelector;
+    }
+
+    showWindow slaWindow;
+}

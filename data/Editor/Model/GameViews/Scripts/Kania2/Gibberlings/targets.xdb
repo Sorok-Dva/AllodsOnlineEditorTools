@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionSetTarget">
+			<creature>15</creature>
+			<targetCreature>2</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<creature>16</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+	</actions>
+</GameViewScript>

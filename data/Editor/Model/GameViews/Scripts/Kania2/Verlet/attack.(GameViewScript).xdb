@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMeleeAttack">
+			<offenderCreature>3</offenderCreature>
+			<targetCreature>1</targetCreature>
+		</Item>
+	</actions>
+</GameViewScript>

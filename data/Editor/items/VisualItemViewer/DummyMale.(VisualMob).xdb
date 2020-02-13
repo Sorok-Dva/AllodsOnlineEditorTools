@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisualMob>
+	<variation>
+		<skin href="/Characters/Kania_male/KaniaMaleSkin00.(IndexedTexture).xdb#xpointer(/IndexedTexture)" />
+		<skinColor>-1</skinColor>
+		<face href="/Characters/Kania_male/Variations/KaniaMaleFace00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<hairColor>-1</hairColor>
+		<hairGeoset href="/Characters/Kania_male/Variations/KaniaMaleHair00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<facial href="/Characters/Kania_male/Variations/KaniaMaleFacial00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<facialColor>-1</facialColor>
+		<additionalVariation href="" />
+	</variation>
+	<character href="/Characters/Kania_male/KaniaMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+	<scale>1</scale>
+</VisualMob>

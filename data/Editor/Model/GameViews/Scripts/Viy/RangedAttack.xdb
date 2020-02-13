@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GameViewScript>
+	
+	<actions>
+		<Item type="GameViewActionRangedAttack">
+			<offenderCreature>2</offenderCreature>
+			<targetCreature>1</targetCreature>
+			<projectileSpeed>40</projectileSpeed>
+		</Item>
+	</actions>
+</GameViewScript>

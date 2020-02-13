@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeightLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>Height</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+  <StrengthSmoothParams>
+    <Strength>0.5</Strength>
+    <Smooth>0.5</Smooth>
+  </StrengthSmoothParams>
+  <UpdateObjectHeightsParams>
+    <Update>true</Update>
+    <HeightRange>1</HeightRange>
+  </UpdateObjectHeightsParams>
+  <HeightToolType>Plato</HeightToolType>
+  <HeightPlatoToolType>Both</HeightPlatoToolType>
+  <PreciseTool>false</PreciseTool>
+  <AutomaticTool>true</AutomaticTool>
+  <FileName>Profiles/Hill.tga</FileName>
+  <Height>0</Height>
+</HeightLandscapeToolParams>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WidgetPanel>
+	
+	<Name>screen_frame</Name>
+	<Priority>0</Priority>
+	<Children/>
+	<BackLayer href="ScreenFrameBackGround.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)"/>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>10</HighPos>
+			<Size>262</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>144</Pos>
+			<HighPos>0</HighPos>
+			<Size>536</Size>
+		</Y>
+	</Placement>
+</WidgetPanel>

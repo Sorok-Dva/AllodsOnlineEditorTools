@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionVerletSimple">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>3</creature>
+			<surface>
+				<iCount>10</iCount>
+				<jCount>10</jCount>
+				<startH>2</startH>
+				<sizeX>1</sizeX>
+				<sizeY>1</sizeY>
+			</surface>
+			<simulation>
+				<stepDT>10</stepDT>
+				<numIterations>10</numIterations>
+				<airFrictionCoeff>0.9</airFrictionCoeff>
+				<liveTime>8000</liveTime>
+			</simulation>
+			<forces>
+				<g>10</g>
+			</forces>
+		</Item>
+		<Item type="GameViewActionMoveCreature">
+			<playbackParameters>
+				<delayBefore>500</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<mobID>3</mobID>
+			<pathID>Verlet</pathID>
+			<speed>4</speed>
+			<fixedYaw>false</fixedYaw>
+		</Item>
+	</actions>
+</GameViewScript>

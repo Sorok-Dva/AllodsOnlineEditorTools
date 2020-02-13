@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SceneSettings>
+	<staticLight>
+		<AmbientFactor>0.5</AmbientFactor>
+		<FogStart>100</FogStart>
+		<FogEnd>600</FogEnd>
+		<SunLightYaw>60</SunLightYaw>
+		<SunLightPitch>30</SunLightPitch>
+		<animatedAmbientColor href="" />
+		<AmbientColor>-13295520</AmbientColor>
+		<animatedSelfIllumColor href="" />
+		<SelfIllumColor>2017861120</SelfIllumColor>
+		<animatedDiffuseColor href="" />
+		<DiffuseColor>2017493183</DiffuseColor>
+		<animatedPointLightColor href="" />
+		<PointLightColor>2017861120</PointLightColor>
+		<FogColor>-13953705</FogColor>
+		<SpecularColor>0</SpecularColor>
+		<SpecularWaterColor>0</SpecularWaterColor>
+		<WaterGradientStart>-1</WaterGradientStart>
+		<WaterGradientEnd>-1</WaterGradientEnd>
+		<ContourColor>0</ContourColor>
+	</staticLight>
+	<skyMesh href="/World/Sky/Astral/Astral_03.(SkyMesh).xdb#xpointer(/SkyMesh)" />
+	<areaEffect href="/World/Sky/Astral/Astral_03.(AreaEffect).xdb#xpointer(/AreaEffect)" />
+	<postEffectParams href="/World/Sky/Astral/Astral_Base.(PostEffectParams).xdb#xpointer(/PostEffectParams)" />
+</SceneSettings>

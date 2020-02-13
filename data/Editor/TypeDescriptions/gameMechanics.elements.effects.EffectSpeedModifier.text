@@ -1,0 +1,2 @@
+Эффект, который умножает скорость кричи на определённое число. 
+EffectScaler отвечает за тип стекаемости: если поставить Linear, то будет работать формула initialValue * (1 + coeff * stackCount), а если Exponential - то initialValue * (base^stackCount).

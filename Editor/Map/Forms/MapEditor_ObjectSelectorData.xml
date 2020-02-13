@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SelectorData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SelectorType>Move</SelectorType>
+  <ActivePlane>Z</ActivePlane>
+  <ObjectOriented>false</ObjectOriented>
+  <Surface>None</Surface>
+  <AlignToGrid>false</AlignToGrid>
+  <PlaceAlongNormal>false</PlaceAlongNormal>
+  <LockSelection>false</LockSelection>
+  <EditObjectAfterAdd>false</EditObjectAfterAdd>
+  <AutolinkObjectAfterAdd>false</AutolinkObjectAfterAdd>
+  <CreateCrosslinks>false</CreateCrosslinks>
+  <GridStepIndex>4</GridStepIndex>
+  <GroupSelectionMode>OneLevel</GroupSelectionMode>
+  <Scale>4</Scale>
+</SelectorData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentFolders>
+    <string>E:\EditorTools\data\Characters\Hadagan_male\Instances\ZoneHadagan1</string>
+    <string>E:\EditorTools\data\Characters\Hadagan_male\Instances\ZoneHadagan1\Cues</string>
+    <string>E:\EditorTools\data\Editor\Model\GameViews</string>
+    <string>E:\EditorTools\data\Creatures\Archangel</string>
+    <string>E:\EditorTools\data\Interface\Ingame\Alchemy</string>
+    <string>D:\Allods\1.1\Tools\data\Interface\Ingame\ContextEventCalendar</string>
+    <string>D:\Allods\1.1\Tools\data\Interface\Ingame\ContextPlates</string>
+    <string>D:\Allods\1.1\Tools\data\Interface\Ingame\ContextPartyPlate</string>
+    <string>D:\Allods\1.1\Tools\data\Interface\Ingame\ContextCharacter</string>
+    <string>D:\Allods\1.1\Tools\data\Interface\Ingame\LagMeter2</string>
+  </RecentFolders>
+</Config>

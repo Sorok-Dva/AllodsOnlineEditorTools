@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WidgetForm>
+	
+	<Name>EditorForm</Name>
+	<Priority>0</Priority>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>0</HighPos>
+			<Size>0</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>0</HighPos>
+			<Size>0</Size>
+		</Y>
+	</Placement>
+	<bindSections>
+		<Item>
+			<bindSection></bindSection>
+			<bindedReactions>
+				<Item>editor_slider_x</Item>
+				<Item>editor_slider_y</Item>
+				<Item>editor_slider_activate</Item>
+				<Item>editor_slider_deactivate</Item>
+				<Item>editor_left</Item>
+				<Item>editor_right</Item>
+				<Item>editor_forward</Item>
+				<Item>editor_back</Item>
+				<Item>editor_up</Item>
+				<Item>editor_down</Item>
+				<Item>editor_zoom_in</Item>
+				<Item>editor_zoom_out</Item>
+				<Item>viewer_slider_x</Item>
+				<Item>viewer_slider_y</Item>
+				<Item>viewer_zoom_activate</Item>
+				<Item>viewer_zoom_deactivate</Item>
+				<Item>viewer_zoom_in</Item>
+				<Item>viewer_zoom_out</Item>
+				<Item>viewer_rotate_activate</Item>
+				<Item>viewer_rotate_deactivate</Item>
+				<Item>viewer_pan_activate</Item>
+				<Item>viewer_pan_deactivate</Item>
+				<Item>viewer_focus</Item>
+				<Item>viewer_frame_all</Item>
+			</bindedReactions>
+		</Item>
+	</bindSections>	<BindSection/>
+</WidgetForm>

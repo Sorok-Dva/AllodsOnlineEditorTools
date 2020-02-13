@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>4</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/TwoEnchantedArrows.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>2000</prepareDuration>
+			<throwSpeed>20</throwSpeed>
+			<effectActions>
+				<Item type="GameViewActionRangedAttack">
+					<playbackParameters>
+						<delayBefore>0</delayBefore>
+						<repeatAfter>0</repeatAfter>
+						<repeatCount>1</repeatCount>
+						<skip>false</skip>
+					</playbackParameters>
+					<offenderCreature>4</offenderCreature>
+					<targetCreature>1</targetCreature>
+					<producer href="/Mechanics/Spells/AutoAttack/RangedDamage.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+					<isDamageDealt>true</isDamageDealt>
+					<isCritical>false</isCritical>
+					<damageBlocked>0</damageBlocked>
+					<isLethal>false</isLethal>
+					<isOverkill>false</isOverkill>
+					<source>RANGEDATTACK</source>
+					<damageAbsorbed>0</damageAbsorbed>
+					<element>PHYSICAL</element>
+				</Item>
+			</effectActions>
+			<enchantParams>
+				<enchantedArrow href="" />
+			</enchantParams>
+		</Item>
+	</actions>
+</GameViewScript>

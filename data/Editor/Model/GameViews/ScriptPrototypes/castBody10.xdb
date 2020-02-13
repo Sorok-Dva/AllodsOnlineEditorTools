@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<isPrototype>true</isPrototype>
+		<Variables>
+			<Spell />
+			<ThrowSpeed>20</ThrowSpeed>
+			<PrepareTime>4000</PrepareTime>
+		</Variables>
+	</Header>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>5</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<secondaryTargetCreatures />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>6</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>7</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>8</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>9</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>10</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>11</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>12</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>13</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>14</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>15</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<casterCreature>16</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell hrefvar="Spell" />
+			<prepareDuration var="PrepareTime" />
+			<throwSpeed var="ThrowSpeed" />
+		</Item>
+	</actions>
+</GameViewScript>

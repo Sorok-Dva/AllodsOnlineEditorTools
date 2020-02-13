@@ -1,0 +1,17 @@
+global proc int A1_exportFoliage( string $srcScene, string $dstName )
+{
+	loadPlugin "A1Collada.mll";
+	if( catchQuiet( `file -o -f $srcScene` ) ){};
+
+	print "\n";
+    	print "-max:\n"; print `playbackOptions -query -max`; print "\n";
+   	print "-min:\n"; print `playbackOptions -query -min`; print "\n";
+    	print "-aet:\n"; print `playbackOptions -query -aet`; print "\n";
+    	print "-ast:\n"; print `playbackOptions -query -ast`; print "\n";
+
+
+	playbackOptions -aet  `playbackOptions -query -max`;
+	playbackOptions -ast  `playbackOptions -query -min`;
+	file -op "exportTriangles=false;isSampling=false" -typ "COLLADA exporter" -pr -ea -f $dstName;
+	return 0;
+}

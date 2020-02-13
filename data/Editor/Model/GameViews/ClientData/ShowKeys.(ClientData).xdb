@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>90498049</resourceId>
+		<Prototype href="ShowKeys.Prototype.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+		<Variables>
+			<Time>300</Time>
+			<Animation>instantSpellCastDirected</Animation>
+		</Variables>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureAnimationAction">
+			<channelOverrideMode>OVERRIDE_DEFAULT</channelOverrideMode>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

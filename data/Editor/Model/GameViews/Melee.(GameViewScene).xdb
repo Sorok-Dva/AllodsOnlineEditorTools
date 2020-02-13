@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>2400.000000</x>
+		<y>5230.000000</y>
+		<z>22.000000</z>
+		<yaw>1.57</yaw>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+	</place>
+	<cameraPlacement>
+		<x>2401.953631</x>
+		<y>5231.434421</y>
+		<z>22.387369</z>
+		<yaw>-2.58068</yaw>
+		<pitch>0.599155</pitch>
+		<roll>-4.50741e-009</roll>
+		<distance>30.34</distance>
+		<use>true</use>
+	</cameraPlacement>
+	<mobs>
+		<Item>
+			<visualMob href="Mobs/WarHadagan.(VisualMob).xdb#xpointer(/VisualMob)" />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="2" y="0" z="0" />
+			<yaw>-3.1415</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="1" y="1" z="0" />
+			<yaw>-3.1415</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="1" y="-1.2" z="0" />
+			<yaw>-3.1415</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="0" y="-1.5" z="0" />
+			<yaw>0</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="1.4" y="0" z="0" />
+			<yaw>-3.1415</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="0" y="1.4" z="0" />
+			<yaw>-3.1415</yaw>
+			<groupName />
+		</Item>
+	</mobs>
+</GameViewScene>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="VisualItem.txt"/>
+	<description href="VisualItem.Description.txt"/>
+	<resourceType>gameMechanics.constructor.schemes.item.VisualItem</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+	<filterString/>
+</MassEditTableObject>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>2</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/attackOneDamadge.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+		</Item>
+		<Item type="GameViewActionCreatureDeath">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+			</playbackParameters>
+			<creature>1</creature>
+			<setDead>true</setDead>
+		</Item>
+		<Item type="GameViewActionCreatureDeath">
+			<playbackParameters>
+				<delayBefore>5000</delayBefore>
+				<repeatAfter>0</repeatAfter>
+			</playbackParameters>
+			<creature>1</creature>
+			<setDead>false</setDead>
+		</Item>
+	</actions>
+</GameViewScript>

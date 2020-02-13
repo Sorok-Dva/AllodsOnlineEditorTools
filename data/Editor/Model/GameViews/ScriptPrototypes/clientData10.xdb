@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<isPrototype>true</isPrototype>
+		<Variables>
+			<ClientData />
+		</Variables>
+	</Header>
+	<actions>
+		<Item type="GameViewActionClientData">
+			<creature>5</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>6</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>7</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>8</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>9</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>10</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>11</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>12</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>13</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>14</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>15</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+		<Item type="GameViewActionClientData">
+			<creature>16</creature>
+			<data hrefvar="ClientData" />
+		</Item>
+	</actions>
+</GameViewScript>

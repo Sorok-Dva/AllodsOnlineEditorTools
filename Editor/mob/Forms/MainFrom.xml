@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>377</normalLeft>
+  <normalTop>-17</normalTop>
+  <normalWidth>513</normalWidth>
+  <normalHeight>391</normalHeight>
+  <formWindowState>Maximized</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>splitContainer</name>
+      <splitterDistance>1236</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams />
+</FormParams>

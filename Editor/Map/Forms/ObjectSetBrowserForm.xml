@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>52</normalLeft>
+  <normalTop>52</normalTop>
+  <normalWidth>779</normalWidth>
+  <normalHeight>807</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>258</int>
+  </intParams>
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>WeightComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyControlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecentFolders>
+    <string>Characters\Hadagan_male\Instances\ZoneHadagan1</string>
+    <string>Editor\Model\GameViews</string>
+    <string>World\Dungeons\InstHadagan1</string>
+    <string>World\Dungeons\InstHadagan1\Buildings\Models</string>
+    <string>World\Dungeons\InstHadagan1\Models</string>
+    <string>World\Astral\AstralIsles\Models</string>
+    <string>World\Astral\Astral\Models</string>
+    <string>World\Astral\Astral\Buildings\Models\Astral_port</string>
+    <string>World\Astral\Astral\Environment\Astral_Sun</string>
+    <string>World\Astral\Astral\Environment\Astral_Rock_Big_02</string>
+  </RecentFolders>
+  <RecentFiles>
+    <string>Characters/Hadagan_male/Instances/ZoneHadagan1/E1_trainer_stalker_1.(MobWorld).xdb</string>
+    <string>Characters/Hadagan_male/Instances/ZoneHadagan1/E1_Yasker_N.(VisualMob).xdb</string>
+    <string>Characters/Hadagan_male/Instances/ZoneHadagan1/E1_Auction_1.(VisualMob).xdb</string>
+    <string>Characters/Hadagan_male/Instances/ZoneHadagan1/AstralAcademy_Guard.(MobWorld).xdb</string>
+    <string>Editor/Model/GameViews/Device.(GameViewScene).xdb</string>
+    <string>Editor/Model/GameViews/Kania2.(GameViewScene).xdb</string>
+    <string>World/Dungeons/InstHadagan1/Hadagan_Instance_01.(VisObjectTemplate).xdb</string>
+    <string>World/Dungeons/InstHadagan1/Buildings/Models/Hadagan_Ships_Instance_01.(VisObjectTemplate).xdb</string>
+    <string>World/Dungeons/InstHadagan1/Buildings/Models/Kania_Ships_Instance_01.(VisObjectTemplate).xdb</string>
+    <string>World/Dungeons/InstHadagan1/Models/Hadagan_Inst_Cannon_Muzzle.(VisObjectTemplate).xdb</string>
+  </RecentFiles>
+  <RecentFieldValues />
+  <ARGBColorMode>false</ARGBColorMode>
+</PropertyControlData>

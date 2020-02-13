@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SceneSettings>
+	<staticLight>
+		<AmbientFactor>0.5</AmbientFactor>
+		<FogStart>180</FogStart>
+		<FogEnd>700</FogEnd>
+		<SunLightYaw>20</SunLightYaw>
+		<SunLightPitch>310</SunLightPitch>
+		<AmbientColor>3158064</AmbientColor>
+		<DiffuseColor>4801351</DiffuseColor>
+		<FogColor>3484484</FogColor>
+		<SpecularColor>7551488</SpecularColor>
+		<SpecularWaterColor>8355711</SpecularWaterColor>
+		<WaterGradientStart>838860800</WaterGradientStart>
+		<WaterGradientEnd>-180996295</WaterGradientEnd>
+		<ContourColor>0</ContourColor>
+	</staticLight>
+	<skyMesh href="" />
+</SceneSettings>

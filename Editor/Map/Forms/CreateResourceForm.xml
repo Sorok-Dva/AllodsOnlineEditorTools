@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>78</normalLeft>
+  <normalTop>78</normalTop>
+  <normalWidth>407</normalWidth>
+  <normalHeight>456</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>ZoneComboBox</name>
+      <text />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>MapComboBox</name>
+      <text />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>ExploitingTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>VisObjTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>ResultTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>ResNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>FileNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>SpawnTableTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <radioButtonParams>
+    <RadioButtonParam>
+      <name>ChestRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+    <RadioButtonParam>
+      <name>NewSTRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+  </radioButtonParams>
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

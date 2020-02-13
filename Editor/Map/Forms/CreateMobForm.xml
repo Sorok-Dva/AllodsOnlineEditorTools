@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>108</normalLeft>
+  <normalTop>103</normalTop>
+  <normalWidth>488</normalWidth>
+  <normalHeight>581</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>ZoneComboBox</name>
+      <text />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>CreatureComboBox</name>
+      <text />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>MapComboBox</name>
+      <text />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>ResultTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>VisMobTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>FileNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>MaxLevelTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>NameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>SpeedTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>MinLevelTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>TitleTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddTitleTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddFileNameTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddVisMobTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>SourceMobTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>VMScaleTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>SpawnTableTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddVMScaleTextBox</name>
+      <text />
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>AddSpawnTableTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <radioButtonParams>
+    <RadioButtonParam>
+      <name>NeutralRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+    <RadioButtonParam>
+      <name>ExistingVMRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+    <RadioButtonParam>
+      <name>CreateSilverRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+    <RadioButtonParam>
+      <name>AddExistingVMRadioButton</name>
+      <index>0</index>
+    </RadioButtonParam>
+  </radioButtonParams>
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

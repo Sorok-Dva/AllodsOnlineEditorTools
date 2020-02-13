@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMeleeAttack">
+			<offenderCreature>1</offenderCreature>
+			<targetCreature>2</targetCreature>
+			<source>OFFATTACK</source>
+			<isDodged>false</isDodged>
+			<damageBlocked>0</damageBlocked>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+		<Item type="GameViewActionMeleeAttack">
+			<playbackParameters>
+				<delayBefore>200</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+			</playbackParameters>
+			<offenderCreature>2</offenderCreature>
+			<targetCreature>1</targetCreature>
+			<source>MAINATTACK</source>
+			<isDodged>false</isDodged>
+			<isCrushingBlow>false</isCrushingBlow>
+			<isGlancingBlow>false</isGlancingBlow>
+			<isCritical>false</isCritical>
+			<damageBlocked>0</damageBlocked>
+			<damageParried>0</damageParried>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

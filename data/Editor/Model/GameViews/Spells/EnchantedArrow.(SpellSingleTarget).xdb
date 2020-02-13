@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
+	<Header>
+		<resourceId>90527744</resourceId>
+	</Header>
+	<groups>
+		<Item href="/Mechanics/Spells/Groups/CanUseTwoEnchantedArrows.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+	</groups>
+	<useVisScipt />
+	<visualScripts href="/Spells/VisScripts/Stalker/SteadyShot.xdb#xpointer(/SpellVisScripts)" />
+	<mechanics type="gameMechanics.constructor.schemes.spell.CreatureSpellMechanics">
+		<casterConditions>
+			<Item type="gameMechanics.elements.predicates.PredicateHasCartridgeBelt">
+				<ability href="/Mechanics/Spells/Stalker/CartridgeBelt/Ability.xdb#xpointer(/gameMechanics.constructor.schemes.ability.AbilityResource)" />
+			</Item>
+		</casterConditions>
+	</mechanics>
+</gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>

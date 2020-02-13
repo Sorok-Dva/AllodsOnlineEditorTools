@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="Items.txt"/>
+	<description href="Items.Description.txt"/>
+	<resourceType>gameMechanics.constructor.schemes.item.ItemResource</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+	<objects/>
+	<filterString>Test</filterString>
+</MassEditTableObject>

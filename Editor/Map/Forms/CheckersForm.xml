@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>208</normalLeft>
+  <normalTop>208</normalTop>
+  <normalWidth>606</normalWidth>
+  <normalHeight>691</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams>
+    <string />
+  </stringParams>
+  <comboBoxParams />
+  <textBoxParams />
+  <checkBoxParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>MainSplitContainer</name>
+      <splitterDistance>451</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>CheckersSplitContainer</name>
+      <splitterDistance>274</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>ResultSplitContainer</name>
+      <splitterDistance>216</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams>
+    <ListViewParam>
+      <name>CheckersListView</name>
+      <columns>
+        <int>59</int>
+        <int>75</int>
+        <int>60</int>
+        <int>60</int>
+      </columns>
+    </ListViewParam>
+  </listViewParams>
+</FormParams>

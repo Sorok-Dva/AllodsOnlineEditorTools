@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<cameraPlacement>
+		<x>0.000000</x>
+		<y>0.000000</y>
+		<z>0.000000</z>
+		<yaw>0</yaw>
+		<pitch>0</pitch>
+		<roll>0</roll>
+		<distance>0</distance>
+		<setBeforeRunning>false</setBeforeRunning>
+	</cameraPlacement>
+	<actions>
+		<Item type="GameViewActionVerletSimple">
+			<creature>3</creature>
+			<surface>
+				<iCount>10</iCount>
+				<jCount>20</jCount>
+				<sizeX>1.5</sizeX>
+				<sizeY>1</sizeY>
+			</surface>
+			<simulation>
+				<stepDT>17</stepDT>
+				<numIterations>10</numIterations>
+				<airFrictionCoeff>1</airFrictionCoeff>
+				<liveTime>6000</liveTime>
+			</simulation>
+			<cylinders>
+				<Item>
+					<start x="0.5" y="0" />
+					<end x="0.5" y="0" z="1.7" />
+					<radiusX>0.5</radiusX>
+					<radiusY>0.5</radiusY>
+					<radiusZ>0.3</radiusZ>
+				</Item>
+			</cylinders>
+		</Item>
+	</actions>
+</GameViewScript>

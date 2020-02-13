@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>1</casterCreature>
+			<targetCreature>2</targetCreature>
+			<spell href="/Mechanics/Spells/Stalker/StickArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<effectActions>
+				<Item type="GameViewActionMeleeAttack">
+					<isDamageDealt>true</isDamageDealt>
+				</Item>
+			</effectActions>
+			<enchantParams>
+				<enchantedArrow href="/Mechanics/Spells/Stalker/TranquilArrow/Arrow01.xdb#xpointer(/gameMechanics.elements.abilities.EnchantedArrow)" />
+			</enchantParams>
+		</Item>
+	</actions>
+</GameViewScript>

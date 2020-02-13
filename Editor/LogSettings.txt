@@ -1,0 +1,41 @@
+//
+//   Команды
+//
+// EnableChannel( logLevel, channelName, bool enable )
+// EnableChannel( channelName, bool enable )
+//
+// AddListener( logLevel, listener, formatter )
+// AddListener( logLevel, channelName, listener, formatter )
+//
+// ADD_LOG_LISTENER_FOR_ALL_LEVELS( channelName, listener, formatter )
+// ADD_LOG_LISTENER_FOR_FAULT_LEVELS( channelName, listener, formatter )
+//
+// FileAndLinePrintedToFile( bool enable )
+//
+// SetChannelSpamFilter( logLevel, channelName, bool enable )
+// SetChannelSpamFilterAllLevels( channelName, bool enable )
+//---------------------------------------------------------------
+// logLevel  : INFO, WARNING, ERROR, FATAL
+//
+// listener	 : Debug, Printf, DebugBreak, FileOutPut
+//
+// formatter : Debug, Tab, Empty, MessageOnly, PrefixedTab
+//---------------------------------------------------------------
+
+FileAndLinePrintedToFile( false )
+//EnableChannel( INFO, slon::creature::events, false )
+//EnableChannel( slon, true )
+AddListener( INFO, slon, FileOutPut, MessageOnly )
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( fileLog, FileOutPut, MessageOnly )
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( libdb_refs, FileOutPut, MessageOnly )
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( xdb_proc, FileOutPut, MessageOnly )
+//ADD_LOG_LISTENER_FOR_ALL_LEVELS( TeamCityLog, Printf, TeamCityFormatFunc );
+
+AddListener( INFO , Printf, Debug )
+AddListener( WARNING , Printf, Debug )
+AddListener( ERROR , Printf, Debug )
+AddListener( FATAL , Printf, Debug )
+EnableChannel( sound, false )
+
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( slon::errors, FileOutPut, MessageOnly );
+EnableChannel( slon::errors, true )

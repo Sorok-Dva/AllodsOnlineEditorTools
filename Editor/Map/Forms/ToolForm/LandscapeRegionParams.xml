@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LandscapeRegionParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Type>Ellipse</Type>
+  <Side>Right</Side>
+  <TerrainNumber>0</TerrainNumber>
+  <Size>9</Size>
+  <InvertHeightTools>true</InvertHeightTools>
+  <RegionUpdated>true</RegionUpdated>
+</LandscapeRegionParams>

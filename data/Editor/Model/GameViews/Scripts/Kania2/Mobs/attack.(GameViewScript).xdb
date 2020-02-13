@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionMeleeAttack">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+			</playbackParameters>
+			<offenderCreature>18</offenderCreature>
+			<targetCreature>1</targetCreature>
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+	</actions>
+</GameViewScript>

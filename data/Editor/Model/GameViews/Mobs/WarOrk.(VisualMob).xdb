@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisualMob>
+	<variation>
+		<skin href="/Characters/Orc_male/OrcMaleSkin00.(Texture).xdb#xpointer(/Texture)" />
+		<face href="/Characters/Orc_male/Variations/OrcMaleFace00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<hairGeoset href="/Characters/Orc_male/Variations/OrcMaleHair00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<facial href="/Characters/Orc_male/Variations/OrcMaleFacial01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<additionalVariation href="" />
+	</variation>
+	<character href="/Characters/Orc_male/OrcMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+	<items>
+		<Item>
+			<item href="/Items/VisualItems/Armor/Leather_A_01StalkerNewbieGreyArmor.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>ARMOR</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HSword/Sword_1H_Orc_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>MAINHAND</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Boots/Leather_A_04OrcBlackBoots.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BOOTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Pants/Leather_A_02WarriorNewbieBrownPants.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>PANTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Gloves/Cloth_A_01BrownGlove.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>GLOVES</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Belt/Leather_B_01BrownBelt.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BELT</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HShield/Shield_1H_Simple_A_01Leather.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>OFFHAND</slot>
+		</Item>
+	</items>
+	<scale>1</scale>
+</VisualMob>

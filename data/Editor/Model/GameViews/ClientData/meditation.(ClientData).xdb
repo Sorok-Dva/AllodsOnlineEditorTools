@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>90498050</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="VisActionList">
+			<elements>
+				<Item type="VisActionList">
+					<play>Simultaneously</play>
+					<playWhile type="VisActionDelay">
+						<time>2000</time>
+					</playWhile>
+					<elements>
+						<Item type="CreatureAnimationAction">
+							<visActionID />
+							<mode>LOOP</mode>
+							<use>USE_ANIMATIONS</use>
+							<animations>
+								<Item>sitGroundDown</Item>
+								<Item>sitGround</Item>
+							</animations>
+							<channel>CHANNEL_ATTACK</channel>
+							<channelOverrideMode>OVERRIDE_DEFAULT</channelOverrideMode>
+							<channelOverrideScript />
+							<specialController />
+							<advanced>
+								<speed>0</speed>
+								<backgroundAfterFirstKey>false</backgroundAfterFirstKey>
+								<autoHasten>
+									<mode>AUTOHASTEN_NONE</mode>
+									<timeToBeLeft>0</timeToBeLeft>
+								</autoHasten>
+								<eventPlaybackEnd>false</eventPlaybackEnd>
+								<turnToTarget>NO_TURN</turnToTarget>
+							</advanced>
+						</Item>
+					</elements>
+				</Item>
+				<Item type="CreatureAnimationAction">
+					<visActionID />
+					<mode>DIE</mode>
+					<use>USE_ANIMATIONS</use>
+					<animations>
+						<Item>sitGroundUp</Item>
+					</animations>
+					<channel>CHANNEL_IDLESPECIAL</channel>
+					<channelOverrideMode>OVERRIDE_DEFAULT</channelOverrideMode>
+					<channelOverrideScript />
+					<specialController />
+					<advanced>
+						<speed>0</speed>
+						<backgroundAfterFirstKey>false</backgroundAfterFirstKey>
+						<autoHasten>
+							<mode>AUTOHASTEN_NONE</mode>
+							<timeToBeLeft>0</timeToBeLeft>
+						</autoHasten>
+						<eventPlaybackEnd>false</eventPlaybackEnd>
+						<turnToTarget>NO_TURN</turnToTarget>
+					</advanced>
+				</Item>
+			</elements>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

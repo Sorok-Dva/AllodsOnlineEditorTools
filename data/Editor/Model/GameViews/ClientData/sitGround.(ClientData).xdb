@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>90498051</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureAnimationAction">
+			<mode>LOOP</mode>
+			<animations>
+				<Item>shieldBlock</Item>
+			</animations>
+			<channel>CHANNEL_MOVE</channel>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

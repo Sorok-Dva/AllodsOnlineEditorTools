@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Hadagan/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>11313.000000</x>
+		<y>13174.000000</y>
+		<z>22.000000</z>
+		<yaw>0</yaw>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+		<notLoadMap>false</notLoadMap>
+	</place>
+	<cameraPlacement>
+		<x>11300.193017</x>
+		<y>13175.600697</y>
+		<z>1.381918</z>
+		<yaw>0.0679606</yaw>
+		<pitch>0.113298</pitch>
+		<roll>4.68934e-011</roll>
+		<distance>693.46</distance>
+		<autoSave>false</autoSave>
+		<use>true</use>
+	</cameraPlacement>
+	<mobs>
+		<Item>
+			<visualMob href="Mobs/Stalker.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="15" y="-9" />
+			<yaw>-1.57</yaw>
+			<collectionEditions>
+				<Item href="/Mechanics/CollectionEditions/Cloak1Edition.xdb#xpointer(/gameMechanics.constructor.schemes.collectionEditions.CollectionEditionResource)" />
+			</collectionEditions>
+		</Item>
+		<Item>
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="15" y="-10.6" />
+			<yaw>1.57</yaw>
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Hadagan_female/E1_Had_Women_1.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="-10" y="2" />
+			<yaw>-1.57</yaw>
+		</Item>
+		<Item>
+			<visualMob href="Mobs/Stalker.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="5" y="0" />
+		</Item>
+		<Item>
+			<visualMob href="Mobs/Mage.(VisualMob).xdb#xpointer(/VisualMob)" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Kania_female/VS_NPC1_With_Items.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="-2" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Elf_female/VisualMob/AL1_ElfMage.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="-4" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Elf_male/ElfMale.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="-6" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Hadagan_female/E1_Had_Women_1.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="-8" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Hadagan_male/VisualMob/E3_historican.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="-10" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Orc_female/Empire1_Orc_Body1_fem.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="4" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Orc_male/E1_Banker_capital_1.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="2" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Undead_female/Empire1_Chief_Nii_fem.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="6" />
+		</Item>
+		<Item>
+			<visualMob href="/Characters/Undead_male/E1_trainer_necro.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="8" />
+		</Item>
+		<Item>
+			<visualMob href="Mobs/Gib3_boys.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset y="10" />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/Gib3_girls.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="0" y="12" z="0" />
+			<yaw>0</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="Mobs/War.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="7" y="0" z="0" />
+			<yaw>0</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID />
+			<visualMob href="/Creatures/Artiodactyl/Deer_Brown.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="15" y="9" z="0" />
+			<yaw>-1.57</yaw>
+			<groupName />
+			<collectionEditions>
+				<Item href="/Mechanics/CollectionEditions/Cloak1Edition.xdb#xpointer(/gameMechanics.constructor.schemes.collectionEditions.CollectionEditionResource)" />
+			</collectionEditions>
+		</Item>
+	</mobs>
+	<paths>
+		<Item>
+			<scriptID>Mage</scriptID>
+			<points>
+				<Item skiped="" />
+				<Item y="20" />
+				<Item skiped="" />
+			</points>
+		</Item>
+		<Item>
+			<scriptID>Creature</scriptID>
+			<points>
+				<Item x="15" y="9" z="0" />
+				<Item x="15" y="-7" z="0" />
+				<Item x="15" y="9" z="0" />
+			</points>
+		</Item>
+		<Item>
+			<scriptID>CreatureFront</scriptID>
+			<points>
+				<Item x="15" y="9" z="0" />
+				<Item x="15" y="-7" z="0" />
+			</points>
+			<yaw>0</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID>CreatureBack</scriptID>
+			<points>
+				<Item x="15" y="-7" z="0" />
+				<Item x="15" y="9" z="0" />
+			</points>
+			<yaw>0</yaw>
+			<groupName />
+		</Item>
+		<Item>
+			<scriptID>Stalker</scriptID>
+			<points>
+				<Item x="5" y="0" z="0" />
+				<Item x="5" y="-10" z="0" />
+				<Item x="5" y="0" z="0" />
+			</points>
+		</Item>
+		<Item>
+			<scriptID>Verlet</scriptID>
+			<points>
+				<Item x="-10" y="2" z="0" />
+				<Item x="-10" y="-8" z="0" />
+				<Item x="-10" y="2" z="0" />
+			</points>
+		</Item>
+	</paths>
+</GameViewScene>

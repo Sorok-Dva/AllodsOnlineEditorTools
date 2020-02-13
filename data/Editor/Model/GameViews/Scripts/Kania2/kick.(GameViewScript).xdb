@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionKick">
+			<offenderCreature>1</offenderCreature>
+			<targetCreature>2</targetCreature>
+			<flyTime>1000</flyTime>
+			<distance>5</distance>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisualMob>
+	<variation>
+		<skin href="/Characters/Kania_male/KaniaMaleSkin01.(Texture).xdb#xpointer(/Texture)" />
+		<face href="/Characters/Kania_male/Variations/KaniaMaleFace08.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<hairGeoset href="/Characters/Kania_male/Variations/KaniaMaleHair00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<facial href="/Characters/Kania_male/Variations/KaniaMaleFacial00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+		<additionalVariation href="" />
+	</variation>
+	<character href="/Characters/Kania_male/KaniaMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+	<items>
+		<Item>
+			<item href="/Items/VisualItems/Armor/Leather_A_01StalkerNewbieGreyArmor.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>ARMOR</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HAxe/Axe_1H_Undead_F_02Bronze.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>MAINHAND</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Boots/Leather_A_04OrcBlackBoots.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BOOTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Pants/Leather_A_02WarriorNewbieBrownPants.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>PANTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Gloves/Cloth_A_01BrownGlove.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>GLOVES</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Belt/Leather_B_01BrownBelt.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>BELT</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HShield/Shield_1H_Simple_A_01Leather.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>OFFHAND</slot>
+		</Item>
+	</items>
+	<scale>1</scale>
+	<visualScript type="VisActionLoopAction">
+		<actionToLoop type="VisActionList">
+			<elements>
+				<Item type="VisActionList">
+					<play>Simultaneously</play>
+					<elements>
+						<Item type="CreatureAnimationAction">
+							<animations>
+								<Item>emotePoint</Item>
+							</animations>
+						</Item>
+						<Item skiped="" />
+					</elements>
+				</Item>
+				<Item type="VisActionDelay">
+					<time>20000</time>
+				</Item>
+			</elements>
+		</actionToLoop>
+	</visualScript>
+</VisualMob>

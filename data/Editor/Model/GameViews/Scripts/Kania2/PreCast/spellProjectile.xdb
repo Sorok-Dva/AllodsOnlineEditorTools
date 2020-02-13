@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>5</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Mechanics/Spells/Mage/LightningBalls/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<secondaryTargetCreatures />
+			<prepareDuration>2000</prepareDuration>
+			<throwSpeed>0</throwSpeed>
+		</Item>
+	</actions>
+</GameViewScript>

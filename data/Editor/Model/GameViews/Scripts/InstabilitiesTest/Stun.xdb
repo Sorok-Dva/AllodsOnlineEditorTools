@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionClientData">
+			<data href="" />
+		</Item>
+		<Item type="GameViewActionSetBuff">
+			<buff href="" />
+			<time>5000</time>
+		</Item>
+	</actions>
+</GameViewScript>

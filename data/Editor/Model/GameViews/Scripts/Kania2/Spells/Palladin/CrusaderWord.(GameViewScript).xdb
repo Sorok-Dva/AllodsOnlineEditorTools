@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>17</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Mechanics/Spells/Paladin/CrusaderWord/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<effectActions>
+				<Item type="GameViewActionMagicAttack">
+					<isDamageDealt>true</isDamageDealt>
+					<isLethal>true</isLethal>
+					<isOverkill>true</isOverkill>
+				</Item>
+				<Item type="GameViewActionCreatureDeath">
+					<creature>1</creature>
+				</Item>
+			</effectActions>
+			<precastParams>
+				<use>true</use>
+				<precastTimeDelta>500</precastTimeDelta>
+			</precastParams>
+		</Item>
+	</actions>
+</GameViewScript>

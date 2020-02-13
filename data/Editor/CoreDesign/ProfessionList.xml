@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProfession xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profession>
+    <Name>Alchemy</Name>
+    <SubPath>Mechanics/Skills/Alchemy</SubPath>
+    <ProfType>Alchemy</ProfType>
+    <ProfessionFile>/Mechanics/Skills/Alchemy/Alchemy.xdb</ProfessionFile>
+  </Profession>
+  <Profession>
+    <Name>Blacksmith</Name>
+    <SubPath>Mechanics/Skills/Blacksmith</SubPath>
+    <ProfType>Armor</ProfType>
+    <ProfessionFile>/Mechanics/Skills/Blacksmith/Blacksmith.(ArmorCraftResource).xdb</ProfessionFile>
+  </Profession>
+  <Profession>
+    <Name>Leathering</Name>
+    <SubPath>Mechanics/Skills/Leathering</SubPath>
+    <ProfType>Armor</ProfType>
+    <ProfessionFile>/Mechanics/Skills/Leathering/Leathering.(ArmorCraftResource).xdb</ProfessionFile>
+  </Profession>
+  <Profession>
+    <Name>Tailoring</Name>
+    <SubPath>Mechanics/Skills/Tailoring</SubPath>
+    <ProfType>Armor</ProfType>
+    <ProfessionFile>/Mechanics/Skills/Tailoring/Tailoring.(ArmorCraftResource).xdb</ProfessionFile>
+  </Profession>
+</ArrayOfProfession>

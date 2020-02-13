@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<cameraPlacement>
+		<x>2448.486713</x>
+		<y>5162.888892</y>
+		<z>7.914436</z>
+		<yaw>1.4575</yaw>
+		<pitch>0.180867</pitch>
+		<roll>-5.94409e-009</roll>
+		<distance>72.1</distance>
+		<setBeforeRunning>true</setBeforeRunning>
+	</cameraPlacement>
+</GameViewScript>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>735</normalLeft>
+  <normalTop>391</normalTop>
+  <normalWidth>794</normalWidth>
+  <normalHeight>690</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams>
+    <string>Editor\Model\GameViews\Scripts\Kania2</string>
+    <string>Editor/Model/GameViews/Kania2.(GameViewScene).xdb</string>
+    <string>Editor/Model/GameViews/Kania2.(GameViewScene).xdb</string>
+    <string />
+  </stringParams>
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>consoleInput</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>aviTimeTextBox</name>
+      <text>0</text>
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>startActionCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>useDefaultConfigCB</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>rtsCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>fpsCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>mayaCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

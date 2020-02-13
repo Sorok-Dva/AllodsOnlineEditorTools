@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>117453831</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureRunVisActionResource">
+			<alias href="/Editor/Model/GameViews/CreatureVisScripts/animation.(AliasCreatureVisActionResource).xdb#xpointer(/AliasCreatureVisActionResource)" />
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

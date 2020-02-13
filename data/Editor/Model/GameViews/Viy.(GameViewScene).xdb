@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GameViewScene>
+	
+	<place>
+		<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)"/>
+		<x>2330.000000</x>
+		<y>5153.000000</y>
+		<z>20.000000</z>
+		<gfxMinimizeCoeff>0.01</gfxMinimizeCoeff>
+	</place>
+	<mainAvatar>
+		<visualMob href="/Characters/Kania_male/VS_NPC6_With_Items.(VisualMob).xdb#xpointer(/VisualMob)"/>
+		<offset x="0"/>
+		<yaw>-3.14</yaw>
+		<characterRaceClass href="/Mechanics/ClassRaceCombination/KaniaMage.xdb#xpointer(/gameMechanics.world.avatar.CharacterRaceClass)"/>
+		<characterSex href="/Mechanics/Sex/Female.xdb#xpointer(/gameMechanics.world.avatar.CharacterSex)"/>
+	</mainAvatar>
+	<mobs>
+		<Item>
+			<visualMob href="/Characters/Kania_male/VS_NPC.(VisualMob).xdb#xpointer(/VisualMob)"/>
+			<offset x="10" y="0"/>
+			<yaw>0</yaw>
+		</Item>
+		<Item>
+			<visualMob href="/Creatures/Viy/Viy_Claws.(VisualMob).xdb#xpointer(/VisualMob)"/>
+			<offset x="20" y="0"/>
+			<yaw>-3.14</yaw>
+		</Item>
+	</mobs>
+</GameViewScene>

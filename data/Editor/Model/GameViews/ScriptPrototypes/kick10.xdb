@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<isPrototype>true</isPrototype>
+		<Variables>
+			<Distance>2</Distance>
+			<HorSpeed>10</HorSpeed>
+			<TopZ>1</TopZ>
+			<Friction>5</Friction>
+			<ShowLootBag>true</ShowLootBag>
+			<KillerCreature>1</KillerCreature>
+		</Variables>
+	</Header>
+	<actions>
+		<Item type="GameViewActionKick">
+			<targetCreature>5</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>6</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>7</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>8</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>9</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>10</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>11</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>12</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>13</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>14</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>15</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+		<Item type="GameViewActionKick">
+			<targetCreature>16</targetCreature>
+			<offenderCreature var="KillerCreature" />
+			<distance var="Distance" />
+			<horSpeed var="HorSpeed" />
+			<topZ var="TopZ" />
+			<friction var="Friction" />
+			<showLootBag var="ShowLootBag" />
+		</Item>
+	</actions>
+</GameViewScript>

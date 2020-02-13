@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>4</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Mechanics/Spells/Mage/IceArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>2000</prepareDuration>
+			<precastParams>
+				<use>true</use>
+				<precastTimeDelta>1000</precastTimeDelta>
+			</precastParams>
+		</Item>
+	</actions>
+</GameViewScript>

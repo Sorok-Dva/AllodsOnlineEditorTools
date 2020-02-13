@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeightPickerLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>HeightPicker</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+</HeightPickerLandscapeToolParams>

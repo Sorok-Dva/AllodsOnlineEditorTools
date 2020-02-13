@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapLoader.StaticObject>
+	<Header>
+		<resourceId>92050436</resourceId>
+	</Header>
+	<aiMesh href="" />
+	<exportTemplate href="" />
+	<ObjectTemplate href="Projectile.(VisObjectTemplate).xdb#xpointer(/VisObjectTemplate)" />
+	<areaMiniMaps />
+	<Collision href="" />
+	<aiCollision href="" />
+	<coloredObject>false</coloredObject>
+	<parts />
+	<music>
+		<project href="" />
+		<name />
+	</music>
+	<ambienceSound>
+		<project href="" />
+		<name />
+	</ambienceSound>
+	<LosData href="" />
+	<sourceFile href="//Editor/Map/SpecialObjects/Projectile/Projectile.mb" />
+	<sourceFileCRC>1578870616</sourceFileCRC>
+	<visibleZoneIndices />
+</mapLoader.StaticObject>

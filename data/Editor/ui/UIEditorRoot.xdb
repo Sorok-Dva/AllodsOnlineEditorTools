@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UIEditorRoot>
+	<FontAliases href="/Interface/System/Fonts/FontAlias.(WidgetFontAlias).xdb#xpointer(/WidgetFontAlias)"/>
+	<DefaultFont>/Interface/System/Fonts/Allods.ttf</DefaultFont>
+	<StyleSheets>
+		<Item href="/Interface/Common/Css/Game.(WidgetCss).xdb#xpointer(/WidgetCss)"/>
+	</StyleSheets>
+	<MainForm href="MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)"/>
+</UIEditorRoot>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionSetTarget">
+			<creature>1</creature>
+			<targetCreature>2</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<creature>2</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>4</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+		<Item type="GameViewActionSetTarget">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<creature>17</creature>
+			<targetCreature>1</targetCreature>
+		</Item>
+	</actions>
+</GameViewScript>

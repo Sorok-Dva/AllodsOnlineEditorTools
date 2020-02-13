@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Geometry>
+    <aabb>
+        <center x="0" y="0" z="0" />
+        <extents x="50" y="50" z="0" />
+    </aabb>
+    <areaFragments />
+    <binaryFile href="/Editor/Model/Plane/Plane.(Geometry).bin" />
+    <castShadows>true</castShadows>
+    <decalModel>true</decalModel>
+    <enableDistanceFade>true</enableDistanceFade>
+    <endFrame>100000</endFrame>
+    <exportDefaultAnimation>true</exportDefaultAnimation>
+    <fadeDistanceEnd>-1</fadeDistanceEnd>
+    <fadeDistanceStart>-1</fadeDistanceStart>
+    <flareInfos />
+    <fogFactor>1</fogFactor>
+    <geometryBox>
+        <center x="0" y="0" z="0" />
+        <extents x="50" y="50" z="0" />
+    </geometryBox>
+    <geometryFragments>
+        <Item>
+            <aabb>
+                <center x="0" y="0" z="0" />
+                <extents x="50" y="50" z="0" />
+            </aabb>
+            <blob>
+                <localID>3</localID>
+                <size>228</size>
+            </blob>
+        </Item>
+    </geometryFragments>
+    <globalID>-1</globalID>
+    <ignoreZ>false</ignoreZ>
+    <indexBuffer>
+        <localID>1</localID>
+        <size>12</size>
+    </indexBuffer>
+    <joints />
+    <largeModel>false</largeModel>
+    <lodDistances>
+        <Item>70.7106857</Item>
+        <Item>70.7106857</Item>
+    </lodDistances>
+    <lodFactor>1</lodFactor>
+    <lodModel>false</lodModel>
+    <modelElements>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>0</indexBufferBegin>
+                    <indexBufferEnd>6</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>4</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Editor/Model/Plane/PlaneTexture.(Texture).xdb#xpointer(/Texture)" />
+                <params type="CommonMaterialParams">
+                    <contourColorModifier>0</contourColorModifier>
+                    <effectMaskTexture href="" />
+                    <envReflectionTexture href="" />
+                    <envSpecularTexture href="" />
+                    <selfillum>true</selfillum>
+                    <specularColorModifier>0</specularColorModifier>
+                    <vertexBakedLight>false</vertexBakedLight>
+                </params>
+                <scrollAlpha>true</scrollAlpha>
+                <ScrollRGB>true</ScrollRGB>
+                <transparencyTexture href="" />
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <uTranslateSpeed>0</uTranslateSpeed>
+                <visible>true</visible>
+                <vTranslateSpeed>0</vTranslateSpeed>
+            </material>
+            <materialName>lambert2SG</materialName>
+            <name>pPlane1</name>
+            <skinIndex>-1</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <virtualOffset>0</virtualOffset>
+        </Item>
+    </modelElements>
+    <occluderInfos />
+    <optimizeMesh>true</optimizeMesh>
+    <orientationMode>COMMON</orientationMode>
+    <parts>
+        <Item>
+            <aabb>
+                <center x="0" y="0" z="0" />
+                <extents x="50" y="50" z="0" />
+            </aabb>
+            <areaPart>true</areaPart>
+            <endElement>1</endElement>
+            <implicitAreas />
+            <name>pPlane1</name>
+            <startElement>0</startElement>
+        </Item>
+    </parts>
+    <portalFragments />
+    <portalModel>true</portalModel>
+    <realSkeletonSize>0</realSkeletonSize>
+    <rootMaterial />
+    <scaleDistanceEnd>-1</scaleDistanceEnd>
+    <scaleDistanceStart>-1</scaleDistanceStart>
+    <sceneNodes />
+    <SkeletalAnimation href="" />
+    <skeleton>
+        <localID>2</localID>
+        <size>32</size>
+    </skeleton>
+    <sortMode>OFFSETS</sortMode>
+    <sourceFileCRC>-739171469</sourceFileCRC>
+    <startFrame>0</startFrame>
+    <useColors>false</useColors>
+    <useDecals>true</useDecals>
+    <useProceduralEffect>true</useProceduralEffect>
+    <vb32>false</vb32>
+    <version>2</version>
+    <vertexBuffer>
+        <localID>0</localID>
+        <size>96</size>
+    </vertexBuffer>
+    <vertexDeclarations>
+        <Item>
+            <color>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </color>
+            <indices>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </indices>
+            <normal>
+                <offset>20</offset>
+                <type>COLOR4</type>
+            </normal>
+            <position>
+                <offset>0</offset>
+                <type>FLOAT3</type>
+            </position>
+            <stride>24</stride>
+            <texcoord0>
+                <offset>12</offset>
+                <type>FLOAT2</type>
+            </texcoord0>
+            <texcoord1>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </texcoord1>
+            <weights>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </weights>
+        </Item>
+    </vertexDeclarations>
+    <visualSkeletonSize>0</visualSkeletonSize>
+</Geometry>

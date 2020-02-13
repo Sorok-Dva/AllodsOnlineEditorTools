@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>156</normalLeft>
+  <normalTop>156</normalTop>
+  <normalWidth>930</normalWidth>
+  <normalHeight>775</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams>
+    <string />
+  </stringParams>
+  <comboBoxParams />
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams>
+    <ToolStripButtonParam>
+      <name>objectPropertiesButton</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+    <ToolStripButtonParam>
+      <name>objectPropertiesButton2</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+    <ToolStripButtonParam>
+      <name>elemPropertiesButton</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+    <ToolStripButtonParam>
+      <name>elemPropertiesButton2</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+  </toolStripButtonParams>
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>splitContainer</name>
+      <splitterDistance>610</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams />
+</FormParams>

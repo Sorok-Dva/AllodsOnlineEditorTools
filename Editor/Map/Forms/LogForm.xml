@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>698</normalLeft>
+  <normalTop>344</normalTop>
+  <normalWidth>1143</normalWidth>
+  <normalHeight>312</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams>
+    <TextBoxParam>
+      <name>logTextBox</name>
+      <text>common: Incorrect using (safety/perfomance warning): use static declaration of global vars: terrain_fix
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\0_8_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/0_8_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\0_9_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/0_9_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\1_8_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/1_8_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\1_9_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/1_9_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\1_0_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/1_0_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\2_8_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/2_8_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\2_9_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/2_9_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\2_0_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/2_0_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\2_1_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/2_1_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\3_8_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/3_8_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\3_9_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/3_9_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\3_0_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/3_0_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\3_1_terrain.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/3_1_terrain.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\0_8_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/0_8_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\0_9_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/0_9_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\1_8_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/1_8_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\1_9_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/1_9_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\1_0_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/1_0_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\2_8_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/2_8_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\2_9_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/2_9_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\2_0_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/2_0_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\2_1_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/2_1_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\3_8_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/3_8_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_010\3_9_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_010/3_9_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\3_0_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/3_0_terrainDown.bin failed
+rcs: 'C:\Dev\Allods\1.1\Repacker-v2\data\Maps\Kania_AL1\010_020\3_1_terrainDown.bin' is not a working copy
+rcs: RemoveItem on C:/Dev/Allods/1.1/Repacker-v2/data/Maps/Kania_AL1/010_020/3_1_terrainDown.bin failed
+assert: Maps/Kania_AL1/ScriptZones/ArchipelagoLeague1/TeleportToShipReal.(ScriptZone).xdb:
+Can't set value "Mechanics/Ships/Boarding/BuffPassive.xdb" for field "impactsIn.[1].buff"
+assert: :
+Can't find type meta info for "space.scaner.resources.Cylinder"
+libdb: IsStructPtrInstanceCompatible: can't find type &lt;space.scaner.resources.Cylinder&gt; for struct pointer &lt;objects.[0].shape&gt;
+</text>
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

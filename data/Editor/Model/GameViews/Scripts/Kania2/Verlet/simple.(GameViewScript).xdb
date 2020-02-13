@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<cameraPlacement>
+		<x>0.000000</x>
+		<y>0.000000</y>
+		<z>0.000000</z>
+		<yaw>0</yaw>
+		<pitch>0</pitch>
+		<roll>0</roll>
+		<distance>0</distance>
+		<setBeforeRunning>false</setBeforeRunning>
+	</cameraPlacement>
+	<actions>
+		<Item type="GameViewActionVerletSimple">
+			<creature>3</creature>
+			<surface>
+				<iCount>10</iCount>
+				<jCount>20</jCount>
+			</surface>
+		</Item>
+	</actions>
+</GameViewScript>

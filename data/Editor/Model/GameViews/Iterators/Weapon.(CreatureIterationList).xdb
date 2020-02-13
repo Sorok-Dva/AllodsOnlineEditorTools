@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CreatureIterationList>
+	<cases>
+		<Item>
+			<name>Sword and Shield</name>
+			<visItemsAction>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/1HSword/Sword_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/Shield/Shield_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Sword Two Handed</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="/Items/VisualItems/Weapon/2HSword/Sword_2H_Kania_E_02SteelGoldFX.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Axe and Shield</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/1HAxe/Axe_1H_Kania_E_01SilverGold.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/Shield/Shield_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Spear and Shield</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/1HSpear/Spear_1H_Kania_A01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="/Items/VisualItems/Weapon/Shield/Shield_1H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Spear Two Handed</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="/Items/VisualItems/Weapon/2HSpear/Spear_2H_Kania_E_04Gold.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Staff Two Handed</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="/Items/VisualItems/Weapon/Staff/Staff_2H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+		<Item>
+			<name>Dualwield Sword and dagger</name>
+			<visObjectAction>
+				<visActionID />
+				<newVisMob href="" />
+				<getBody>true</getBody>
+				<getDress>true</getDress>
+			</visObjectAction>
+			<visItemsAction>
+				<visActionID />
+				<removeAllItems>false</removeAllItems>
+				<items>
+					<Item>
+						<slot>MAINHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>OFFHAND</slot>
+						<newItem href="" />
+					</Item>
+					<Item>
+						<slot>DUALWIELD</slot>
+						<newItem href="/Editor/Model/GameViews/Items/swordDual.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					</Item>
+					<Item>
+						<slot>TWOHANDED</slot>
+						<newItem href="" />
+					</Item>
+				</items>
+			</visItemsAction>
+		</Item>
+	</cases>
+</CreatureIterationList>

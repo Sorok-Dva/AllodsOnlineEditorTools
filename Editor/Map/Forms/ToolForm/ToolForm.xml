@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>1488</normalLeft>
+  <normalTop>153</normalTop>
+  <normalWidth>409</normalWidth>
+  <normalHeight>639</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>ObjectTypeComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>GroupComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>OverTerrainTextBox</name>
+      <text>0</text>
+    </TextBoxParam>
+    <TextBoxParam>
+      <name>UnderTerrainTextBox</name>
+      <text>0</text>
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>FilterObjectTypeCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>FilterSelectionCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>OverTerrainCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>UnderTerrainCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>GroupCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>RandomObjectCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>ObjectRowCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>FlatRowCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>LandscapeUseSeparateRegionsCheckBox</name>
+      <value>false</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

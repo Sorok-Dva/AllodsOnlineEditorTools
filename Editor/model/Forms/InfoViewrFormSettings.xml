@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>200</normalLeft>
+  <normalTop>271</normalTop>
+  <normalWidth>326</normalWidth>
+  <normalHeight>428</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>whatShowComboBox</name>
+      <text>Creature</text>
+      <items />
+    </ComboBoxParam>
+    <ComboBoxParam>
+      <name>idComboBox</name>
+      <text />
+      <items>
+        <string />
+      </items>
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>splitContainer1</name>
+      <splitterDistance>70</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams />
+</FormParams>

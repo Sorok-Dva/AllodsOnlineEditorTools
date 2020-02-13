@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TrailTemplate>
+	<decayTime>2000</decayTime>
+	<trailTexture href="FX/Textures/Trail01Holy.(Texture).xdb#xpointer(/Texture)" />
+</TrailTemplate>

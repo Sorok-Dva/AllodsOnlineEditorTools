@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WidgetLayerSimpleTexture>
+	
+	<Color>0x70ffffff</Color>
+	<Grayed>false</Grayed>
+	<Scaling>true</Scaling>
+</WidgetLayerSimpleTexture>

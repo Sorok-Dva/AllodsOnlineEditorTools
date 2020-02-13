@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.ClientData>
+	<Header>
+		<resourceId>105733121</resourceId>
+	</Header>
+	<customData type="CreatureVisActionData">
+		<action type="CreatureChangeVisItemsAction">
+			<visActionID />
+			<removeAllItems>false</removeAllItems>
+			<items>
+				<Item>
+					<slot>RANGED</slot>
+					<newItem href="/Items/VisualItems/Weapon/2HCrossbow/Crossbow_2H_Kania_E01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+				</Item>
+			</items>
+		</action>
+	</customData>
+</gameMechanics.world.ClientData>

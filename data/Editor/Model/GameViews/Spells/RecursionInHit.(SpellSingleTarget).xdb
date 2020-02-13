@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
+	<Header>
+		<resourceId>117451779</resourceId>
+		<Prototype href="/System/Prototypes/SpellST.Prototype.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+	</Header>
+	<visualScripts href="RrecursionInHits.(SpellVisScripts).xdb#xpointer(/SpellVisScripts)" />
+</gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>

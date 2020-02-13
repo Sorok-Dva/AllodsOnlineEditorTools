@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapSceneParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShowSpawnPointUserGeometry>false</ShowSpawnPointUserGeometry>
+  <ShowScriptAreaUserGeometry>false</ShowScriptAreaUserGeometry>
+  <ShowZoneLocatorUserGeometry>true</ShowZoneLocatorUserGeometry>
+  <ShowRoutePointUserGeometry>false</ShowRoutePointUserGeometry>
+  <ShowRouteObjects>false</ShowRouteObjects>
+  <ShowLinkUserGeometry>false</ShowLinkUserGeometry>
+  <ShowAxisUserGeometry>false</ShowAxisUserGeometry>
+  <DynamicObjectsFall>false</DynamicObjectsFall>
+  <ShowDynamicStatistic>false</ShowDynamicStatistic>
+  <ShowMobsAggroRadius>true</ShowMobsAggroRadius>
+  <ShowMobsAggroRadiusAsVolumes>false</ShowMobsAggroRadiusAsVolumes>
+  <ShowProjectileVisObjects>false</ShowProjectileVisObjects>
+  <ShowAstralBorderUserGeometry>false</ShowAstralBorderUserGeometry>
+  <StopDayTime>false</StopDayTime>
+</MapSceneParams>

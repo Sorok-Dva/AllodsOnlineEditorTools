@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCreatureJump">
+			<creature>3</creature>
+		</Item>
+	</actions>
+</GameViewScript>

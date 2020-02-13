@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>234</normalLeft>
+  <normalTop>234</normalTop>
+  <normalWidth>912</normalWidth>
+  <normalHeight>688</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>0</int>
+  </intParams>
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>findComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams />
+  <checkBoxParams>
+    <CheckBoxParam>
+      <name>infoCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>warningCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>errorCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>fatalCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+    <CheckBoxParam>
+      <name>assertCheckBox</name>
+      <value>true</value>
+    </CheckBoxParam>
+  </checkBoxParams>
+  <toolStripButtonParams>
+    <ToolStripButtonParam>
+      <name>reloadDbButton</name>
+      <value>false</value>
+    </ToolStripButtonParam>
+  </toolStripButtonParams>
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>splitContainer1</name>
+      <splitterDistance>59</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams />
+</FormParams>

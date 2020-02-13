@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>27</normalLeft>
+  <normalTop>615</normalTop>
+  <normalWidth>409</normalWidth>
+  <normalHeight>406</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams>
+    <int>0</int>
+    <int>0</int>
+  </intParams>
+  <doubleParams />
+  <stringParams>
+    <string>ambientMode</string>
+  </stringParams>
+  <comboBoxParams />
+  <textBoxParams />
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

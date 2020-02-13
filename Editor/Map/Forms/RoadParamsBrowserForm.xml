@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>78</normalLeft>
+  <normalTop>78</normalTop>
+  <normalWidth>1004</normalWidth>
+  <normalHeight>747</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams>
+    <ComboBoxParam>
+      <name>StaticObjectWeightComboBox</name>
+      <text />
+      <items />
+    </ComboBoxParam>
+  </comboBoxParams>
+  <textBoxParams>
+    <TextBoxParam>
+      <name>RoadNameTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <toolStripButtonParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams>
+    <SplitContainerParam>
+      <name>MainSplitContainer</name>
+      <splitterDistance>726</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>RoadStripeSplitContainer</name>
+      <splitterDistance>175</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>AvailableTilesSplitContainer</name>
+      <splitterDistance>349</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>RoadStripePropertySplitContainer</name>
+      <splitterDistance>296</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>RoadItemSetSplitContainer</name>
+      <splitterDistance>175</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>AvailableStaticObjectsSplitContainer</name>
+      <splitterDistance>349</splitterDistance>
+    </SplitContainerParam>
+    <SplitContainerParam>
+      <name>RoadItemSetPropertySplitContainer</name>
+      <splitterDistance>224</splitterDistance>
+    </SplitContainerParam>
+  </splitContainerParams>
+  <listViewParams>
+    <ListViewParam>
+      <name>RoadStripeListView</name>
+      <columns>
+        <int>200</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </columns>
+    </ListViewParam>
+    <ListViewParam>
+      <name>RoadItemSetListView</name>
+      <columns>
+        <int>200</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </columns>
+    </ListViewParam>
+  </listViewParams>
+</FormParams>

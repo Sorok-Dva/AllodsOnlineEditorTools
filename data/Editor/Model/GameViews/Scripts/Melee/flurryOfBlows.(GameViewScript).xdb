@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<playbackParameters>
+				<delayBefore>0</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+			</playbackParameters>
+			<casterCreature>1</casterCreature>
+			<targetCreature>6</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/attackOneDamadge.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>0</prepareDuration>
+			<throwSpeed>0</throwSpeed>
+			<effectActions>
+				<Item type="GameViewActionMeleeAttack">
+					<isDamageDealt>true</isDamageDealt>
+					<source>OTHER</source>
+				</Item>
+			</effectActions>
+		</Item>
+	</actions>
+</GameViewScript>

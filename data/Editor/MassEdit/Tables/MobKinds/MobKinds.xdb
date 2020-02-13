@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="MobKinds.txt"/>
+	<description href="MobKinds.Description.txt"/>
+	<resourceType>gameMechanics.world.mob.MobKind</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+</MassEditTableObject>

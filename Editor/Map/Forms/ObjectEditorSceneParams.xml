@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditorSceneParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShowTerrainGrid>false</ShowTerrainGrid>
+  <ShowBottomGrid>false</ShowBottomGrid>
+  <LargeTerrainGrid>false</LargeTerrainGrid>
+  <LargeBottomGrid>false</LargeBottomGrid>
+  <ShowCollisionGeometry>false</ShowCollisionGeometry>
+  <ShowWireframe>false</ShowWireframe>
+  <ShowFog>true</ShowFog>
+  <ShowSky>true</ShowSky>
+  <ArtDirectory />
+  <TerrainGridColor>-1</TerrainGridColor>
+  <BottomGridColor>-1015680</BottomGridColor>
+  <BackgroundColor>-16777216</BackgroundColor>
+  <CustomColors />
+  <FullOpen>true</FullOpen>
+  <AstralShift>
+    <X>512</X>
+    <Y>512</Y>
+    <Z>0</Z>
+  </AstralShift>
+  <AutoFocus>true</AutoFocus>
+  <BlockEditing>false</BlockEditing>
+</EditorSceneParams>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CreatureVisActionResource>
+	<Header>
+		<isPrototype>true</isPrototype>
+		<Variables>
+			<Animation>dodge</Animation>
+			<PauseInActionKeyMsec>100</PauseInActionKeyMsec>
+		</Variables>
+	</Header>
+	<action type="VisActionList">
+		<elements>
+			<Item type="CreatureAnimationAction">
+				<animations>
+					<Item var="Animation" />
+				</animations>
+				<channel>CHANNEL_ABILITY</channel>
+				<advanced>
+					<animationKeysAction>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionList">
+								<play>Simultaneously</play>
+								<playWhile type="VisActionDelay">
+									<time var="PauseInActionKeyMsec" />
+								</playWhile>
+								<elements>
+									<Item type="CreatureColorAction">
+										<visActionID>ColorA</visActionID>
+										<priority>1</priority>
+										<colorFactor x="0" y="0" z="0" w="0" />
+										<colorValue>2026643022</colorValue>
+										<timeOn>0</timeOn>
+										<timeOff>0</timeOff>
+									</Item>
+									<Item type="CreatureParalyzeAction" />
+								</elements>
+							</action>
+						</Item>
+					</animationKeysAction>
+					<animationKeysActionPeriod>
+						<Item>
+							<action type="CreatureColorAction">
+								<visActionID>ColorP1</visActionID>
+								<priority>0</priority>
+								<colorFactor x="0" y="0" z="0" w="0" />
+								<colorValue>2013298943</colorValue>
+								<timeOn>0</timeOn>
+								<timeOff>0</timeOff>
+							</action>
+						</Item>
+						<Item>
+							<action type="VisActionStopAction">
+								<visActionID />
+								<stoppedActionID>ColorP1</stoppedActionID>
+							</action>
+						</Item>
+						<Item>
+							<action type="CreatureColorAction">
+								<visActionID>ColorP2</visActionID>
+								<priority>0</priority>
+								<colorFactor x="0" y="0" z="0" w="0" />
+								<colorValue>2013298943</colorValue>
+								<timeOn>0</timeOn>
+								<timeOff>0</timeOff>
+							</action>
+							<runIfOverrided>false</runIfOverrided>
+						</Item>
+						<Item>
+							<action type="VisActionStopAction">
+								<visActionID />
+								<stoppedActionID>ColorP2</stoppedActionID>
+							</action>
+							<runIfOverrided>false</runIfOverrided>
+						</Item>
+					</animationKeysActionPeriod>
+				</advanced>
+			</Item>
+		</elements>
+	</action>
+</CreatureVisActionResource>

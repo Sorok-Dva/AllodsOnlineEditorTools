@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HillLandscapeToolParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandscapeToolType>Hill</LandscapeToolType>
+  <LandscapeRegionType>Ellipse</LandscapeRegionType>
+  <LandscapeRegionSide>Both</LandscapeRegionSide>
+  <LandscapeRegionSize>9</LandscapeRegionSize>
+  <TwoSided>false</TwoSided>
+  <TerrainHillParams>
+    <Seed>0</Seed>
+    <PointDensity>1</PointDensity>
+    <MinEdgeCount>4</MinEdgeCount>
+    <MaxEdgeCount>7</MaxEdgeCount>
+    <RandomizeEdgeRotation>true</RandomizeEdgeRotation>
+    <Map0Coeff>1</Map0Coeff>
+    <Map1Coeff>0.7</Map1Coeff>
+    <ZOffset>0</ZOffset>
+    <ValleyTile>0</ValleyTile>
+    <PeakTile>0</PeakTile>
+    <DefaultTile>0</DefaultTile>
+    <BrushSize>4</BrushSize>
+    <ValleyIntensity>1</ValleyIntensity>
+    <PeakIntensity>1</PeakIntensity>
+    <ClipToExisting>true</ClipToExisting>
+    <InvertHeightmaps>false</InvertHeightmaps>
+  </TerrainHillParams>
+  <BottomHillParams>
+    <Seed>0</Seed>
+    <PointDensity>1</PointDensity>
+    <MinEdgeCount>4</MinEdgeCount>
+    <MaxEdgeCount>7</MaxEdgeCount>
+    <RandomizeEdgeRotation>true</RandomizeEdgeRotation>
+    <Map0Coeff>1</Map0Coeff>
+    <Map1Coeff>0.7</Map1Coeff>
+    <ZOffset>0</ZOffset>
+    <ValleyTile>0</ValleyTile>
+    <PeakTile>0</PeakTile>
+    <DefaultTile>0</DefaultTile>
+    <BrushSize>4</BrushSize>
+    <ValleyIntensity>1</ValleyIntensity>
+    <PeakIntensity>1</PeakIntensity>
+    <ClipToExisting>true</ClipToExisting>
+    <InvertHeightmaps>false</InvertHeightmaps>
+  </BottomHillParams>
+</HillLandscapeToolParams>

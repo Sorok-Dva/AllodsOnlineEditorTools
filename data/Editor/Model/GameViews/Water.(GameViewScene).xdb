@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScene>
+	<place>
+		<map href="/Maps/Kania_AL1/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+		<x>2445.000000</x>
+		<y>5175.000000</y>
+		<z>30.000000</z>
+	</place>
+	<cameraPlacement>
+		<x>2448.094757</x>
+		<y>5168.756006</y>
+		<z>6.218044</z>
+		<yaw>1.96</yaw>
+		<pitch>0.255866</pitch>
+		<roll>-1.15829e-009</roll>
+		<distance>65.98</distance>
+		<use>true</use>
+	</cameraPlacement>
+	<mobs>
+		<Item>
+			<visualMob href="Mobs/Gib3_boys.(VisualMob).xdb#xpointer(/VisualMob)" />
+			<offset x="0" y="0" z="0" />
+			<yaw>0</yaw>
+		</Item>
+	</mobs>
+	<paths>
+		<Item>
+			<scriptID>A</scriptID>
+			<points>
+				<Item x="0" />
+				<Item x="5" />
+				<Item skiped="" />
+			</points>
+		</Item>
+	</paths>
+</GameViewScene>

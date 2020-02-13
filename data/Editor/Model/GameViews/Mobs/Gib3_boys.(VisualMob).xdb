@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisualMob>
+	<character href="/Characters/Giberling_Group/GiberlingGroup.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+	<items>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/Bow/Bow_2H_Heavy_F_01Ivory.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>RANGED</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Helm/Helm_Leather_E_05GibberlingStalker.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>HELM</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Armor/Leather_D_04GibberlingStalkerArmor.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>ARMOR</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Shirt/Cloth_A_06BlackShirt.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>SHIRT</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Pants/Leather_B_03StrictGoodPants.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>PANTS</slot>
+		</Item>
+		<Item>
+			<item href="/Items/VisualItems/Weapon/1HDagger/Dagger_1H_Combat_D_02DarkSteel.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+			<slot>MAINHAND</slot>
+		</Item>
+	</items>
+	<scale>1</scale>
+	<mobExtension type="VisualMobTroopExtension">
+		<members>
+			<Item>
+				<character href="/Characters/Gibberlings/GibberlingMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+				<variation>
+					<skin href="/Characters/Gibberlings/GibberlingMaleSkin00.(Texture).xdb#xpointer(/Texture)" />
+					<skinColor>-2303797</skinColor>
+					<face href="/Characters/Gibberlings/Variations/GibberlingMaleFace03.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<hairColor>-1</hairColor>
+					<hairGeoset href="/Characters/Gibberlings/Variations/GibberlingMaleHair02.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facial href="/Characters/Gibberlings/Variations/GibberlingMaleFacial01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facialColor>-1</facialColor>
+					<additionalVariation href="" />
+				</variation>
+			</Item>
+			<Item>
+				<character href="/Characters/Gibberlings/GibberlingMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+				<variation>
+					<skin href="/Characters/Gibberlings/GibberlingMaleSkin00.(Texture).xdb#xpointer(/Texture)" />
+					<skinColor>-3219992</skinColor>
+					<face href="/Characters/Gibberlings/Variations/GibberlingMaleFace01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<hairColor>-1</hairColor>
+					<hairGeoset href="/Characters/Gibberlings/Variations/GibberlingMaleHair00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facial href="/Characters/Gibberlings/Variations/GibberlingMaleFacial01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facialColor>-1</facialColor>
+					<additionalVariation href="" />
+				</variation>
+			</Item>
+			<Item>
+				<character href="/Characters/Gibberlings/GibberlingMale.(VisCharacterTemplate).xdb#xpointer(/VisCharacterTemplate)" />
+				<variation>
+					<skin href="/Characters/Gibberlings/GibberlingMaleSkin00.(Texture).xdb#xpointer(/Texture)" />
+					<skinColor>-3219992</skinColor>
+					<face href="/Characters/Gibberlings/Variations/GibberlingMaleFace01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<hairColor>-1</hairColor>
+					<hairGeoset href="/Characters/Gibberlings/Variations/GibberlingMaleHair00.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facial href="/Characters/Gibberlings/Variations/GibberlingMaleFacial01.(VisualItem).xdb#xpointer(/gameMechanics.constructor.schemes.item.VisualItem)" />
+					<facialColor>-1</facialColor>
+					<additionalVariation href="" />
+				</variation>
+			</Item>
+		</members>
+	</mobExtension>
+</VisualMob>

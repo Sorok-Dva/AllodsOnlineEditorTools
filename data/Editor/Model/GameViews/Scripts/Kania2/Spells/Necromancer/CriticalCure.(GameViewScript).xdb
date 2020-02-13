@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>7</casterCreature>
+			<targetCreature>2</targetCreature>
+			<spell href="/Mechanics/Spells/Necromancer/CriticalCure/Spell02.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<precastParams>
+				<use>false</use>
+				<precastTimeDelta>1000</precastTimeDelta>
+				<spellFailed>false</spellFailed>
+			</precastParams>
+		</Item>
+	</actions>
+</GameViewScript>

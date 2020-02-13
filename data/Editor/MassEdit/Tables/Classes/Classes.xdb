@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="Classes.txt"/>
+	<description href="Classes.Description.txt"/>
+	<resourceType>gameMechanics.constructor.schemes.item.ItemClass</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+</MassEditTableObject>

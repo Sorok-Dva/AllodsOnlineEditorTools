@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<Header>
+		<Variables>
+			<Rxy>0.2</Rxy>
+		</Variables>
+	</Header>
+	<actions>
+		<Item type="GameViewActionVerletBinded">
+			<creature>3</creature>
+			<surface>
+				<surfaceLength>1</surfaceLength>
+				<cylinder>
+					<startBone>Spine2</startBone>
+					<endBone>Neck</endBone>
+					<radiusX var="Rxy" />
+					<radiusY var="Rxy" />
+					<radiusZ>0.05</radiusZ>
+				</cylinder>
+				<frontDirection y="-1" />
+			</surface>
+			<simulation>
+				<stepDT>20</stepDT>
+				<numIterations>10</numIterations>
+				<airFrictionCoeff>0.95</airFrictionCoeff>
+				<liveTime>10000</liveTime>
+			</simulation>
+		</Item>
+		<Item type="GameViewActionMoveCreature">
+			<playbackParameters>
+				<delayBefore>500</delayBefore>
+				<repeatAfter>0</repeatAfter>
+				<repeatCount>1</repeatCount>
+				<skip>false</skip>
+				<report>
+					<skip>false</skip>
+					<clear>false</clear>
+					<rtfFile href="" />
+				</report>
+			</playbackParameters>
+			<mobID>3</mobID>
+			<pathID>Verlet</pathID>
+			<speed>4</speed>
+			<fixedYaw>false</fixedYaw>
+		</Item>
+	</actions>
+</GameViewScript>

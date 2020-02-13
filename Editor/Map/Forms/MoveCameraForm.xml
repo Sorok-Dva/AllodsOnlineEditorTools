@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>156</normalLeft>
+  <normalTop>156</normalTop>
+  <normalWidth>343</normalWidth>
+  <normalHeight>152</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams>
+    <TextBoxParam>
+      <name>CoordsTextBox</name>
+      <text />
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <radioButtonParams>
+    <RadioButtonParam>
+      <name>TypeRadioButton0</name>
+      <index>0</index>
+    </RadioButtonParam>
+  </radioButtonParams>
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

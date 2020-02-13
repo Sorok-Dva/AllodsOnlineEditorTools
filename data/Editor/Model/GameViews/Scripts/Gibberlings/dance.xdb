@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCreatureArchiAnim">
+			<creature>1</creature>
+			<group>emoteDance</group>
+			<assaulter>emoteDance01</assaulter>
+			<defender>emoteDance02</defender>
+			<caster>emoteDance01</caster>
+			<loopTime>0</loopTime>
+		</Item>
+	</actions>
+</GameViewScript>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>5</casterCreature>
+			<targetCreature>18</targetCreature>
+			<spell href="/Mechanics/Spells/Mage/IceArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<prepareDuration>2000</prepareDuration>
+		</Item>
+		<Item type="GameViewActionMagicAttack">
+			<playbackParameters>
+				<repeatAfter>1000</repeatAfter>
+				<repeatCount>5</repeatCount>
+			</playbackParameters>
+			<offenderCreature>5</offenderCreature>
+			<targetCreature>18</targetCreature>
+			<producer href="/Mechanics/Spells/Mage/IceArrow/Spell01.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<isDamageDealt>true</isDamageDealt>
+		</Item>
+		<Item type="GameViewActionMoveCreature">
+			<mobID>18</mobID>
+			<pathID>Creature</pathID>
+			<speed>4</speed>
+			<fixedYaw>false</fixedYaw>
+		</Item>
+	</actions>
+</GameViewScript>

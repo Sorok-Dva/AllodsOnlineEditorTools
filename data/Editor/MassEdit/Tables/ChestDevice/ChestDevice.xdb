@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MassEditTableObject>
+	
+	<name href="ChestDevice.txt"/>
+	<description href="ChestDevice.Description.txt"/>
+	<resourceType>gameMechanics.world.device.ChestResource</resourceType>
+	<iconKey>Control_DataGrid</iconKey>
+	<filterString/>
+</MassEditTableObject>

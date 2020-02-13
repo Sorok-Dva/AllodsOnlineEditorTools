@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>1</casterCreature>
+			<targetCreature>2</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/RecursionInHit.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<effectActions>
+				<Item type="GameViewActionMagicAttack">
+					<isDamageDealt>true</isDamageDealt>
+				</Item>
+			</effectActions>
+		</Item>
+	</actions>
+</GameViewScript>

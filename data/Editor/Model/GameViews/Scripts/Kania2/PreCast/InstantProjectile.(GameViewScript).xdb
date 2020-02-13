@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameViewScript>
+	<actions>
+		<Item type="GameViewActionCastSpell">
+			<casterCreature>4</casterCreature>
+			<targetCreature>1</targetCreature>
+			<spell href="/Editor/Model/GameViews/Spells/InstantProjectile.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+			<throwSpeed>20</throwSpeed>
+			<precastParams>
+				<use>true</use>
+				<precastTimeDelta>1000</precastTimeDelta>
+			</precastParams>
+		</Item>
+	</actions>
+</GameViewScript>

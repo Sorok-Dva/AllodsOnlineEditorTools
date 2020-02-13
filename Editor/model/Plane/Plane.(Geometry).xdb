@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Geometry>
+	<exportTemplate href="" />
+	<orientationMode>COMMON</orientationMode>
+	<sortMode>OFFSETS</sortMode>
+	<optimizeMesh>true</optimizeMesh>
+	<ignoreZ>false</ignoreZ>
+	<enableDistanceFade>true</enableDistanceFade>
+	<scaleDistanceStart>-1</scaleDistanceStart>
+	<scaleDistanceEnd>-1</scaleDistanceEnd>
+	<fogFactor>1</fogFactor>
+	<lodFactor>1</lodFactor>
+	<lodDistances>
+		<Item>70.7107</Item>
+		<Item>70.7107</Item>
+	</lodDistances>
+	<rootMaterial />
+	<flareInfos />
+	<parts>
+		<Item>
+			<aabb>
+				<center x="0" y="0" z="0" />
+				<extents x="50" y="50" z="0" />
+			</aabb>
+			<implicitAreas />
+			<name>pPlane1</name>
+			<areaPart>true</areaPart>
+			<startElement>0</startElement>
+			<endElement>1</endElement>
+		</Item>
+	</parts>
+	<vertexDeclarations>
+		<Item>
+			<position>
+				<type>FLOAT3</type>
+				<offset>0</offset>
+			</position>
+			<normal>
+				<type>COLOR4</type>
+				<offset>20</offset>
+			</normal>
+			<color>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</color>
+			<texcoord0>
+				<type>FLOAT2</type>
+				<offset>12</offset>
+			</texcoord0>
+			<texcoord1>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</texcoord1>
+			<weights>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</weights>
+			<indices>
+				<type>UNUSED</type>
+				<offset>255</offset>
+			</indices>
+			<stride>24</stride>
+		</Item>
+	</vertexDeclarations>
+	<modelElements>
+		<Item>
+			<lods>
+				<Item>
+					<vertexBufferBegin>0</vertexBufferBegin>
+					<vertexBufferEnd>4</vertexBufferEnd>
+					<indexBufferBegin>0</indexBufferBegin>
+					<indexBufferEnd>6</indexBufferEnd>
+				</Item>
+			</lods>
+			<name>pPlane1</name>
+			<materialName>lambert2SG</materialName>
+			<vertexDeclarationID>0</vertexDeclarationID>
+			<vertexBufferOffset>0</vertexBufferOffset>
+			<material>
+				<visible>true</visible>
+				<params type="CommonMaterialParams">
+					<envReflectionTexture href="" />
+					<envSpecularTexture href="" />
+					<effectMaskTexture href="" />
+					<contourColorModifier>0</contourColorModifier>
+					<specularColorModifier>0</specularColorModifier>
+					<selfillum>true</selfillum>
+					<vertexBakedLight>false</vertexBakedLight>
+				</params>
+				<uTranslateSpeed>0</uTranslateSpeed>
+				<vTranslateSpeed>0</vTranslateSpeed>
+				<useFog>true</useFog>
+				<transparent>false</transparent>
+				<scrollRGB>true</scrollRGB>
+				<scrollAlpha>true</scrollAlpha>
+				<BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+				<diffuseTexture href="PlaneTexture.(Texture).xdb#xpointer(/Texture)" />
+				<transparencyTexture href="" />
+			</material>
+			<skinIndex>-1</skinIndex>
+			<virtualOffset>0</virtualOffset>
+		</Item>
+	</modelElements>
+	<joints />
+	<vertexBuffer>
+		<localID>0</localID>
+		<size>96</size>
+	</vertexBuffer>
+	<indexBuffer>
+		<localID>1</localID>
+		<size>12</size>
+	</indexBuffer>
+	<binaryFileSize>134</binaryFileSize>
+	<binaryFile href="Plane.(Geometry).bin" />
+	<sourceFile href="//Editor/Model/Plane/Plane.mb" />
+	<sourceFileCRC>-739171469</sourceFileCRC>
+	<version>2</version>
+	<skeleton>
+		<localID>2</localID>
+		<size>32</size>
+	</skeleton>
+	<startFrame>0</startFrame>
+	<endFrame>100000</endFrame>
+	<visualSkeletonSize>0</visualSkeletonSize>
+	<globalID>-1</globalID>
+	<realSkeletonSize>0</realSkeletonSize>
+	<SkeletalAnimation href="" />
+	<castShadows>true</castShadows>
+	<vb32>false</vb32>
+	<largeModel>true</largeModel>
+	<portalModel>false</portalModel>
+	<lodModel>false</lodModel>
+	<exportDefaultAnimation>true</exportDefaultAnimation>
+	<decalModel>true</decalModel>
+	<occluderInfos />
+	<geometryFragments>
+		<Item>
+			<aabb>
+				<center x="0" y="0" z="0" />
+				<extents x="50" y="50" z="0" />
+			</aabb>
+			<blob>
+				<localID>3</localID>
+				<size>228</size>
+			</blob>
+		</Item>
+	</geometryFragments>
+	<useDecals>true</useDecals>
+	<useColors>false</useColors>
+	<portalFragments />
+	<sceneNodes />
+	<areaFragments />
+	<aabb>
+		<center x="0" y="0" z="0" />
+		<extents x="50" y="50" z="0" />
+	</aabb>
+	<geometryBox>
+		<center x="0" y="0" z="0" />
+		<extents x="50" y="50" z="0" />
+	</geometryBox>
+	<mayaSourceModifiedDateAndTime>
+		<year>2008</year>
+		<month>3</month>
+		<day>24</day>
+		<hour>15</hour>
+		<minutes>46</minutes>
+		<seconds>27</seconds>
+	</mayaSourceModifiedDateAndTime>
+	<LastExportID>SYSTEM</LastExportID>
+</Geometry>

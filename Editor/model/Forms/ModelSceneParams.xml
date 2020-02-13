@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelSceneParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpenModelInitDir>E:\data\World\Dungeons\InstHadagan1\Buildings\Models</OpenModelInitDir>
+  <BackgroundColor>-16777216</BackgroundColor>
+  <ShowGrid>false</ShowGrid>
+  <Mute>false</Mute>
+  <ShowFog>false</ShowFog>
+  <WireframeMode>false</WireframeMode>
+  <ShowSurface>false</ShowSurface>
+  <SurfaceColor>-16777216</SurfaceColor>
+  <CameraFOV>2.09439516</CameraFOV>
+  <CenterCameraAfterOpenModel>true</CenterCameraAfterOpenModel>
+  <CameraSpeedType>1</CameraSpeedType>
+</ModelSceneParams>

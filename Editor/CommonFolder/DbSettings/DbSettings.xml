@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DbSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ObjectTypeFields>
+    <ObjectTypeFieldsList>
+      <ObjectType>gameMechanics.constructor.schemes.quest.QuestResource</ObjectType>
+      <Fields>
+        <string>name</string>
+        <string>goal</string>
+        <string>startText</string>
+        <string>checkText</string>
+        <string>finishText</string>
+        <string>kickText</string>
+      </Fields>
+    </ObjectTypeFieldsList>
+    <ObjectTypeFieldsList>
+      <ObjectType>gameMechanics.constructor.schemes.item.ItemResource</ObjectType>
+      <Fields>
+        <string>name</string>
+        <string>description</string>
+      </Fields>
+    </ObjectTypeFieldsList>
+  </ObjectTypeFields>
+</DbSettings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisObjectTemplate>
+    <defaultState>
+        <animation href="" />
+        <objects />
+        <sound>
+            <name />
+            <project href="" />
+        </sound>
+    </defaultState>
+    <fadeInMS>0</fadeInMS>
+    <fadeOutMS>0</fadeOutMS>
+    <geometry href="/Editor/Model/Plane.(Geometry).xdb#xpointer(/Geometry)" />
+    <particle href="" />
+    <scale>1</scale>
+    <sound>
+        <name />
+        <project href="" />
+    </sound>
+    <sourceFileCRC>1969311518</sourceFileCRC>
+    <states />
+</VisObjectTemplate>
